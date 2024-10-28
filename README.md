@@ -5,10 +5,6 @@
 
 ## **Benchmarking Redis Cluster vs Apache Ignite**
 
-\
-
-
-
 ### **1. Systems Selected: Redis and Apache Ignite**
 
 For this benchmarking study, we have selected Redis Cluster and Apache Ignite, two prominent in-memory key-value stores. Redis and Apache Ignite are used for low-latency, high-throughput applications but have different designs, architectures, and features.
@@ -81,8 +77,5 @@ We plan to design and execute the following benchmarks to evaluate Redis Cluster
 ### **4. Conclusion**
 
 This benchmarking study will offer insights into the strengths and weaknesses of Redis Cluster and Apache Ignite in different scenarios, helping practitioners choose the right system for their specific use cases, whether focused on high-performance caching, fault-tolerant transactional systems, or scalable data distribution across clusters.
-
-\
-
 
 <!--EndFragment-->
