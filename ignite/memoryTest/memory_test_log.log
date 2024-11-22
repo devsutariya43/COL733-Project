@@ -1,0 +1,692 @@
+2024-11-12 12:27:00 Average Latency with datasize 1 KB: 0.30860000 ms 
+2024-11-12 12:27:00 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 12:27:05 Average Latency with datasize 2 KB: 0.19993333 ms 
+2024-11-12 12:27:05 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 12:27:08 Average Latency with datasize 4 KB: 0.16476667 ms 
+2024-11-12 12:27:08 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 12:27:12 Average Latency with datasize 8 KB: 0.16346667 ms 
+2024-11-12 12:27:12 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 12:27:13 Results of Memory Test: 
+2024-11-12 12:27:13 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-12 12:27:13 [1, 0.3086, 32404.406999351915] 
+2024-11-12 12:27:13 [2, 0.19993333333333332, 50016.6722240747] 
+2024-11-12 12:27:13 [4, 0.16476666666666664, 60691.887517701805] 
+2024-11-12 12:27:13 [8, 0.16346666666666668, 61174.55138662316] 
+2024-11-12 12:30:52 Average Latency with datasize 1 KB: 0.30996667 ms 
+2024-11-12 12:30:53 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 12:30:57 Average Latency with datasize 2 KB: 0.20983333 ms 
+2024-11-12 12:30:57 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 12:31:01 Average Latency with datasize 4 KB: 0.18076667 ms 
+2024-11-12 12:31:01 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 12:31:04 Average Latency with datasize 8 KB: 0.15906667 ms 
+2024-11-12 12:31:04 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 12:31:06 Results of Memory Test: 
+2024-11-12 12:31:06 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-12 12:31:06 [1, 0.30996666666666667, 32261.533498225617] 
+2024-11-12 12:31:06 [2, 0.20983333333333334, 47656.87053216839] 
+2024-11-12 12:31:06 [4, 0.18076666666666666, 55319.93361607967] 
+2024-11-12 12:31:06 [8, 0.15906666666666666, 62866.722548197824] 
+2024-11-12 12:53:03 Average Latency with datasize 1 KB: 0.35326667 ms 
+2024-11-12 12:53:03 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 12:53:08 Average Latency with datasize 2 KB: 0.23373333 ms 
+2024-11-12 12:53:08 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 12:53:12 Average Latency with datasize 4 KB: 0.20303333 ms 
+2024-11-12 12:53:12 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 12:53:16 Average Latency with datasize 8 KB: 0.16586667 ms 
+2024-11-12 12:53:16 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 12:53:17 Results of Memory Test: 
+2024-11-12 12:53:17 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-12 12:53:17 [1, 0.3532666666666667, 28307.227778826193] 
+2024-11-12 12:53:17 [2, 0.23373333333333335, 42783.79920136908] 
+2024-11-12 12:53:17 [4, 0.20303333333333332, 49252.99622393696] 
+2024-11-12 12:53:17 [8, 0.16586666666666666, 60289.38906752412] 
+2024-11-12 12:54:57 Average Latency with datasize 1 KB: 0.32066667 ms 
+2024-11-12 12:54:57 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 12:55:01 Average Latency with datasize 2 KB: 0.21040000 ms 
+2024-11-12 12:55:01 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 12:55:05 Average Latency with datasize 4 KB: 0.18303333 ms 
+2024-11-12 12:55:05 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 12:55:09 Average Latency with datasize 8 KB: 0.16733333 ms 
+2024-11-12 12:55:09 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 12:55:10 Results of Memory Test: 
+2024-11-12 12:55:10 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-12 12:55:10 [1, 0.32066666666666666, 31185.031185031185] 
+2024-11-12 12:55:10 [2, 0.2104, 47528.51711026616] 
+2024-11-12 12:55:10 [4, 0.1830333333333333, 54634.85703879076] 
+2024-11-12 12:55:10 [8, 0.16733333333333333, 59760.9561752988] 
+2024-11-12 12:59:49 Average Latency with datasize 1 KB: 0.28940000 ms 
+2024-11-12 12:59:49 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 12:59:53 Average Latency with datasize 2 KB: 0.20433333 ms 
+2024-11-12 12:59:53 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 12:59:57 Average Latency with datasize 4 KB: 0.17050000 ms 
+2024-11-12 12:59:57 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 13:00:00 Average Latency with datasize 8 KB: 0.15573333 ms 
+2024-11-12 13:00:00 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 13:00:02 Results of Memory Test: 
+2024-11-12 13:00:02 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-12 13:00:02 [1, 0.2894, 34554.25017277125] 
+2024-11-12 13:00:02 [2, 0.20433333333333334, 48939.64110929853] 
+2024-11-12 13:00:02 [4, 0.1705, 58651.026392961874] 
+2024-11-12 13:00:02 [8, 0.15573333333333333, 64212.32876712329] 
+2024-11-12 14:24:11 Average Latency with datasize 1 KB: 0.30097500 ms 
+2024-11-12 14:24:11 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:15 Average Latency with datasize 2 KB: 0.20677500 ms 
+2024-11-12 14:24:15 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:19 Average Latency with datasize 4 KB: 0.17327500 ms 
+2024-11-12 14:24:19 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:22 Average Latency with datasize 8 KB: 0.16877500 ms 
+2024-11-12 14:24:22 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:26 Average Latency with datasize 16 KB: 0.18265000 ms 
+2024-11-12 14:24:26 Average Throughput with datasize 16 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:30 Average Latency with datasize 32 KB: 0.22167500 ms 
+2024-11-12 14:24:30 Average Throughput with datasize 32 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:37 Average Latency with datasize 128 KB: 0.48605000 ms 
+2024-11-12 14:24:37 Average Throughput with datasize 128 KB: 1.00000000 operations/ms 
+2024-11-12 14:24:47 Average Latency with datasize 256 KB: 0.84190000 ms 
+2024-11-12 14:24:47 Average Throughput with datasize 256 KB: 1.00000000 operations/ms 
+2024-11-12 14:25:06 Average Latency with datasize 512 KB: 1.73772500 ms 
+2024-11-12 14:25:06 Average Throughput with datasize 512 KB: 1.00000000 operations/ms 
+2024-11-12 14:25:41 Average Latency with datasize 1024 KB: 3.24400000 ms 
+2024-11-12 14:25:41 Average Throughput with datasize 1024 KB: 1.00000000 operations/ms 
+2024-11-12 14:25:42 Results of Memory Test: 
+DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+1, 0.300975, 33225.350942769335] 
+2, 0.206775, 48361.74585902551] 
+4, 0.173275, 57711.72990910402] 
+8, 0.168775, 59250.481410161454] 
+16, 0.18265, 54749.52094169176] 
+32, 0.221675, 45111.08604939664] 
+128, 0.48605, 20574.015019030965] 
+256, 0.8419, 11877.89523696401] 
+512, 1.737725, 5754.650476916659] 
+1024, 3.2439999999999998, 3082.6140567200987] 
+2024-11-16 08:51:06 Average Latency with datasize 1 KB: 0.35347500 ms 
+2024-11-16 08:51:06 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:10 Average Latency with datasize 2 KB: 0.22052500 ms 
+2024-11-16 08:51:10 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:14 Average Latency with datasize 4 KB: 0.17972500 ms 
+2024-11-16 08:51:14 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:18 Average Latency with datasize 8 KB: 0.17190000 ms 
+2024-11-16 08:51:18 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:22 Average Latency with datasize 16 KB: 0.19130000 ms 
+2024-11-16 08:51:22 Average Throughput with datasize 16 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:26 Average Latency with datasize 32 KB: 0.23537500 ms 
+2024-11-16 08:51:26 Average Throughput with datasize 32 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:34 Average Latency with datasize 128 KB: 0.53462500 ms 
+2024-11-16 08:51:34 Average Throughput with datasize 128 KB: 1.00000000 operations/ms 
+2024-11-16 08:51:46 Average Latency with datasize 256 KB: 1.01767500 ms 
+2024-11-16 08:51:46 Average Throughput with datasize 256 KB: 1.00000000 operations/ms 
+2024-11-16 08:52:06 Average Latency with datasize 512 KB: 1.83962500 ms 
+2024-11-16 08:52:06 Average Throughput with datasize 512 KB: 1.00000000 operations/ms 
+2024-11-16 08:52:44 Average Latency with datasize 1024 KB: 3.45115000 ms 
+2024-11-16 08:52:44 Average Throughput with datasize 1024 KB: 1.00000000 operations/ms 
+2024-11-16 08:52:45 Results of Memory Test: 
+[DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+[1, 0.353475, 28290.543885706204] 
+[2, 0.220525, 45346.33261534973] 
+[4, 0.179725, 55640.561969675895] 
+[8, 0.1719, 58173.35660267597] 
+[16, 0.1913, 52273.91531625719] 
+[32, 0.235375, 42485.39564524694] 
+[128, 0.534625, 18704.699555763385] 
+[256, 1.017675, 9826.319797577811] 
+[512, 1.8396249999999998, 5435.8904668070945] 
+[1024, 3.45115, 2897.5848630166756] 
+2024-11-16 08:57:25 Average Latency with datasize 1 KB: 0.33607500 ms 
+2024-11-16 08:57:25 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:30 Average Latency with datasize 2 KB: 0.22640000 ms 
+2024-11-16 08:57:30 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:34 Average Latency with datasize 4 KB: 0.18130000 ms 
+2024-11-16 08:57:34 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:38 Average Latency with datasize 8 KB: 0.17820000 ms 
+2024-11-16 08:57:38 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:42 Average Latency with datasize 16 KB: 0.19192500 ms 
+2024-11-16 08:57:42 Average Throughput with datasize 16 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:46 Average Latency with datasize 32 KB: 0.23735000 ms 
+2024-11-16 08:57:46 Average Throughput with datasize 32 KB: 1.00000000 operations/ms 
+2024-11-16 08:57:53 Average Latency with datasize 128 KB: 0.51417500 ms 
+2024-11-16 08:57:53 Average Throughput with datasize 128 KB: 1.00000000 operations/ms 
+2024-11-16 08:58:04 Average Latency with datasize 256 KB: 0.90235000 ms 
+2024-11-16 08:58:04 Average Throughput with datasize 256 KB: 1.00000000 operations/ms 
+2024-11-16 08:58:25 Average Latency with datasize 512 KB: 1.84042500 ms 
+2024-11-16 08:58:25 Average Throughput with datasize 512 KB: 1.00000000 operations/ms 
+2024-11-16 08:59:02 Average Latency with datasize 1024 KB: 3.46322500 ms 
+2024-11-16 08:59:02 Average Throughput with datasize 1024 KB: 1.00000000 operations/ms 
+2024-11-16 08:59:03 Results of Memory Test: 
+[DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+[1, 0.336075, 29755.26296213643] 
+[2, 0.2264, 44169.6113074205] 
+[4, 0.18130000000000002, 55157.198014340865] 
+[8, 0.1782, 56116.72278338945] 
+[16, 0.191925, 52103.686335808256] 
+[32, 0.23735, 42131.87276174426] 
+[128, 0.5141749999999999, 19448.631302572085] 
+[256, 0.90235, 11082.174322602095] 
+[512, 1.840425, 5433.527581944388] 
+[1024, 3.463225, 2887.4820434710423] 
+2024-11-16 10:04:17 Average Latency with datasize 1 KB: 0.31850000 ms 
+2024-11-16 10:04:17 Average Throughput with datasize 1 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:22 Average Latency with datasize 2 KB: 0.23917500 ms 
+2024-11-16 10:04:22 Average Throughput with datasize 2 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:26 Average Latency with datasize 4 KB: 0.20610000 ms 
+2024-11-16 10:04:26 Average Throughput with datasize 4 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:31 Average Latency with datasize 8 KB: 0.21620000 ms 
+2024-11-16 10:04:31 Average Throughput with datasize 8 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:35 Average Latency with datasize 16 KB: 0.20280000 ms 
+2024-11-16 10:04:35 Average Throughput with datasize 16 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:39 Average Latency with datasize 32 KB: 0.25705000 ms 
+2024-11-16 10:04:39 Average Throughput with datasize 32 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:47 Average Latency with datasize 128 KB: 0.53135000 ms 
+2024-11-16 10:04:47 Average Throughput with datasize 128 KB: 1.00000000 operations/ms 
+2024-11-16 10:04:58 Average Latency with datasize 256 KB: 0.95432500 ms 
+2024-11-16 10:04:58 Average Throughput with datasize 256 KB: 1.00000000 operations/ms 
+2024-11-16 10:05:20 Average Latency with datasize 512 KB: 1.95887500 ms 
+2024-11-16 10:05:20 Average Throughput with datasize 512 KB: 1.00000000 operations/ms 
+2024-11-16 10:06:01 Average Latency with datasize 1024 KB: 3.84990000 ms 
+2024-11-16 10:06:01 Average Throughput with datasize 1024 KB: 1.00000000 operations/ms 
+2024-11-16 10:06:02 Results of Memory Test: 
+2024-11-16 10:06:02 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 10:06:02 [1, 0.3185, 31397.17425431711] 
+2024-11-16 10:06:02 [2, 0.239175, 41810.38988188565] 
+2024-11-16 10:06:02 [4, 0.2061, 48520.135856380395] 
+2024-11-16 10:06:02 [8, 0.2162, 46253.469010175766] 
+2024-11-16 10:06:02 [16, 0.2028, 49309.66469428008] 
+2024-11-16 10:06:02 [32, 0.25705, 38902.937171756465] 
+2024-11-16 10:06:02 [128, 0.53135, 18819.986826009223] 
+2024-11-16 10:06:02 [256, 0.954325, 10478.610536242895] 
+2024-11-16 10:06:02 [512, 1.9588750000000001, 5104.970965477633] 
+2024-11-16 10:06:02 [1024, 3.8499, 2597.4700641575105] 
+2024-11-16 11:28:28 Average Latency with datasize 1 KB: 0.31647500 ms 
+2024-11-16 11:28:28 Average Throughput with datasize 1 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:32 Average Latency with datasize 2 KB: 0.21127500 ms 
+2024-11-16 11:28:32 Average Throughput with datasize 2 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:36 Average Latency with datasize 4 KB: 0.17945000 ms 
+2024-11-16 11:28:36 Average Throughput with datasize 4 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:40 Average Latency with datasize 8 KB: 0.17255000 ms 
+2024-11-16 11:28:40 Average Throughput with datasize 8 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:44 Average Latency with datasize 16 KB: 0.19372500 ms 
+2024-11-16 11:28:44 Average Throughput with datasize 16 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:48 Average Latency with datasize 32 KB: 0.23335000 ms 
+2024-11-16 11:28:48 Average Throughput with datasize 32 KB: 0.00000000 operations/ms 
+2024-11-16 11:28:55 Average Latency with datasize 128 KB: 0.52057500 ms 
+2024-11-16 11:28:55 Average Throughput with datasize 128 KB: 0.00000000 operations/ms 
+2024-11-16 11:29:07 Average Latency with datasize 256 KB: 0.94832500 ms 
+2024-11-16 11:29:07 Average Throughput with datasize 256 KB: 0.00000000 operations/ms 
+2024-11-16 11:29:28 Average Latency with datasize 512 KB: 1.86892500 ms 
+2024-11-16 11:29:28 Average Throughput with datasize 512 KB: 0.00000000 operations/ms 
+2024-11-16 11:30:08 Average Latency with datasize 1024 KB: 3.72710000 ms 
+2024-11-16 11:30:08 Average Throughput with datasize 1024 KB: 0.00000000 operations/ms 
+2024-11-16 11:30:09 Results of Memory Test: 
+2024-11-16 11:30:09 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 11:30:09 [1, 0.316475, 0.0] 
+2024-11-16 11:30:09 [2, 0.211275, 0.0] 
+2024-11-16 11:30:09 [4, 0.17945, 0.0] 
+2024-11-16 11:30:09 [8, 0.17255, 0.0] 
+2024-11-16 11:30:09 [16, 0.19372499999999998, 0.0] 
+2024-11-16 11:30:09 [32, 0.23335, 0.0] 
+2024-11-16 11:30:09 [128, 0.520575, 0.0] 
+2024-11-16 11:30:09 [256, 0.948325, 0.0] 
+2024-11-16 11:30:09 [512, 1.868925, 0.0] 
+2024-11-16 11:30:09 [1024, 3.7271, 0.0] 
+2024-11-16 11:30:48 Average Latency with datasize 1 KB: 0.32577500 ms 
+2024-11-16 11:30:48 Average Throughput with datasize 1 KB: 0.00000000 operations/ms 
+2024-11-16 11:30:52 Average Latency with datasize 2 KB: 0.23545000 ms 
+2024-11-16 11:30:52 Average Throughput with datasize 2 KB: 0.00000000 operations/ms 
+2024-11-16 11:30:57 Average Latency with datasize 4 KB: 0.20772500 ms 
+2024-11-16 11:30:57 Average Throughput with datasize 4 KB: 0.00000000 operations/ms 
+2024-11-16 11:31:01 Average Latency with datasize 8 KB: 0.20485000 ms 
+2024-11-16 11:31:01 Average Throughput with datasize 8 KB: 0.00000000 operations/ms 
+2024-11-16 11:31:05 Average Latency with datasize 16 KB: 0.23160000 ms 
+2024-11-16 11:31:05 Average Throughput with datasize 16 KB: 0.00000000 operations/ms 
+2024-11-16 11:31:10 Average Latency with datasize 32 KB: 0.25477500 ms 
+2024-11-16 11:31:10 Average Throughput with datasize 32 KB: 0.00000000 operations/ms 
+2024-11-16 11:31:18 Average Latency with datasize 128 KB: 0.58187500 ms 
+2024-11-16 11:31:18 Average Throughput with datasize 128 KB: 0.00000000 operations/ms 
+2024-11-16 11:31:35 Average Latency with datasize 1 KB: 0.32482500 ms 
+2024-11-16 11:31:35 Average Throughput with datasize 1 KB: 12.31881374 operations/ms 
+2024-11-16 11:31:40 Average Latency with datasize 2 KB: 0.21252500 ms 
+2024-11-16 11:31:40 Average Throughput with datasize 2 KB: 18.85568630 operations/ms 
+2024-11-16 11:31:44 Average Latency with datasize 4 KB: 0.19600000 ms 
+2024-11-16 11:31:44 Average Throughput with datasize 4 KB: 20.46256766 operations/ms 
+2024-11-16 11:31:48 Average Latency with datasize 8 KB: 0.17382500 ms 
+2024-11-16 11:31:48 Average Throughput with datasize 8 KB: 23.04888254 operations/ms 
+2024-11-16 11:31:52 Average Latency with datasize 16 KB: 0.18537500 ms 
+2024-11-16 11:31:52 Average Throughput with datasize 16 KB: 21.64058035 operations/ms 
+2024-11-16 11:31:56 Average Latency with datasize 32 KB: 0.22710000 ms 
+2024-11-16 11:31:56 Average Throughput with datasize 32 KB: 17.65108539 operations/ms 
+2024-11-16 11:32:03 Average Latency with datasize 128 KB: 0.51170000 ms 
+2024-11-16 11:32:03 Average Throughput with datasize 128 KB: 7.82204176 operations/ms 
+2024-11-16 11:32:14 Average Latency with datasize 256 KB: 0.92757500 ms 
+2024-11-16 11:32:14 Average Throughput with datasize 256 KB: 4.31409953 operations/ms 
+2024-11-16 11:32:35 Average Latency with datasize 512 KB: 1.91330000 ms 
+2024-11-16 11:32:35 Average Throughput with datasize 512 KB: 2.09176780 operations/ms 
+2024-11-16 11:33:16 Average Latency with datasize 1024 KB: 3.77955000 ms 
+2024-11-16 11:33:16 Average Throughput with datasize 1024 KB: 1.05873710 operations/ms 
+2024-11-16 11:33:17 Results of Memory Test: 
+2024-11-16 11:33:17 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 11:33:17 [1, 0.324825, 12.318813737389075] 
+2024-11-16 11:33:17 [2, 0.21252500000000002, 18.85568630172806] 
+2024-11-16 11:33:17 [4, 0.196, 20.462567655153137] 
+2024-11-16 11:33:17 [8, 0.173825, 23.048882535233755] 
+2024-11-16 11:33:17 [16, 0.185375, 21.640580354851615] 
+2024-11-16 11:33:17 [32, 0.2271, 17.651085385160428] 
+2024-11-16 11:33:17 [128, 0.5117, 7.822041756481884] 
+2024-11-16 11:33:17 [256, 0.927575, 4.314099526701595] 
+2024-11-16 11:33:17 [512, 1.9133, 2.091767798043029] 
+2024-11-16 11:33:17 [1024, 3.77955, 1.0587371028169958] 
+2024-11-16 11:33:52 Average Latency with datasize 1 KB: 0.31862500 ms 
+2024-11-16 11:33:52 Average Throughput with datasize 1 KB: 3.13975391 operations/ms 
+2024-11-16 11:33:57 Average Latency with datasize 2 KB: 0.21822500 ms 
+2024-11-16 11:33:57 Average Throughput with datasize 2 KB: 4.58983526 operations/ms 
+2024-11-16 11:34:01 Average Latency with datasize 4 KB: 0.19375000 ms 
+2024-11-16 11:34:01 Average Throughput with datasize 4 KB: 5.16930841 operations/ms 
+2024-11-16 11:34:05 Average Latency with datasize 8 KB: 0.17697500 ms 
+2024-11-16 11:34:05 Average Throughput with datasize 8 KB: 5.67123556 operations/ms 
+2024-11-16 11:34:09 Average Latency with datasize 16 KB: 0.18307500 ms 
+2024-11-16 11:34:09 Average Throughput with datasize 16 KB: 5.46986577 operations/ms 
+2024-11-16 11:34:13 Average Latency with datasize 32 KB: 0.23855000 ms 
+2024-11-16 11:34:13 Average Throughput with datasize 32 KB: 4.19776673 operations/ms 
+2024-11-16 11:34:20 Average Latency with datasize 128 KB: 0.48550000 ms 
+2024-11-16 11:34:20 Average Throughput with datasize 128 KB: 2.06226666 operations/ms 
+2024-11-16 11:34:31 Average Latency with datasize 256 KB: 0.91050000 ms 
+2024-11-16 11:34:31 Average Throughput with datasize 256 KB: 1.09894243 operations/ms 
+2024-11-16 11:34:52 Average Latency with datasize 512 KB: 1.86280000 ms 
+2024-11-16 11:34:52 Average Throughput with datasize 512 KB: 0.53692320 operations/ms 
+2024-11-16 11:35:31 Average Latency with datasize 1024 KB: 3.73385000 ms 
+2024-11-16 11:35:31 Average Throughput with datasize 1024 KB: 0.26783811 operations/ms 
+2024-11-16 11:35:32 Results of Memory Test: 
+[DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+[1, 0.31862500000000005, 3.139753908623894] 
+[2, 0.218225, 4.589835262862017] 
+[4, 0.19375, 5.169308405854238] 
+[8, 0.176975, 5.671235561594909] 
+[16, 0.183075, 5.469865771998438] 
+[32, 0.23855, 4.197766732400794] 
+[128, 0.4855, 2.062266662030613] 
+[256, 0.9105, 1.0989424292042107] 
+[512, 1.8628, 0.5369231961215211] 
+[1024, 3.73385, 0.2678381123501502] 
+2024-11-16 14:37:30 Average Latency with datasize 1 KB: 0.36702500 ms 
+2024-11-16 14:37:30 Average Throughput with datasize 1 KB: 2725.67490504 operations/ms 
+2024-11-16 14:37:35 Average Latency with datasize 2 KB: 0.23197500 ms 
+2024-11-16 14:37:35 Average Throughput with datasize 2 KB: 4320.10330420 operations/ms 
+2024-11-16 14:37:39 Average Latency with datasize 4 KB: 0.18550000 ms 
+2024-11-16 14:37:39 Average Throughput with datasize 4 KB: 5406.00246678 operations/ms 
+2024-11-16 14:37:43 Average Latency with datasize 8 KB: 0.18960000 ms 
+2024-11-16 14:37:43 Average Throughput with datasize 8 KB: 5286.99010886 operations/ms 
+2024-11-16 14:37:47 Average Latency with datasize 16 KB: 0.18907500 ms 
+2024-11-16 14:37:47 Average Throughput with datasize 16 KB: 5302.43807583 operations/ms 
+2024-11-16 14:37:51 Average Latency with datasize 32 KB: 0.25510000 ms 
+2024-11-16 14:37:51 Average Throughput with datasize 32 KB: 3928.76388656 operations/ms 
+2024-11-16 14:37:59 Average Latency with datasize 128 KB: 0.55697500 ms 
+2024-11-16 14:37:59 Average Throughput with datasize 128 KB: 1796.17627454 operations/ms 
+2024-11-16 14:43:25 Average Latency with datasize 1 KB: 0.39605000 ms 
+2024-11-16 14:43:25 Average Throughput with datasize 1 KB: 2526.50285146 operations/ms 
+2024-11-16 14:43:30 Average Latency with datasize 2 KB: 0.20050000 ms 
+2024-11-16 14:43:30 Average Throughput with datasize 2 KB: 4996.23286221 operations/ms 
+2024-11-16 14:43:34 Average Latency with datasize 4 KB: 0.18187500 ms 
+2024-11-16 14:43:34 Average Throughput with datasize 4 KB: 5514.54781798 operations/ms 
+2024-11-16 14:43:38 Average Latency with datasize 8 KB: 0.17397500 ms 
+2024-11-16 14:43:38 Average Throughput with datasize 8 KB: 5762.74697528 operations/ms 
+2024-11-16 14:43:42 Average Latency with datasize 16 KB: 0.18840000 ms 
+2024-11-16 14:43:42 Average Throughput with datasize 16 KB: 5316.51834752 operations/ms 
+2024-11-16 14:43:46 Average Latency with datasize 32 KB: 0.23157500 ms 
+2024-11-16 14:43:46 Average Throughput with datasize 32 KB: 4330.60426946 operations/ms 
+2024-11-16 14:43:53 Average Latency with datasize 128 KB: 0.48975000 ms 
+2024-11-16 14:43:53 Average Throughput with datasize 128 KB: 2043.85588584 operations/ms 
+2024-11-16 14:44:04 Average Latency with datasize 256 KB: 0.86642500 ms 
+2024-11-16 14:44:04 Average Throughput with datasize 256 KB: 1154.55651776 operations/ms 
+2024-11-16 14:44:23 Average Latency with datasize 512 KB: 1.70885000 ms 
+2024-11-16 14:44:23 Average Throughput with datasize 512 KB: 585.42736712 operations/ms 
+2024-11-16 14:44:59 Average Latency with datasize 1024 KB: 3.37385000 ms 
+2024-11-16 14:44:59 Average Throughput with datasize 1024 KB: 296.52794107 operations/ms 
+2024-11-16 14:45:00 Results of Memory Test: 
+2024-11-16 14:45:00 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 14:45:00 [1, 0.39605, 2526.502851464557] 
+2024-11-16 14:45:00 [2, 0.2005, 4996.232862211195] 
+2024-11-16 14:45:00 [4, 0.181875, 5514.547817984059] 
+2024-11-16 14:45:00 [8, 0.173975, 5762.746975280131] 
+2024-11-16 14:45:00 [16, 0.1884, 5316.518347517121] 
+2024-11-16 14:45:00 [32, 0.231575, 4330.604269462439] 
+2024-11-16 14:45:00 [128, 0.48974999999999996, 2043.8558858397355] 
+2024-11-16 14:45:00 [256, 0.866425, 1154.5565177609599] 
+2024-11-16 14:45:00 [512, 1.70885, 585.4273671160338] 
+2024-11-16 14:45:00 [1024, 3.37385, 296.52794106606586] 
+2024-11-16 14:45:02 Average Latency with datasize 1 KB: 0.12615000 ms 
+2024-11-16 14:45:02 Average Throughput with datasize 1 KB: 7999.79784090 operations/ms 
+2024-11-16 14:45:06 Average Latency with datasize 2 KB: 0.15937500 ms 
+2024-11-16 14:45:06 Average Throughput with datasize 2 KB: 6301.61570720 operations/ms 
+2024-11-16 14:45:09 Average Latency with datasize 4 KB: 0.14390000 ms 
+2024-11-16 14:45:09 Average Throughput with datasize 4 KB: 6996.93195676 operations/ms 
+2024-11-16 14:45:12 Average Latency with datasize 8 KB: 0.14357500 ms 
+2024-11-16 14:45:12 Average Throughput with datasize 8 KB: 7015.97760840 operations/ms 
+2024-11-16 14:45:15 Average Latency with datasize 16 KB: 0.15167500 ms 
+2024-11-16 14:45:15 Average Throughput with datasize 16 KB: 6649.11543735 operations/ms 
+2024-11-16 14:45:19 Average Latency with datasize 32 KB: 0.19515000 ms 
+2024-11-16 14:45:19 Average Throughput with datasize 32 KB: 5148.05266223 operations/ms 
+2024-11-16 14:45:25 Average Latency with datasize 128 KB: 0.44125000 ms 
+2024-11-16 14:45:25 Average Throughput with datasize 128 KB: 2271.81775896 operations/ms 
+2024-11-16 14:45:35 Average Latency with datasize 256 KB: 0.81850000 ms 
+2024-11-16 14:45:35 Average Throughput with datasize 256 KB: 1222.93280519 operations/ms 
+2024-11-16 14:45:55 Average Latency with datasize 512 KB: 1.78407500 ms 
+2024-11-16 14:45:55 Average Throughput with datasize 512 KB: 560.92679937 operations/ms 
+2024-11-16 14:46:29 Average Latency with datasize 1024 KB: 3.16385000 ms 
+2024-11-16 14:46:29 Average Throughput with datasize 1024 KB: 316.34181256 operations/ms 
+2024-11-16 14:46:31 Results of Memory Test: 
+2024-11-16 14:46:31 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 14:46:31 [1, 0.12614999999999998, 7999.797840901889] 
+2024-11-16 14:46:31 [2, 0.159375, 6301.615707202157] 
+2024-11-16 14:46:31 [4, 0.1439, 6996.931956763079] 
+2024-11-16 14:46:31 [8, 0.143575, 7015.97760840276] 
+2024-11-16 14:46:31 [16, 0.151675, 6649.115437354207] 
+2024-11-16 14:46:31 [32, 0.19515, 5148.052662233713] 
+2024-11-16 14:46:31 [128, 0.44125000000000003, 2271.8177589586094] 
+2024-11-16 14:46:31 [256, 0.8185, 1222.9328051883938] 
+2024-11-16 14:46:31 [512, 1.7840749999999999, 560.9267993714388] 
+2024-11-16 14:46:31 [1024, 3.16385, 316.341812561394] 
+2024-11-16 15:16:08 Average Latency with datasize 1 KB: 0.39700000 ms 
+2024-11-16 15:16:08 Average Throughput with datasize 1 KB: 2519.20740431 operations/ms 
+2024-11-16 15:16:13 Average Latency with datasize 2 KB: 0.25455000 ms 
+2024-11-16 15:16:13 Average Throughput with datasize 2 KB: 3929.95388165 operations/ms 
+2024-11-16 15:16:17 Average Latency with datasize 4 KB: 0.22710000 ms 
+2024-11-16 15:16:17 Average Throughput with datasize 4 KB: 4407.02407117 operations/ms 
+2024-11-16 15:16:21 Average Latency with datasize 8 KB: 0.22565000 ms 
+2024-11-16 15:16:21 Average Throughput with datasize 8 KB: 4433.82033693 operations/ms 
+2024-11-16 15:16:26 Average Latency with datasize 16 KB: 0.26802500 ms 
+2024-11-16 15:16:26 Average Throughput with datasize 16 KB: 3736.01271641 operations/ms 
+2024-11-16 15:16:32 Average Latency with datasize 32 KB: 0.44017500 ms 
+2024-11-16 15:16:32 Average Throughput with datasize 32 KB: 2274.78037890 operations/ms 
+2024-11-16 15:16:46 Average Latency with datasize 128 KB: 1.14497500 ms 
+2024-11-16 15:16:46 Average Throughput with datasize 128 KB: 873.46939023 operations/ms 
+2024-11-16 15:17:10 Average Latency with datasize 256 KB: 2.17347500 ms 
+2024-11-16 15:17:10 Average Throughput with datasize 256 KB: 460.18162432 operations/ms 
+2024-11-16 15:18:00 Average Latency with datasize 512 KB: 4.81377500 ms 
+2024-11-16 15:18:00 Average Throughput with datasize 512 KB: 207.80043134 operations/ms 
+2024-11-16 15:19:40 Average Latency with datasize 1024 KB: 9.70170000 ms 
+2024-11-16 15:19:40 Average Throughput with datasize 1024 KB: 103.08581467 operations/ms 
+2024-11-16 15:19:41 Results of Memory Test: 
+2024-11-16 15:19:41 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 15:19:41 [1, 0.397, 2519.2074043084467] 
+2024-11-16 15:19:41 [2, 0.25455, 3929.9538816479558] 
+2024-11-16 15:19:41 [4, 0.2271, 4407.024071167257] 
+2024-11-16 15:19:41 [8, 0.22565, 4433.820336933981] 
+2024-11-16 15:19:41 [16, 0.26802499999999996, 3736.0127164141704] 
+2024-11-16 15:19:41 [32, 0.440175, 2274.7803788969404] 
+2024-11-16 15:19:41 [128, 1.144975, 873.4693902254426] 
+2024-11-16 15:19:41 [256, 2.173475, 460.1816243184559] 
+2024-11-16 15:19:41 [512, 4.813775, 207.80043133969946] 
+2024-11-16 15:19:41 [1024, 9.7017, 103.08581467106693] 
+2024-11-16 15:19:43 Average Latency with datasize 1 KB: 0.10152500 ms 
+2024-11-16 15:19:43 Average Throughput with datasize 1 KB: 9868.11027407 operations/ms 
+2024-11-16 15:19:45 Average Latency with datasize 2 KB: 0.11620000 ms 
+2024-11-16 15:19:45 Average Throughput with datasize 2 KB: 8641.66806872 operations/ms 
+2024-11-16 15:19:48 Average Latency with datasize 4 KB: 0.11842500 ms 
+2024-11-16 15:19:48 Average Throughput with datasize 4 KB: 8462.76143132 operations/ms 
+2024-11-16 15:19:51 Average Latency with datasize 8 KB: 0.13015000 ms 
+2024-11-16 15:19:51 Average Throughput with datasize 8 KB: 7698.83417264 operations/ms 
+2024-11-16 15:19:54 Average Latency with datasize 16 KB: 0.16707500 ms 
+2024-11-16 15:19:54 Average Throughput with datasize 16 KB: 5999.84429508 operations/ms 
+2024-11-16 15:19:59 Average Latency with datasize 32 KB: 0.29180000 ms 
+2024-11-16 15:19:59 Average Throughput with datasize 32 KB: 3434.08870681 operations/ms 
+2024-11-16 15:20:08 Average Latency with datasize 128 KB: 0.78717500 ms 
+2024-11-16 15:20:08 Average Throughput with datasize 128 KB: 1271.13893990 operations/ms 
+2024-11-16 15:20:26 Average Latency with datasize 256 KB: 1.53140000 ms 
+2024-11-16 15:20:26 Average Throughput with datasize 256 KB: 653.38750723 operations/ms 
+2024-11-16 15:20:59 Average Latency with datasize 512 KB: 3.11567500 ms 
+2024-11-16 15:20:59 Average Throughput with datasize 512 KB: 321.11037514 operations/ms 
+2024-11-16 15:22:11 Average Latency with datasize 1024 KB: 6.82677500 ms 
+2024-11-16 15:22:11 Average Throughput with datasize 1024 KB: 146.52944262 operations/ms 
+2024-11-16 15:22:12 Results of Memory Test: 
+2024-11-16 15:22:12 [DATA SIZE, LATENCY (ms), THROUGHPUT (oprs/ms)] 
+2024-11-16 15:22:12 [1, 0.101525, 9868.110274068482] 
+2024-11-16 15:22:12 [2, 0.1162, 8641.66806871776] 
+2024-11-16 15:22:12 [4, 0.118425, 8462.761431324332] 
+2024-11-16 15:22:12 [8, 0.13015, 7698.8341726435365] 
+2024-11-16 15:22:12 [16, 0.167075, 5999.84429508142] 
+2024-11-16 15:22:12 [32, 0.2918, 3434.0887068100733] 
+2024-11-16 15:22:12 [128, 0.787175, 1271.1389399011819] 
+2024-11-16 15:22:12 [256, 1.5314, 653.387507232495] 
+2024-11-16 15:22:12 [512, 3.115675, 321.1103751431842] 
+2024-11-16 15:22:12 [1024, 6.826775, 146.5294426176861] 
+2024-11-16 20:34:17 Average Latency with datasize 1 KB: 0.40332500 ms 
+2024-11-16 20:34:17 Average Throughput with datasize 1 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:22 Average Latency with datasize 2 KB: 0.27745000 ms 
+2024-11-16 20:34:22 Average Throughput with datasize 2 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:27 Average Latency with datasize 4 KB: 0.27037500 ms 
+2024-11-16 20:34:27 Average Throughput with datasize 4 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:31 Average Latency with datasize 8 KB: 0.21467500 ms 
+2024-11-16 20:34:31 Average Throughput with datasize 8 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:35 Average Latency with datasize 16 KB: 0.27815000 ms 
+2024-11-16 20:34:35 Average Throughput with datasize 16 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:41 Average Latency with datasize 32 KB: 0.40240000 ms 
+2024-11-16 20:34:41 Average Throughput with datasize 32 KB: 0.00000000 operations/ms 
+2024-11-16 20:34:55 Average Latency with datasize 128 KB: 1.16712500 ms 
+2024-11-16 20:34:55 Average Throughput with datasize 128 KB: 0.00000000 operations/ms 
+2024-11-16 20:35:20 Average Latency with datasize 256 KB: 2.26762500 ms 
+2024-11-16 20:35:20 Average Throughput with datasize 256 KB: 0.00000000 operations/ms 
+2024-11-16 20:36:08 Average Latency with datasize 512 KB: 4.55315000 ms 
+2024-11-16 20:36:08 Average Throughput with datasize 512 KB: 0.00000000 operations/ms 
+2024-11-16 20:37:48 Average Latency with datasize 1024 KB: 9.65430000 ms 
+2024-11-16 20:37:48 Average Throughput with datasize 1024 KB: 0.00000000 operations/ms 
+2024-11-16 20:37:49 Results of Memory Test: 
+2024-11-16 20:37:49 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-16 20:37:49 [1, 0.403325, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [2, 0.27745, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [4, 0.27037500000000003, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [8, 0.214675, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [16, 0.27815, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [32, 0.4024, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [128, 1.167125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [256, 2.267625, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [512, 4.5531500000000005, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:49 [1024, 9.6543, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] 
+2024-11-16 20:37:50 Average Latency with datasize 1 KB: 0.09527500 ms 
+2024-11-16 20:37:50 Average Throughput with datasize 1 KB: 0.00000000 operations/ms 
+2024-11-16 20:37:53 Average Latency with datasize 2 KB: 0.11322500 ms 
+2024-11-16 20:37:53 Average Throughput with datasize 2 KB: 0.00000000 operations/ms 
+2024-11-16 20:37:56 Average Latency with datasize 4 KB: 0.11977500 ms 
+2024-11-16 20:37:56 Average Throughput with datasize 4 KB: 0.00000000 operations/ms 
+2024-11-16 20:37:59 Average Latency with datasize 8 KB: 0.13220000 ms 
+2024-11-16 20:37:59 Average Throughput with datasize 8 KB: 0.00000000 operations/ms 
+2024-11-16 20:38:02 Average Latency with datasize 16 KB: 0.17347500 ms 
+2024-11-16 20:38:02 Average Throughput with datasize 16 KB: 0.00000000 operations/ms 
+2024-11-16 20:38:06 Average Latency with datasize 32 KB: 0.26335000 ms 
+2024-11-16 20:38:06 Average Throughput with datasize 32 KB: 0.00000000 operations/ms 
+2024-11-16 20:38:16 Average Latency with datasize 128 KB: 0.79260000 ms 
+2024-11-16 20:38:16 Average Throughput with datasize 128 KB: 0.00000000 operations/ms 
+2024-11-16 20:38:36 Average Latency with datasize 256 KB: 1.80045000 ms 
+2024-11-16 20:38:36 Average Throughput with datasize 256 KB: 0.00000000 operations/ms 
+2024-11-16 20:39:12 Average Latency with datasize 512 KB: 3.37072500 ms 
+2024-11-16 20:39:12 Average Throughput with datasize 512 KB: 0.00000000 operations/ms 
+2024-11-16 20:39:49 Average Latency with datasize 1 KB: 0.38910000 ms 
+2024-11-16 20:39:49 Average Throughput with datasize 1 KB: 2571.17706703 operations/ms 
+2024-11-16 20:39:54 Average Latency with datasize 2 KB: 0.25657500 ms 
+2024-11-16 20:39:54 Average Throughput with datasize 2 KB: 3898.56197981 operations/ms 
+2024-11-16 20:39:58 Average Latency with datasize 4 KB: 0.21417500 ms 
+2024-11-16 20:39:58 Average Throughput with datasize 4 KB: 4670.38959786 operations/ms 
+2024-11-16 20:40:02 Average Latency with datasize 8 KB: 0.20870000 ms 
+2024-11-16 20:40:02 Average Throughput with datasize 8 KB: 4794.64587828 operations/ms 
+2024-11-16 20:40:06 Average Latency with datasize 16 KB: 0.25802500 ms 
+2024-11-16 20:40:06 Average Throughput with datasize 16 KB: 3878.53647200 operations/ms 
+2024-11-16 20:40:13 Average Latency with datasize 32 KB: 0.45885000 ms 
+2024-11-16 20:40:13 Average Throughput with datasize 32 KB: 2180.43899701 operations/ms 
+2024-11-16 20:40:27 Average Latency with datasize 128 KB: 1.22147500 ms 
+2024-11-16 20:40:27 Average Throughput with datasize 128 KB: 818.94634436 operations/ms 
+2024-11-16 20:40:52 Average Latency with datasize 256 KB: 2.25497500 ms 
+2024-11-16 20:40:52 Average Throughput with datasize 256 KB: 443.58983391 operations/ms 
+2024-11-16 20:41:38 Average Latency with datasize 512 KB: 4.39435000 ms 
+2024-11-16 20:41:38 Average Throughput with datasize 512 KB: 227.59482477 operations/ms 
+2024-11-16 20:43:17 Average Latency with datasize 1024 KB: 9.64035000 ms 
+2024-11-16 20:43:17 Average Throughput with datasize 1024 KB: 103.74551437 operations/ms 
+2024-11-16 20:43:18 Results of Memory Test: 
+2024-11-16 20:43:18 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-16 20:43:18 [1, 0.3891, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2571.177067030739] 
+2024-11-16 20:43:18 [2, 0.256575, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3898.5619798075827] 
+2024-11-16 20:43:18 [4, 0.214175, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4670.389597856287] 
+2024-11-16 20:43:18 [8, 0.2087, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4794.645878276745] 
+2024-11-16 20:43:18 [16, 0.258025, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3878.5364720013126] 
+2024-11-16 20:43:18 [32, 0.45885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2180.438997006338] 
+2024-11-16 20:43:18 [128, 1.2214749999999999, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 818.9463443636116] 
+2024-11-16 20:43:18 [256, 2.254975, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 443.5898339147771] 
+2024-11-16 20:43:18 [512, 4.394349999999999, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 227.5948247717273] 
+2024-11-16 20:43:18 [1024, 9.64035, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 103.74551437212618] 
+2024-11-16 20:43:20 Average Latency with datasize 1 KB: 0.09652500 ms 
+2024-11-16 20:43:20 Average Throughput with datasize 1 KB: 10380.81407993 operations/ms 
+2024-11-16 20:43:22 Average Latency with datasize 2 KB: 0.11337500 ms 
+2024-11-16 20:43:22 Average Throughput with datasize 2 KB: 8832.13896221 operations/ms 
+2024-11-16 20:43:25 Average Latency with datasize 4 KB: 0.12257500 ms 
+2024-11-16 20:43:25 Average Throughput with datasize 4 KB: 8188.01644453 operations/ms 
+2024-11-16 20:43:28 Average Latency with datasize 8 KB: 0.13927500 ms 
+2024-11-16 20:43:28 Average Throughput with datasize 8 KB: 7186.92458459 operations/ms 
+2024-11-16 20:43:31 Average Latency with datasize 16 KB: 0.17895000 ms 
+2024-11-16 20:43:31 Average Throughput with datasize 16 KB: 5595.49519456 operations/ms 
+2024-11-16 20:43:36 Average Latency with datasize 32 KB: 0.29780000 ms 
+2024-11-16 20:43:36 Average Throughput with datasize 32 KB: 3362.74687458 operations/ms 
+2024-11-16 20:43:46 Average Latency with datasize 128 KB: 0.82910000 ms 
+2024-11-16 20:43:46 Average Throughput with datasize 128 KB: 1206.71714504 operations/ms 
+2024-11-16 20:44:04 Average Latency with datasize 256 KB: 1.59827500 ms 
+2024-11-16 20:44:04 Average Throughput with datasize 256 KB: 625.92525260 operations/ms 
+2024-11-16 20:44:39 Average Latency with datasize 512 KB: 3.26557500 ms 
+2024-11-16 20:44:39 Average Throughput with datasize 512 KB: 306.31933024 operations/ms 
+2024-11-16 20:45:51 Average Latency with datasize 1024 KB: 6.90362500 ms 
+2024-11-16 20:45:51 Average Throughput with datasize 1024 KB: 144.90414522 operations/ms 
+2024-11-16 20:45:52 Results of Memory Test: 
+2024-11-16 20:45:52 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-16 20:45:52 [1, 0.096525, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10380.814079928361] 
+2024-11-16 20:45:52 [2, 0.113375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8832.138962214265] 
+2024-11-16 20:45:52 [4, 0.122575, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8188.016444528887] 
+2024-11-16 20:45:52 [8, 0.139275, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7186.9245845901905] 
+2024-11-16 20:45:52 [16, 0.17895, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5595.49519455517] 
+2024-11-16 20:45:52 [32, 0.2978, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3362.746874581675] 
+2024-11-16 20:45:52 [128, 0.8291, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1206.717145043784] 
+2024-11-16 20:45:52 [256, 1.5982750000000001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 625.9252525987663] 
+2024-11-16 20:45:52 [512, 3.265575, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 306.31933024296774] 
+2024-11-16 20:45:52 [1024, 6.903625, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 144.90414522496113] 
+2024-11-17 13:23:45 Average Latency with datasize 1 KB: 0.32390000 ms 
+2024-11-17 13:23:45 Average Throughput with datasize 1 KB: 3091.31016153 operations/ms 
+2024-11-17 13:23:50 Average Latency with datasize 2 KB: 0.20790000 ms 
+2024-11-17 13:23:50 Average Throughput with datasize 2 KB: 4827.55273032 operations/ms 
+2024-11-17 13:23:54 Average Latency with datasize 4 KB: 0.17770000 ms 
+2024-11-17 13:23:54 Average Throughput with datasize 4 KB: 5650.37654842 operations/ms 
+2024-11-17 13:23:58 Average Latency with datasize 8 KB: 0.17530000 ms 
+2024-11-17 13:23:58 Average Throughput with datasize 8 KB: 5757.97551451 operations/ms 
+2024-11-17 13:24:02 Average Latency with datasize 16 KB: 0.18537500 ms 
+2024-11-17 13:24:02 Average Throughput with datasize 16 KB: 5428.82151185 operations/ms 
+2024-11-17 13:24:06 Average Latency with datasize 32 KB: 0.22350000 ms 
+2024-11-17 13:24:06 Average Throughput with datasize 32 KB: 4495.23764584 operations/ms 
+2024-11-17 13:24:13 Average Latency with datasize 128 KB: 0.51515000 ms 
+2024-11-17 13:24:13 Average Throughput with datasize 128 KB: 1943.05806434 operations/ms 
+2024-11-17 13:24:24 Average Latency with datasize 256 KB: 0.94970000 ms 
+2024-11-17 13:24:24 Average Throughput with datasize 256 KB: 1053.69213972 operations/ms 
+2024-11-17 13:24:44 Average Latency with datasize 512 KB: 1.81647500 ms 
+2024-11-17 13:24:44 Average Throughput with datasize 512 KB: 550.81832522 operations/ms 
+2024-11-17 13:25:22 Average Latency with datasize 1024 KB: 3.50752500 ms 
+2024-11-17 13:25:22 Average Throughput with datasize 1024 KB: 285.28653940 operations/ms 
+2024-11-17 13:25:23 Results of Memory Test: 
+2024-11-17 13:25:23 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-17 13:25:23 [1, 0.32389999999999997, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3091.310161532572] 
+2024-11-17 13:25:23 [2, 0.2079, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4827.552730320878] 
+2024-11-17 13:25:23 [4, 0.1777, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5650.376548420752] 
+2024-11-17 13:25:23 [8, 0.1753, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5757.975514508386] 
+2024-11-17 13:25:23 [16, 0.185375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5428.821511852774] 
+2024-11-17 13:25:23 [32, 0.2235, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4495.237645835521] 
+2024-11-17 13:25:23 [128, 0.51515, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1943.058064340064] 
+2024-11-17 13:25:23 [256, 0.9497, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1053.69213971569] 
+2024-11-17 13:25:23 [512, 1.816475, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 550.8183252163298] 
+2024-11-17 13:25:23 [1024, 3.5075250000000002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 285.28653939689764] 
+2024-11-17 13:25:25 Average Latency with datasize 1 KB: 0.12565000 ms 
+2024-11-17 13:25:25 Average Throughput with datasize 1 KB: 8024.62314746 operations/ms 
+2024-11-17 13:25:28 Average Latency with datasize 2 KB: 0.12767500 ms 
+2024-11-17 13:25:28 Average Throughput with datasize 2 KB: 7902.89302854 operations/ms 
+2024-11-17 13:25:31 Average Latency with datasize 4 KB: 0.13980000 ms 
+2024-11-17 13:25:31 Average Throughput with datasize 4 KB: 7198.67604068 operations/ms 
+2024-11-17 13:25:35 Average Latency with datasize 8 KB: 0.16740000 ms 
+2024-11-17 13:25:35 Average Throughput with datasize 8 KB: 5999.32981895 operations/ms 
+2024-11-17 13:25:38 Average Latency with datasize 16 KB: 0.19635000 ms 
+2024-11-17 13:25:38 Average Throughput with datasize 16 KB: 5112.64921252 operations/ms 
+2024-11-17 13:25:43 Average Latency with datasize 32 KB: 0.26917500 ms 
+2024-11-17 13:25:43 Average Throughput with datasize 32 KB: 3725.62297792 operations/ms 
+2024-11-17 13:25:50 Average Latency with datasize 128 KB: 0.55212500 ms 
+2024-11-17 13:25:50 Average Throughput with datasize 128 KB: 1814.95061719 operations/ms 
+2024-11-17 13:26:01 Average Latency with datasize 256 KB: 0.88952500 ms 
+2024-11-17 13:26:01 Average Throughput with datasize 256 KB: 1127.27217743 operations/ms 
+2024-11-17 13:26:20 Average Latency with datasize 512 KB: 1.70412500 ms 
+2024-11-17 13:26:20 Average Throughput with datasize 512 KB: 587.62917782 operations/ms 
+2024-11-17 13:26:59 Average Latency with datasize 1024 KB: 3.60105000 ms 
+2024-11-17 13:26:59 Average Throughput with datasize 1024 KB: 278.06014105 operations/ms 
+2024-11-17 13:27:00 Results of Memory Test: 
+2024-11-17 13:27:00 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-17 13:27:00 [1, 0.12564999999999998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8024.623147460556] 
+2024-11-17 13:27:00 [2, 0.127675, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7902.893028544945] 
+2024-11-17 13:27:00 [4, 0.13979999999999998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7198.676040683711] 
+2024-11-17 13:27:00 [8, 0.1674, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5999.329818945851] 
+2024-11-17 13:27:00 [16, 0.19635, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5112.6492125201385] 
+2024-11-17 13:27:00 [32, 0.26917500000000005, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3725.6229779157] 
+2024-11-17 13:27:00 [128, 0.552125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1814.950617188416] 
+2024-11-17 13:27:00 [256, 0.889525, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1127.272177431013] 
+2024-11-17 13:27:00 [512, 1.704125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 587.6291778186028] 
+2024-11-17 13:27:00 [1024, 3.60105, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 278.06014105388044] 
+2024-11-17 13:56:44 Average Latency with datasize 1 KB: 0.32612500 ms 
+2024-11-17 13:56:44 Average Throughput with datasize 1 KB: 3069.84276721 operations/ms 
+2024-11-17 13:56:49 Average Latency with datasize 2 KB: 0.21190000 ms 
+2024-11-17 13:56:49 Average Throughput with datasize 2 KB: 4728.92781981 operations/ms 
+2024-11-17 13:56:53 Average Latency with datasize 4 KB: 0.20002500 ms 
+2024-11-17 13:56:53 Average Throughput with datasize 4 KB: 5021.57022473 operations/ms 
+2024-11-17 13:56:57 Average Latency with datasize 8 KB: 0.17165000 ms 
+2024-11-17 13:56:57 Average Throughput with datasize 8 KB: 5865.20782354 operations/ms 
+2024-11-17 13:57:01 Average Latency with datasize 16 KB: 0.20127500 ms 
+2024-11-17 13:57:01 Average Throughput with datasize 16 KB: 4995.84567495 operations/ms 
+2024-11-17 13:57:06 Average Latency with datasize 32 KB: 0.23855000 ms 
+2024-11-17 13:57:06 Average Throughput with datasize 32 KB: 4213.28257645 operations/ms 
+2024-11-17 13:57:12 Average Latency with datasize 128 KB: 0.47622500 ms 
+2024-11-17 13:57:12 Average Throughput with datasize 128 KB: 2103.16033702 operations/ms 
+2024-11-17 13:57:23 Average Latency with datasize 256 KB: 0.91145000 ms 
+2024-11-17 13:57:23 Average Throughput with datasize 256 KB: 1098.19975984 operations/ms 
+2024-11-17 13:57:44 Average Latency with datasize 512 KB: 1.90237500 ms 
+2024-11-17 13:57:44 Average Throughput with datasize 512 KB: 526.07681065 operations/ms 
+2024-11-17 13:58:21 Average Latency with datasize 1024 KB: 3.45775000 ms 
+2024-11-17 13:58:21 Average Throughput with datasize 1024 KB: 289.37643488 operations/ms 
+2024-11-17 13:58:23 Results of Memory Test: 
+2024-11-17 13:58:23 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-17 13:58:23 [1, 0.326125, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3069.8427672149296] 
+2024-11-17 13:58:23 [2, 0.21189999999999998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4728.927819810104] 
+2024-11-17 13:58:23 [4, 0.200025, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5021.570224730556] 
+2024-11-17 13:58:23 [8, 0.17165, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5865.207823535943] 
+2024-11-17 13:58:23 [16, 0.20127499999999998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4995.845674953434] 
+2024-11-17 13:58:23 [32, 0.23854999999999998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4213.282576452003] 
+2024-11-17 13:58:23 [128, 0.476225, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2103.160337020543] 
+2024-11-17 13:58:23 [256, 0.91145, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1098.1997598358075] 
+2024-11-17 13:58:23 [512, 1.9023750000000001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 526.076810650421] 
+2024-11-17 13:58:23 [1024, 3.45775, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 289.37643488264206] 
+2024-11-17 13:58:24 Average Latency with datasize 1 KB: 0.11765000 ms 
+2024-11-17 13:58:24 Average Throughput with datasize 1 KB: 8613.81979287 operations/ms 
+2024-11-17 13:58:27 Average Latency with datasize 2 KB: 0.12345000 ms 
+2024-11-17 13:58:27 Average Throughput with datasize 2 KB: 8183.40031777 operations/ms 
+2024-11-17 13:58:30 Average Latency with datasize 4 KB: 0.12537500 ms 
+2024-11-17 13:58:30 Average Throughput with datasize 4 KB: 8053.33075965 operations/ms 
+2024-11-17 13:58:33 Average Latency with datasize 8 KB: 0.13310000 ms 
+2024-11-17 13:58:33 Average Throughput with datasize 8 KB: 7572.36703591 operations/ms 
+2024-11-17 13:58:36 Average Latency with datasize 16 KB: 0.15210000 ms 
+2024-11-17 13:58:36 Average Throughput with datasize 16 KB: 6607.15250949 operations/ms 
+2024-11-17 13:58:40 Average Latency with datasize 32 KB: 0.21455000 ms 
+2024-11-17 13:58:40 Average Throughput with datasize 32 KB: 4677.73509441 operations/ms 
+2024-11-17 13:58:47 Average Latency with datasize 128 KB: 0.47942500 ms 
+2024-11-17 13:58:47 Average Throughput with datasize 128 KB: 2091.76315274 operations/ms 
+2024-11-17 13:58:57 Average Latency with datasize 256 KB: 0.81745000 ms 
+2024-11-17 13:58:57 Average Throughput with datasize 256 KB: 1226.06910733 operations/ms 
+2024-11-17 13:59:14 Average Latency with datasize 512 KB: 1.51355000 ms 
+2024-11-17 13:59:14 Average Throughput with datasize 512 KB: 661.78555264 operations/ms 
+2024-11-17 13:59:49 Average Latency with datasize 1024 KB: 3.15505000 ms 
+2024-11-17 13:59:49 Average Throughput with datasize 1024 KB: 317.42106220 operations/ms 
+2024-11-17 13:59:50 Results of Memory Test: 
+2024-11-17 13:59:50 [DATA SIZE, LATENCY (ms), Latency50, Latency75, Latency80, Latency85, Latency90, Latency95, Latency99, Latency995, THROUGHPUT (oprs/ms)] 
+2024-11-17 13:59:50 [1, 0.11765, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8613.819792865284] 
+2024-11-17 13:59:50 [2, 0.12345, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8183.400317772163] 
+2024-11-17 13:59:50 [4, 0.12537500000000001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8053.330759645382] 
+2024-11-17 13:59:50 [8, 0.1331, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7572.367035914779] 
+2024-11-17 13:59:50 [16, 0.1521, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 6607.15250948902] 
+2024-11-17 13:59:50 [32, 0.21455000000000002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4677.735094406128] 
+2024-11-17 13:59:50 [128, 0.479425, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2091.7631527362155] 
+2024-11-17 13:59:50 [256, 0.81745, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1226.0691073299354] 
+2024-11-17 13:59:50 [512, 1.51355, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 661.7855526415739] 
+2024-11-17 13:59:50 [1024, 3.15505, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 317.4210621966081] 
