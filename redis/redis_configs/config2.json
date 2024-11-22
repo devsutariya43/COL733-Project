@@ -1,0 +1,9 @@
+{
+    "type":"redis",
+    "num_read_oprs":500,
+    "num_write_oprs":500,
+    "data_size":100,
+    "num_replicas":[3, 6, 9, 12, 15, 18, 24, 27],
+    "num_masters":[3, 6, 9, 12, 15, 18, 24, 27],
+    "num_workers":4
+}
