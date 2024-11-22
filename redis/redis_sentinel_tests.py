@@ -173,9 +173,15 @@ class SentinelTest:
     def run(self):
         print('Running Sentinel Tests ...')
         print('-'*100)
-        self.run_scalability_test()
+        try:
+            self.run_scalability_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_availability_test()
+        try:
+            self.run_availability_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
         print('\n\n')
 
