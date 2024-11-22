@@ -93,3 +93,52 @@ class RedisClusterWorker(Worker):
             subprocess.run(["docker", "stop", contaider_id])
             time.sleep(downtime)
             subprocess.run(["docker", "start", contaider_id])
+    
+class RedisSentinelWorker(Worker):
+    def __init__(self, sentinel_hosts, num_read_oprs, num_write_oprs, data_size=100):
+        super().__init__(num_read_oprs, num_write_oprs, data_size)
+        self.sentinel_hosts = sentinel_hosts
+        self.sentinel = Sentinel(sentinel_hosts, socket_timeout=0.1)
+    
+    def get_key(self):
+        # letters = list(string.ascii_letters)
+        # key = random.choice(letters)
+        key, _ = generate_random_key()
+        return key
+    
+    def read(self, key):
+        slave = self.sentinel.slave_for(SERVICE_NAME, socket_timeout=0.1)
+        return slave.get(key)
+    
+    def write(self, key, val):
+        master = self.sentinel.master_for(SERVICE_NAME, socket_timeout=0.1)
+        return master.set(key, val)
+    
+    def perform_read(self):
+        key = self.get_key()
+        def read_op():
+            for _ in range(1):
+                while True:
+                    try:
+                        slave = self.sentinel.slave_for(SERVICE_NAME, socket_timeout=0.1)
+                        slave.get(key)
+                        break
+                    except Exception as e:
+                        print(e)
+                        continue
+        return self.measure_latency(read_op, 1)
+
+    def perform_write(self):
+        key = self.get_key()
+        def write_op():
+            for _ in range(1):
+                while True:
+                    try:
+                        master = self.sentinel.master_for(SERVICE_NAME, socket_timeout=0.1)
+                        master.set(key, "x" * self.data_size)
+                        break
+                    except Exception as e:
+                        print(e)
+                        continue
+        return self.measure_latency(write_op, 1)
+
