@@ -26,8 +26,7 @@ clean:
 	@echo "Ensuring cleanup scripts are executable..."
 	chmod +x del_cluster.sh del_sentinel.sh
 	@echo "Running cleanup scripts..."
-	rm redis_hosts.json
+	@if [ -f redis_hosts.json ]; then rm redis_hosts.json; fi
 	./del_cluster.sh
 	./del_sentinel.sh
 	conda remove -n $(CONDA_ENV) --all -y
-
