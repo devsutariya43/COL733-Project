@@ -344,3 +344,186 @@ class ScalabilityTester:
         self.run_replica_scalabity_test()
         print('-'*100)
         print("\n\n")
+
+
+class CAPTester:
+    def __init__(self, config_path):
+        with open(config_path, 'r') as file:
+            self.config = json.load(file)
+        self.startup_nodes = []
+    
+    def create_cluster(self, num_masters, num_replicas):
+        subprocess.run(['chmod', '777', CREATE_CLUSTER], check=True)
+        subprocess.run([CREATE_CLUSTER, str(num_masters), str(num_replicas)], check=True, text=True)
+        time.sleep(5)
+        
+        with open(REDIS_HOSTS, 'r') as file:
+            redis_hosts = json.load(file)
+        
+        for host in redis_hosts['hosts']:
+            split = host.split(":")
+            ip, port = str(split[0]), int(split[1])
+            self.startup_nodes.append({"host":ip, "port":port})
+    
+    def del_cluster(self, num_masters, num_replicas):
+        subprocess.run(['chmod', '777', DEL_CLUSTER], check=True)
+        subprocess.run([DEL_CLUSTER, str(num_masters), str(num_replicas)], check=True, text=True)
+        
+        self.startup_nodes = []
+    
+    def setup_workers(self, num_workers):
+        workers = []
+        for _ in range(num_workers):
+            workers.append(
+                RedisClusterWorker(
+                    self.startup_nodes,
+                    self.config["num_read_oprs"],
+                    self.config["num_write_oprs"],
+                    self.config["data_size"]
+                )
+            )
+        
+        return workers
+    
+    def run_worker_process(self, worker, latencies, tail_latencies, operation_type="mixed"):
+        latency, tail_latency = worker.run(operation_type)
+        latencies.append(latency)
+        tail_latencies.append(tail_latency)
+    
+    def stop_node(self, container_id):
+        subprocess.run(["docker", "stop", container_id])
+    
+    def start_node(self, container_id):
+        subprocess.run(["docker", "start", container_id])
+    
+    def get_containerid(self, master_node):
+        cmd = "docker inspect --format '{{.Id}} {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -q)"
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+        containers = {r.split(" ")[1]:r.split(" ")[0] for r in result.stdout.split("\n")[:-1]}
+        
+        return containers.get(self.startup_nodes[master_node]["host"], None)
+    
+    def simulate_failure(self, num_failures, downtime):
+        containers = [self.get_containerid(master_node) for master_node in range(num_failures)]
+        for container_id in containers:
+            if container_id:
+                self.stop_node(container_id)
+                
+        time.sleep(downtime)
+        
+        for container_id in containers:
+            if container_id:
+                self.start_node(container_id)
+    
+    def run_availibility_test(self):
+        print('Running Availibility Test')
+        
+        results = [["NUM MASTERS", "NUM REPLICAS", "NUM FAILURES", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_masters, num_replicas in zip(self.config["num_masters"], self.config["num_replicas"]):
+            self.create_cluster(num_masters, num_replicas)
+            
+            workers = self.setup_workers(self.config["num_workers"])
+            # print(f"Running {test_type.upper()} operations test for REDIS workers:")
+
+            with multiprocessing.Manager() as manager:
+                latencies = manager.list()  # Shared list for latencies
+                tail_latencies = manager.list()  # Shared tail list for latencies
+                processes = []
+
+                for worker in workers:
+                    p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies, tail_latencies))
+                    processes.append(p)
+                    p.start()
+
+                num_failures = random.randint(1, int((num_masters-1)/2))
+                failure_process = multiprocessing.Process(target=self.simulate_failure, args=(num_failures, self.config["downtime"]))
+                failure_process.start()
+    
+                for p in processes:
+                    p.join()
+
+                failure_process.join()
+                
+                # Calculate the average latency across all workers
+                if latencies:
+                    avg_latency = sum(latencies) / len(latencies)
+                    avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                    print(f"Average latency with {num_masters} MASTERS, {num_replicas} REPLICAS, {num_failures} FAILURES: {avg_latency*1000:.4f} ms")
+                    print(f"Average tail latency with {num_masters} MASTERS, {num_replicas} REPLICAS, {num_failures} FAILURES: {avg_tail_latency*1000:.4f} ms")
+                    print(f"Average throughput with {num_masters} MASTERS, {num_replicas} REPLICAS, {num_failures} FAILURES: {1/(avg_latency):.4f} operations/sec")
+                    results.append([num_masters, num_replicas, num_failures, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                else:
+                    print("No latencies recorded.")
+            
+            self.del_cluster(num_masters, num_replicas)
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print("Availibility Test Completed")
+    
+    def run_consistency_test(self):
+        print('Running Consistency Test')
+        
+        for num_masters, num_replicas in zip(self.config["num_masters"], self.config["num_replicas"]):
+            results = [["NUM MASTERS", "NUM REPLICAS", "PRE FAILURE", "POST FAILURE", "POST RECOVERY"]]
+            self.create_cluster(num_masters, num_masters)
+            
+            worker = self.setup_workers(1)[0]
+            letters = list(string.ascii_uppercase)
+            for letter in letters:
+                worker.write(letter, ord(letter)-65)
+            
+            containers = []
+            for i in range(int((num_masters-1)/2)):
+                container_id = self.get_containerid(i)
+                self.stop_node(container_id)
+                containers.append(container_id)
+            print(f"Simulated Failure of {int((num_masters-1)/2)} master. NOTE THAT MORE THAN THIS FAILURES LEADS TO TOTAL UNAVAILIBILITY")
+            
+            retrived = {}
+            for letter in letters:
+                try:
+                    val = worker.read(letter)
+                except:
+                    val = -1
+                retrived[ord(letter)-65] = int(val)
+            
+            for container_id in containers:
+                self.start_node(container_id)
+            time.sleep(5)
+            
+            for letter in letters:
+                try:
+                    val = worker.read(letter)
+                except:
+                    val = -1
+                
+                results.append([num_masters, num_replicas, f'{letter} : {ord(letter)-65}', f'{letter} : {retrived[ord(letter)-65]}', f'{letter} : {val}'])
+            
+            self.del_cluster(num_masters, num_replicas)
+            
+            # Results
+            col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+            for row in results:
+                print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+            
+            correct = 0
+            for i in range(len(retrived)):
+                if retrived[i] == i:
+                    correct += 1
+            print(f'Accuracy: ', (correct*100)/len(retrived), "%")
+
+        print('Consistency Test Completed')
+    
+    def run(self):
+        print("Running Consistency and Availibity Tests ...")
+        print('-'*100)
+        self.run_availibility_test()
+        print('-'*100)
+        self.run_consistency_test()
+        print('-'*100)
+        print("\n\n")
