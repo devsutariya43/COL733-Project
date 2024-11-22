@@ -1,0 +1,9 @@
+{
+    "type": "redis",
+    "host": "localhost",
+    "port": 6379,
+    "num_write_oprs": 5000,
+    "num_read_oprs": 5000,
+    "data_size": [1, 2, 4, 8, 16, 32, 128, 256],
+    "num_workers": 4
+}
