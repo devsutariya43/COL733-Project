@@ -9,6 +9,8 @@ if ! command -v conda &> /dev/null; then
     export PATH="$HOME/miniconda/bin:$PATH"
     echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
+    conda init bash  # Initialize Conda for bash
+    exec bash  # Start a new bash session to apply changes
 else
     echo "Conda is already installed."
 fi
@@ -20,7 +22,9 @@ conda create -n $ENV_NAME python=3.12 -y
 
 # Step 3: Activate the Conda environment
 echo "Activating the Conda environment..."
-source activate $ENV_NAME
+source ~/.bashrc  # Ensure shell initialization changes are applied
+eval "$(conda shell.bash hook)"  # Ensure `conda activate` works in this script
+conda activate $ENV_NAME
 
 # Step 4: Install Python modules
 echo "Installing required Python modules..."
