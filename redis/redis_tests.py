@@ -687,3 +687,199 @@ class MemUsageTester:
         self.run_memusage_cluster_test()
         print("-"*100)
         print("\n\n")
+
+
+class RedisSentinelTests:
+    def __init__(self, config_path):
+        with open(config_path, 'r') as file:
+            self.config = json.load(file)
+        
+    def create_sentinel(self, nodes):
+        subprocess.run(['chmod', '777', CREATE_SENTINEL], check=True)
+        subprocess.run([CREATE_SENTINEL, str(nodes-1)], check=True, text=True)
+        
+    def del_sentinel(self):
+        subprocess.run(['chmod', '777', DEL_SENTINEL], check=True)
+        subprocess.run([DEL_SENTINEL], check=True, text=True)
+    
+    def setup_sentinel_worker(self, num_workers, num_read_oprs, num_write_oprs):
+        workers = []
+        for _ in range(num_workers):
+            workers.append(
+                RedisSentinelWorker(
+                    SENTINEL_HOSTS,
+                    num_read_oprs,
+                    num_write_oprs,
+                    self.config["data_size"]
+                )
+            )
+        
+        return workers
+    
+    def run_worker_process(self, worker, latencies, tail_latencies, operation_type="mixed"):
+        latency, tail_latency = worker.run(operation_type)
+        latencies.append(latency)
+        tail_latencies.append(tail_latency)
+        
+    def run_workload_tests(self):
+        print('Running Workload Test for Redis Sentinel')
+        
+        results = [["READ WORKLOAD (%)", "WRITE WORKLOAD (%)", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_reads, num_writes in zip(self.config["num_read_oprs"], self.config["num_write_oprs"]):
+            self.create_sentinel(3)
+            workers = self.setup_sentinel_worker(2, num_reads, num_writes)
+            
+            with multiprocessing.Manager() as manager:
+                latencies = manager.list()  # Shared list for latencies
+                tail_latencies = manager.list()  # Shared list for tail latencies
+                processes = []
+
+                for worker in workers:
+                    p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies, tail_latencies))
+                    processes.append(p)
+                    p.start()
+
+                for p in processes:
+                    p.join()
+
+                # Calculate the average latency across all workers
+                if latencies:
+                    avg_latency = sum(latencies) / len(latencies)
+                    avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                    read_workload, write_workload = num_reads/(num_reads+num_writes), num_writes/(num_reads+num_writes)
+                    print(f"Average latency for {read_workload*100}% read-workload and {write_workload*100}% write-workload: {avg_latency*1000:.4f} ms")
+                    print(f"Average tail latency for {read_workload*100}% read-workload and {write_workload*100}% write-workload: {avg_tail_latency*1000:.4f} ms")
+                    print(f"Average throughput for {read_workload*100}% read-workload and {write_workload*100}%  write-workload: {1/(avg_latency):.2f} operations/sec")
+                    results.append([read_workload*100, write_workload*100, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                else:
+                    print("No latencies recorded.")
+            
+            self.del_sentinel()
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+
+        print("Workload Test Completed")
+
+    def run_concurrency_tests(self):
+        print("Running Concurrency Test for Redis Sentinel")
+        
+        results = [["NUM WORKERS", "OPR TYPE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_workers in self.config["num_workers"]:
+            self.create_sentinel(3)
+            workers = self.setup_sentinel_worker(num_workers, 5000, 5000)
+            
+            for test_type in ["write", "read", "mixed"]:
+                with multiprocessing.Manager() as manager:
+                    latencies = manager.list()  # Shared list for latencies
+                    tail_latencies = manager.list()  # Shared list for tail latencies
+                    processes = []
+
+                    for worker in workers:
+                        p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies, tail_latencies, test_type))
+                        processes.append(p)
+                        p.start()
+
+                    for p in processes:
+                        p.join()
+
+                    # Calculate the average latency across all workers
+                    if latencies:
+                        avg_latency = sum(latencies) / len(latencies)
+                        avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                        print(f"Average latency for {test_type} operations: {avg_latency*1000:.4f} ms")
+                        print(f"Average tail latency for {test_type} operations: {avg_tail_latency*1000:.4f} ms")
+                        print(f"Average throughput for {test_type} operations: {1/(avg_latency):.6f} operations/sec")
+                        results.append([num_workers, test_type.upper(), avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                    else:
+                        print("No latencies recorded.")
+            
+            self.del_sentinel()
+                        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print("Concurrency Test Completed")
+    
+    def run_scalabity_test(self):
+        print('Running Variable Node Cluster Test')
+        results = [["NUM NODES", "OPR TYPE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_nodes in self.config["nodes"]:
+            self.create_sentinel(num_nodes)
+            
+            workers = self.setup_sentinel_worker(1, 500, 500)
+            for test_type in ["write", "read", "mixed"]:
+                # print(f"Running {test_type.upper()} operations test for REDIS workers:")
+
+                with multiprocessing.Manager() as manager:
+                    latencies = manager.list()  # Shared list for latencies
+                    tail_latencies = manager.list()  # Shared list for latencies
+                    processes = []
+
+                    for worker in workers:
+                        p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies,tail_latencies, test_type))
+                        processes.append(p)
+                        p.start()
+
+                    for p in processes:
+                        p.join()
+
+                    # Calculate the average latency across all workers
+                    if latencies:
+                        avg_latency = sum(latencies) / len(latencies)
+                        avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                        print(f"Average latency for {test_type} operations with cluster size {num_nodes}: {avg_latency*1000:.4f} ms")
+                        print(f"Average tail latency for {test_type} operations with cluster size {num_nodes}: {avg_tail_latency*1000:.4f} ms")
+                        print(f"Average throughput for {test_type} operations with cluster size {num_nodes}: {1/(avg_latency):.4f} operations/sec")
+                        results.append([num_nodes, test_type, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                    else:
+                        print("No latencies recorded.")
+            
+            self.del_sentinel()
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print('Variable Node Cluster Test Completed')
+    
+    def run(self):
+        print("Running Latency and Throughput Tests ...")
+        print('-'*100)
+        self.run_workload_tests()
+        print('-'*100)
+        self.run_concurrency_tests()
+        print('-'*100)
+        self.run_scalabity_test()
+        print('-'*100)
+        print("\n\n")
+
+if __name__ == "__main__":
+    # Run latency & throughput tests
+    tester1 = LatencyThroughputTester("redis_configs/config1.json")
+    tester1.run()
+    
+    # Run scalability tests
+    tester2 = ScalabilityTester("redis_configs/config2.json")
+    tester2.run()
+    
+    # Run cap tests
+    tester3 = CAPTester("redis_configs/config3.json")
+    tester3.run()
+    
+    # Run memory usage and persistance tests
+    tester4 = MemUsageTester("redis_configs/config4.json")
+    tester4.run()
+    
+    # Run redis sentinel tests
+    # tester5 = RedisSentinelTests("redis_configs/config5.json")
+    # tester5.run()
+    
