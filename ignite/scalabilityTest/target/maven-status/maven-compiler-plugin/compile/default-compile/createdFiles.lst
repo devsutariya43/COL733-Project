@@ -1,0 +1,5 @@
+com/ignite/scalabilityTest/ScalabilityTestApplication.class
+com/ignite/scalabilityTest/IgniteClusterWorker.class
+com/ignite/scalabilityTest/IgniteCluster.class
+com/ignite/scalabilityTest/ScalabilityTestApplication$1.class
+com/ignite/scalabilityTest/Worker.class
