@@ -193,13 +193,25 @@ class LatencyThroughputTester:
     def run(self):
         print("Running Latency and Throughput Tests ...")
         print('-'*100)
-        self.run_workload_tests(redis=True)
+        try:
+            self.run_workload_tests(redis=True)
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_workload_tests(redis=False)
+        try:
+            self.run_workload_tests(redis=False)
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_concurrency_tests(redis=True)
+        try:
+            self.run_concurrency_tests(redis=True)
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_concurrency_tests(redis=False)
+        try:
+            self.run_concurrency_tests(redis=False)
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
         print("\n\n")
 
@@ -339,9 +351,15 @@ class ScalabilityTester:
     def run(self):
         print("Running Scalability Tests ...")
         print('-'*100)
-        self.run_master_scalabity_test()
+        try:
+            self.run_master_scalabity_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_replica_scalabity_test()
+        try:
+            self.run_replica_scalabity_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
         print("\n\n")
 
@@ -522,9 +540,15 @@ class CAPTester:
     def run(self):
         print("Running Consistency and Availibity Tests ...")
         print('-'*100)
-        self.run_availibility_test()
+        try:
+            self.run_availibility_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_consistency_test()
+        try:
+            self.run_consistency_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
         print("\n\n")
 
@@ -682,9 +706,15 @@ class MemUsageTester:
     def run(self):
         print("Running Memory Usage Tests ...")
         print("-"*100)
-        self.run_memusage_test()
+        try:
+            self.run_memusage_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print("-"*100)
-        self.run_memusage_cluster_test()
+        try:
+            self.run_memusage_cluster_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print("-"*100)
         print("\n\n")
 
@@ -854,11 +884,20 @@ class RedisSentinelTests:
     def run(self):
         print("Running Latency and Throughput Tests ...")
         print('-'*100)
-        self.run_workload_tests()
+        try:
+            self.run_workload_tests()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_concurrency_tests()
+        try:
+            self.run_concurrency_tests()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
-        self.run_scalabity_test()
+        try:
+            self.run_scalabity_test()
+        except Exception as e:
+            print(f"An Exception Occured During Test\n Details: {e}")
         print('-'*100)
         print("\n\n")
 
