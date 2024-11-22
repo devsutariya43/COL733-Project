@@ -5,7 +5,7 @@ import random
 import subprocess
 import multiprocessing
 import numpy as np
-from rds import RedisWorker, RedisClusterWorker
+from rds import RedisWorker, RedisClusterWorker, RedisSentinelWorker
 from constant import *
 
 class LatencyThroughputTester:
@@ -526,4 +526,164 @@ class CAPTester:
         print('-'*100)
         self.run_consistency_test()
         print('-'*100)
+        print("\n\n")
+
+
+class MemUsageTester:
+    def __init__(self, config_path):
+        with open(config_path, 'r') as file:
+            self.config = json.load(file)
+        self.redis_hosts = None
+
+    def redis(self):
+        command = ["docker", "run", "--name", "redis", "-d", "-p", "6379:6379", "redis:latest", "--appendonly", "yes"]
+        subprocess.run(command, check=True)
+        time.sleep(1)
+    
+    def kill_redis(self):
+        subprocess.run(["docker", "stop", "redis"])
+        subprocess.run(["docker", "rm", "redis"])
+    
+    def setup_workers(self, num_workers, data_size):
+        workers = []
+        for _ in range(num_workers):
+            workers.append(
+                RedisWorker(
+                    self.config["host"],
+                    self.config["port"],
+                    self.config["num_read_oprs"],
+                    self.config["num_write_oprs"],
+                    data_size*1024
+                )
+            )
+        
+        return workers
+
+    def create_cluster(self, num_masters, num_replicas):
+        subprocess.run(['chmod', '777', CREATE_CLUSTER], check=True)
+        subprocess.run([CREATE_CLUSTER, str(num_masters), str(num_replicas)], check=True, text=True)
+        
+        with open(REDIS_HOSTS, 'r') as file:
+            self.redis_hosts = json.load(file)
+    
+    def del_cluster(self, num_masters, num_replicas):
+        subprocess.run(['chmod', '777', DEL_CLUSTER], check=True)
+        subprocess.run([DEL_CLUSTER, str(num_masters), str(num_replicas)], check=True, text=True)
+        
+        self.redis_hosts = None
+        
+    def setup_cluster_workers(self, num_workers, data_size):
+        startup_nodes = []
+        for host in self.redis_hosts['hosts']:
+            split = host.split(":")
+            ip, port = str(split[0]), int(split[1])
+            startup_nodes.append({"host":ip, "port":port})
+        
+        workers = []
+        for _ in range(num_workers):
+            workers.append(
+                RedisClusterWorker(
+                    startup_nodes,
+                    self.config["num_read_oprs"],
+                    self.config["num_write_oprs"],
+                    data_size*1024
+                )
+            )
+        
+        return workers
+    
+    def run_worker_process(self, worker, latencies, tail_latencies, opr_type="mixed"):
+        latency, tail_latency = worker.run(opr_type)
+        latencies.append(latency)
+        tail_latencies.append(tail_latency)
+    
+    def run_memusage_test(self):
+        print('Running Memory Usage Test for Redis')
+        
+        results = [["DATA SIZE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for data_size in self.config["data_size"]:
+            self.redis()
+            
+            workers = self.setup_workers(self.config["num_workers"], data_size)
+            
+            with multiprocessing.Manager() as manager:
+                latencies = manager.list()  # Shared list for latencies
+                tail_latencies = manager.list()  # Shared list for tail latencies
+                processes = []
+
+                for worker in workers:
+                    p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies, tail_latencies))
+                    processes.append(p)
+                    p.start()
+
+                for p in processes:
+                    p.join()
+
+                # Calculate the average latency across all workers
+                if latencies:
+                    avg_latency = sum(latencies) / len(latencies)
+                    avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                    print(f"Average latency with data size {data_size}KB: {avg_latency*1000:.4f} ms")
+                    print(f"Average tail latency with data size {data_size}KB: {avg_tail_latency*1000:.4f} ms")
+                    print(f"Average throughput with data size {data_size}KB: {1/(avg_latency):.6f} operations/sec")
+                    results.append([data_size, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+            
+            self.kill_redis()
+                
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print('Memory Usage Test for Redis Completed')
+    
+    def run_memusage_cluster_test(self):
+        print('Running Memory Usage Test on Redis Cluster')
+        
+        results = [["DATA SIZE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for data_size in self.config["data_size"]:
+            self.create_cluster(3, 0)
+            
+            workers = self.setup_cluster_workers(self.config["num_workers"], data_size)
+            
+            with multiprocessing.Manager() as manager:
+                latencies = manager.list()  # Shared list for latencies
+                tail_latencies = manager.list()  # Shared list for tail latencies
+                processes = []
+
+                for worker in workers:
+                    p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies, tail_latencies))
+                    processes.append(p)
+                    p.start()
+
+                for p in processes:
+                    p.join()
+
+                # Calculate the average latency across all workers
+                if latencies:
+                    avg_latency = sum(latencies) / len(latencies)
+                    avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                    print(f"Average latency with data size {data_size}KB: {avg_latency*1000:.4f} ms")
+                    print(f"Average tail latency with data size {data_size}KB: {avg_tail_latency*1000:.4f} ms")
+                    print(f"Average throughput with data size {data_size}KB: {1/(avg_latency):.6f} operations/sec")
+                    results.append([data_size, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+            
+            self.del_cluster(3, 0)
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print('Memory Usage Test for Redis Cluster Completed')
+            
+    def run(self):
+        print("Running Memory Usage Tests ...")
+        print("-"*100)
+        self.run_memusage_test()
+        print("-"*100)
+        self.run_memusage_cluster_test()
+        print("-"*100)
         print("\n\n")
