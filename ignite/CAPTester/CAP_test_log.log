@@ -1,0 +1,1927 @@
+2024-11-12 12:17:57 Starting Availability Test 
+2024-11-12 12:17:57 Testing with 3 servers. 
+2024-11-12 12:18:09 NUM SERVERS: 3, NUM FAILURES: 1, LATENCY: 0.51290000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 19496.97796841 oprs/ms 
+2024-11-12 12:18:10 Testing with 4 servers. 
+2024-11-12 12:18:15 NUM SERVERS: 4, NUM FAILURES: 1, LATENCY: 0.23523333 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 42510.98200368 oprs/ms 
+2024-11-12 12:18:16 Testing with 5 servers. 
+2024-11-12 12:18:23 NUM SERVERS: 5, NUM FAILURES: 2, LATENCY: 0.18700000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 53475.93582888 oprs/ms 
+2024-11-12 12:18:24 Testing with 6 servers. 
+2024-11-12 12:18:37 NUM SERVERS: 6, NUM FAILURES: 4, LATENCY: 0.18973333 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 52705.55165144 oprs/ms 
+2024-11-12 12:18:38 Availability Test Results: 
+2024-11-12 12:18:38 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-12 12:18:38 3, 1, 0.5129, 1.0, 19496.977968414896 
+2024-11-12 12:18:38 4, 1, 0.23523333333333332, 1.0, 42510.98200368429 
+2024-11-12 12:18:38 5, 2, 0.18699999999999997, 1.0, 53475.935828877016 
+2024-11-12 12:18:38 6, 4, 0.1897333333333333, 1.0, 52705.551651440626 
+2024-11-12 12:18:38 Starting Consistency Test 
+2024-11-12 12:18:39 Testing with 3 SERVERS 
+2024-11-12 12:18:43 Simulated failure of 1 master nodes. 
+2024-11-12 12:18:43 Consistency Test Results: 
+2024-11-12 12:18:43 A : Expected 0, Retrieved 0 
+2024-11-12 12:18:43 B : Expected 1, Retrieved 1 
+2024-11-12 12:18:43 C : Expected 2, Retrieved 2 
+2024-11-12 12:18:43 D : Expected 3, Retrieved 3 
+2024-11-12 12:18:43 E : Expected 4, Retrieved 4 
+2024-11-12 12:18:43 F : Expected 5, Retrieved 5 
+2024-11-12 12:18:43 G : Expected 6, Retrieved 6 
+2024-11-12 12:18:43 H : Expected 7, Retrieved 7 
+2024-11-12 12:18:43 I : Expected 8, Retrieved 8 
+2024-11-12 12:18:43 J : Expected 9, Retrieved 9 
+2024-11-12 12:18:43 K : Expected 10, Retrieved 10 
+2024-11-12 12:18:43 L : Expected 11, Retrieved 11 
+2024-11-12 12:18:43 M : Expected 12, Retrieved 12 
+2024-11-12 12:18:43 N : Expected 13, Retrieved 13 
+2024-11-12 12:18:43 O : Expected 14, Retrieved 14 
+2024-11-12 12:18:43 P : Expected 15, Retrieved 15 
+2024-11-12 12:18:43 Q : Expected 16, Retrieved 16 
+2024-11-12 12:18:43 R : Expected 17, Retrieved 17 
+2024-11-12 12:18:43 S : Expected 18, Retrieved 18 
+2024-11-12 12:18:43 T : Expected 19, Retrieved 19 
+2024-11-12 12:18:43 U : Expected 20, Retrieved 20 
+2024-11-12 12:18:43 V : Expected 21, Retrieved 21 
+2024-11-12 12:18:43 W : Expected 22, Retrieved 22 
+2024-11-12 12:18:43 X : Expected 23, Retrieved 23 
+2024-11-12 12:18:43 Y : Expected 24, Retrieved 24 
+2024-11-12 12:18:43 Z : Expected 25, Retrieved 25 
+2024-11-12 12:18:43 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:18:45 Testing with 4 SERVERS 
+2024-11-12 12:18:47 Simulated failure of 1 master nodes. 
+2024-11-12 12:18:47 Consistency Test Results: 
+2024-11-12 12:18:47 A : Expected 0, Retrieved 0 
+2024-11-12 12:18:47 B : Expected 1, Retrieved 1 
+2024-11-12 12:18:47 C : Expected 2, Retrieved 2 
+2024-11-12 12:18:47 D : Expected 3, Retrieved 3 
+2024-11-12 12:18:47 E : Expected 4, Retrieved 4 
+2024-11-12 12:18:47 F : Expected 5, Retrieved 5 
+2024-11-12 12:18:47 G : Expected 6, Retrieved 6 
+2024-11-12 12:18:47 H : Expected 7, Retrieved 7 
+2024-11-12 12:18:47 I : Expected 8, Retrieved 8 
+2024-11-12 12:18:47 J : Expected 9, Retrieved 9 
+2024-11-12 12:18:47 K : Expected 10, Retrieved 10 
+2024-11-12 12:18:47 L : Expected 11, Retrieved 11 
+2024-11-12 12:18:47 M : Expected 12, Retrieved 12 
+2024-11-12 12:18:47 N : Expected 13, Retrieved 13 
+2024-11-12 12:18:47 O : Expected 14, Retrieved 14 
+2024-11-12 12:18:47 P : Expected 15, Retrieved 15 
+2024-11-12 12:18:47 Q : Expected 16, Retrieved 16 
+2024-11-12 12:18:47 R : Expected 17, Retrieved 17 
+2024-11-12 12:18:47 S : Expected 18, Retrieved 18 
+2024-11-12 12:18:47 T : Expected 19, Retrieved 19 
+2024-11-12 12:18:47 U : Expected 20, Retrieved 20 
+2024-11-12 12:18:47 V : Expected 21, Retrieved 21 
+2024-11-12 12:18:47 W : Expected 22, Retrieved 22 
+2024-11-12 12:18:47 X : Expected 23, Retrieved 23 
+2024-11-12 12:18:47 Y : Expected 24, Retrieved 24 
+2024-11-12 12:18:47 Z : Expected 25, Retrieved 25 
+2024-11-12 12:18:47 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:18:49 Testing with 5 SERVERS 
+2024-11-12 12:18:53 Simulated failure of 2 master nodes. 
+2024-11-12 12:18:53 Consistency Test Results: 
+2024-11-12 12:18:53 A : Expected 0, Retrieved 0 
+2024-11-12 12:18:53 B : Expected 1, Retrieved 1 
+2024-11-12 12:18:53 C : Expected 2, Retrieved 2 
+2024-11-12 12:18:53 D : Expected 3, Retrieved 3 
+2024-11-12 12:18:53 E : Expected 4, Retrieved 4 
+2024-11-12 12:18:53 F : Expected 5, Retrieved 5 
+2024-11-12 12:18:53 G : Expected 6, Retrieved 6 
+2024-11-12 12:18:53 H : Expected 7, Retrieved 7 
+2024-11-12 12:18:53 I : Expected 8, Retrieved 8 
+2024-11-12 12:18:53 J : Expected 9, Retrieved 9 
+2024-11-12 12:18:53 K : Expected 10, Retrieved 10 
+2024-11-12 12:18:53 L : Expected 11, Retrieved 11 
+2024-11-12 12:18:53 M : Expected 12, Retrieved 12 
+2024-11-12 12:18:53 N : Expected 13, Retrieved 13 
+2024-11-12 12:18:53 O : Expected 14, Retrieved 14 
+2024-11-12 12:18:53 P : Expected 15, Retrieved 15 
+2024-11-12 12:18:53 Q : Expected 16, Retrieved 16 
+2024-11-12 12:18:53 R : Expected 17, Retrieved 17 
+2024-11-12 12:18:53 S : Expected 18, Retrieved 18 
+2024-11-12 12:18:53 T : Expected 19, Retrieved 19 
+2024-11-12 12:18:53 U : Expected 20, Retrieved 20 
+2024-11-12 12:18:53 V : Expected 21, Retrieved 21 
+2024-11-12 12:18:53 W : Expected 22, Retrieved 22 
+2024-11-12 12:18:53 X : Expected 23, Retrieved 23 
+2024-11-12 12:18:53 Y : Expected 24, Retrieved 24 
+2024-11-12 12:18:53 Z : Expected 25, Retrieved 25 
+2024-11-12 12:18:53 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:18:55 Testing with 6 SERVERS 
+2024-11-12 12:18:59 Simulated failure of 2 master nodes. 
+2024-11-12 12:18:59 Consistency Test Results: 
+2024-11-12 12:18:59 A : Expected 0, Retrieved 0 
+2024-11-12 12:18:59 B : Expected 1, Retrieved 1 
+2024-11-12 12:18:59 C : Expected 2, Retrieved 2 
+2024-11-12 12:18:59 D : Expected 3, Retrieved 3 
+2024-11-12 12:18:59 E : Expected 4, Retrieved 4 
+2024-11-12 12:18:59 F : Expected 5, Retrieved 5 
+2024-11-12 12:18:59 G : Expected 6, Retrieved 6 
+2024-11-12 12:18:59 H : Expected 7, Retrieved 7 
+2024-11-12 12:18:59 I : Expected 8, Retrieved 8 
+2024-11-12 12:18:59 J : Expected 9, Retrieved 9 
+2024-11-12 12:18:59 K : Expected 10, Retrieved 10 
+2024-11-12 12:18:59 L : Expected 11, Retrieved 11 
+2024-11-12 12:18:59 M : Expected 12, Retrieved 12 
+2024-11-12 12:18:59 N : Expected 13, Retrieved 13 
+2024-11-12 12:18:59 O : Expected 14, Retrieved 14 
+2024-11-12 12:18:59 P : Expected 15, Retrieved 15 
+2024-11-12 12:18:59 Q : Expected 16, Retrieved 16 
+2024-11-12 12:18:59 R : Expected 17, Retrieved 17 
+2024-11-12 12:18:59 S : Expected 18, Retrieved 18 
+2024-11-12 12:18:59 T : Expected 19, Retrieved 19 
+2024-11-12 12:18:59 U : Expected 20, Retrieved 20 
+2024-11-12 12:18:59 V : Expected 21, Retrieved 21 
+2024-11-12 12:18:59 W : Expected 22, Retrieved 22 
+2024-11-12 12:18:59 X : Expected 23, Retrieved 23 
+2024-11-12 12:18:59 Y : Expected 24, Retrieved 24 
+2024-11-12 12:18:59 Z : Expected 25, Retrieved 25 
+2024-11-12 12:18:59 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:19:00 Consistency Test Completed 
+2024-11-12 12:51:57 Starting Availability Test 
+2024-11-12 12:51:57 Testing with 3 servers. 
+2024-11-12 12:52:10 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 0.36470000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 27419.79709350 oprs/ms 
+2024-11-12 12:52:12 Testing with 4 servers. 
+2024-11-12 12:52:18 NUM SERVERS: 4, NUM FAILURES: 1, LATENCY: 0.22876667 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 43712.66210112 oprs/ms 
+2024-11-12 12:52:19 Testing with 5 servers. 
+2024-11-12 12:52:25 NUM SERVERS: 5, NUM FAILURES: 2, LATENCY: 0.18840000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 53078.55626327 oprs/ms 
+2024-11-12 12:52:27 Testing with 6 servers. 
+2024-11-12 12:52:30 NUM SERVERS: 6, NUM FAILURES: 1, LATENCY: 0.19130000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 52273.91531626 oprs/ms 
+2024-11-12 12:52:31 Availability Test Results: 
+2024-11-12 12:52:31 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-12 12:52:31 3, 2, 0.3647, 1.0, 27419.797093501507 
+2024-11-12 12:52:31 4, 1, 0.22876666666666667, 1.0, 43712.662101121954 
+2024-11-12 12:52:31 5, 2, 0.1884, 1.0, 53078.55626326964 
+2024-11-12 12:52:31 6, 1, 0.1913, 1.0, 52273.91531625719 
+2024-11-12 12:52:31 Starting Consistency Test 
+2024-11-12 12:52:31 Testing with 3 SERVERS 
+2024-11-12 12:52:34 Simulated failure of 1 master nodes. 
+2024-11-12 12:52:34 Consistency Test Results: 
+2024-11-12 12:52:34 A : Expected 0, Retrieved 0 
+2024-11-12 12:52:34 B : Expected 1, Retrieved 1 
+2024-11-12 12:52:34 C : Expected 2, Retrieved 2 
+2024-11-12 12:52:34 D : Expected 3, Retrieved 3 
+2024-11-12 12:52:34 E : Expected 4, Retrieved 4 
+2024-11-12 12:52:34 F : Expected 5, Retrieved 5 
+2024-11-12 12:52:34 G : Expected 6, Retrieved 6 
+2024-11-12 12:52:34 H : Expected 7, Retrieved 7 
+2024-11-12 12:52:34 I : Expected 8, Retrieved 8 
+2024-11-12 12:52:34 J : Expected 9, Retrieved 9 
+2024-11-12 12:52:34 K : Expected 10, Retrieved 10 
+2024-11-12 12:52:34 L : Expected 11, Retrieved 11 
+2024-11-12 12:52:34 M : Expected 12, Retrieved 12 
+2024-11-12 12:52:34 N : Expected 13, Retrieved 13 
+2024-11-12 12:52:34 O : Expected 14, Retrieved 14 
+2024-11-12 12:52:34 P : Expected 15, Retrieved 15 
+2024-11-12 12:52:34 Q : Expected 16, Retrieved 16 
+2024-11-12 12:52:34 R : Expected 17, Retrieved 17 
+2024-11-12 12:52:34 S : Expected 18, Retrieved 18 
+2024-11-12 12:52:34 T : Expected 19, Retrieved 19 
+2024-11-12 12:52:34 U : Expected 20, Retrieved 20 
+2024-11-12 12:52:34 V : Expected 21, Retrieved 21 
+2024-11-12 12:52:34 W : Expected 22, Retrieved 22 
+2024-11-12 12:52:34 X : Expected 23, Retrieved 23 
+2024-11-12 12:52:34 Y : Expected 24, Retrieved 24 
+2024-11-12 12:52:34 Z : Expected 25, Retrieved 25 
+2024-11-12 12:52:34 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:52:35 Testing with 4 SERVERS 
+2024-11-12 12:52:38 Simulated failure of 1 master nodes. 
+2024-11-12 12:52:38 Consistency Test Results: 
+2024-11-12 12:52:38 A : Expected 0, Retrieved 0 
+2024-11-12 12:52:38 B : Expected 1, Retrieved 1 
+2024-11-12 12:52:38 C : Expected 2, Retrieved 2 
+2024-11-12 12:52:38 D : Expected 3, Retrieved 3 
+2024-11-12 12:52:38 E : Expected 4, Retrieved 4 
+2024-11-12 12:52:38 F : Expected 5, Retrieved 5 
+2024-11-12 12:52:38 G : Expected 6, Retrieved 6 
+2024-11-12 12:52:38 H : Expected 7, Retrieved 7 
+2024-11-12 12:52:38 I : Expected 8, Retrieved 8 
+2024-11-12 12:52:38 J : Expected 9, Retrieved 9 
+2024-11-12 12:52:38 K : Expected 10, Retrieved 10 
+2024-11-12 12:52:38 L : Expected 11, Retrieved 11 
+2024-11-12 12:52:38 M : Expected 12, Retrieved 12 
+2024-11-12 12:52:38 N : Expected 13, Retrieved 13 
+2024-11-12 12:52:38 O : Expected 14, Retrieved 14 
+2024-11-12 12:52:38 P : Expected 15, Retrieved 15 
+2024-11-12 12:52:38 Q : Expected 16, Retrieved 16 
+2024-11-12 12:52:38 R : Expected 17, Retrieved 17 
+2024-11-12 12:52:38 S : Expected 18, Retrieved 18 
+2024-11-12 12:52:38 T : Expected 19, Retrieved 19 
+2024-11-12 12:52:38 U : Expected 20, Retrieved 20 
+2024-11-12 12:52:38 V : Expected 21, Retrieved 21 
+2024-11-12 12:52:38 W : Expected 22, Retrieved 22 
+2024-11-12 12:52:38 X : Expected 23, Retrieved 23 
+2024-11-12 12:52:38 Y : Expected 24, Retrieved 24 
+2024-11-12 12:52:38 Z : Expected 25, Retrieved 25 
+2024-11-12 12:52:38 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:52:40 Testing with 5 SERVERS 
+2024-11-12 12:52:43 Simulated failure of 2 master nodes. 
+2024-11-12 12:52:43 Consistency Test Results: 
+2024-11-12 12:52:43 A : Expected 0, Retrieved 0 
+2024-11-12 12:52:43 B : Expected 1, Retrieved 1 
+2024-11-12 12:52:43 C : Expected 2, Retrieved 2 
+2024-11-12 12:52:43 D : Expected 3, Retrieved 3 
+2024-11-12 12:52:43 E : Expected 4, Retrieved 4 
+2024-11-12 12:52:43 F : Expected 5, Retrieved 5 
+2024-11-12 12:52:43 G : Expected 6, Retrieved 6 
+2024-11-12 12:52:43 H : Expected 7, Retrieved 7 
+2024-11-12 12:52:43 I : Expected 8, Retrieved 8 
+2024-11-12 12:52:43 J : Expected 9, Retrieved 9 
+2024-11-12 12:52:43 K : Expected 10, Retrieved 10 
+2024-11-12 12:52:43 L : Expected 11, Retrieved 11 
+2024-11-12 12:52:43 M : Expected 12, Retrieved 12 
+2024-11-12 12:52:43 N : Expected 13, Retrieved 13 
+2024-11-12 12:52:43 O : Expected 14, Retrieved 14 
+2024-11-12 12:52:43 P : Expected 15, Retrieved 15 
+2024-11-12 12:52:43 Q : Expected 16, Retrieved 16 
+2024-11-12 12:52:43 R : Expected 17, Retrieved 17 
+2024-11-12 12:52:43 S : Expected 18, Retrieved 18 
+2024-11-12 12:52:43 T : Expected 19, Retrieved 19 
+2024-11-12 12:52:43 U : Expected 20, Retrieved 20 
+2024-11-12 12:52:43 V : Expected 21, Retrieved 21 
+2024-11-12 12:52:43 W : Expected 22, Retrieved 22 
+2024-11-12 12:52:43 X : Expected 23, Retrieved 23 
+2024-11-12 12:52:43 Y : Expected 24, Retrieved 24 
+2024-11-12 12:52:43 Z : Expected 25, Retrieved 25 
+2024-11-12 12:52:43 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:52:45 Testing with 6 SERVERS 
+2024-11-12 12:52:50 Simulated failure of 2 master nodes. 
+2024-11-12 12:52:50 Consistency Test Results: 
+2024-11-12 12:52:50 A : Expected 0, Retrieved 0 
+2024-11-12 12:52:50 B : Expected 1, Retrieved 1 
+2024-11-12 12:52:50 C : Expected 2, Retrieved 2 
+2024-11-12 12:52:50 D : Expected 3, Retrieved 3 
+2024-11-12 12:52:50 E : Expected 4, Retrieved 4 
+2024-11-12 12:52:50 F : Expected 5, Retrieved 5 
+2024-11-12 12:52:50 G : Expected 6, Retrieved 6 
+2024-11-12 12:52:50 H : Expected 7, Retrieved 7 
+2024-11-12 12:52:50 I : Expected 8, Retrieved 8 
+2024-11-12 12:52:50 J : Expected 9, Retrieved 9 
+2024-11-12 12:52:50 K : Expected 10, Retrieved 10 
+2024-11-12 12:52:50 L : Expected 11, Retrieved 11 
+2024-11-12 12:52:50 M : Expected 12, Retrieved 12 
+2024-11-12 12:52:50 N : Expected 13, Retrieved 13 
+2024-11-12 12:52:50 O : Expected 14, Retrieved 14 
+2024-11-12 12:52:50 P : Expected 15, Retrieved 15 
+2024-11-12 12:52:50 Q : Expected 16, Retrieved 16 
+2024-11-12 12:52:50 R : Expected 17, Retrieved 17 
+2024-11-12 12:52:50 S : Expected 18, Retrieved 18 
+2024-11-12 12:52:50 T : Expected 19, Retrieved 19 
+2024-11-12 12:52:50 U : Expected 20, Retrieved 20 
+2024-11-12 12:52:50 V : Expected 21, Retrieved 21 
+2024-11-12 12:52:50 W : Expected 22, Retrieved 22 
+2024-11-12 12:52:50 X : Expected 23, Retrieved 23 
+2024-11-12 12:52:50 Y : Expected 24, Retrieved 24 
+2024-11-12 12:52:50 Z : Expected 25, Retrieved 25 
+2024-11-12 12:52:50 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:52:51 Consistency Test Completed 
+2024-11-12 12:58:31 Starting Availability Test 
+2024-11-12 12:58:31 Testing with 3 servers. 
+2024-11-12 12:58:44 NUM SERVERS: 3, NUM FAILURES: 1, LATENCY: 0.64420000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 15523.12946290 oprs/ms 
+2024-11-12 12:58:45 Testing with 4 servers. 
+2024-11-12 12:58:54 NUM SERVERS: 4, NUM FAILURES: 2, LATENCY: 0.32580000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 30693.67710252 oprs/ms 
+2024-11-12 12:58:55 Testing with 5 servers. 
+2024-11-12 12:59:04 NUM SERVERS: 5, NUM FAILURES: 2, LATENCY: 0.22090000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 45269.35264826 oprs/ms 
+2024-11-12 12:59:05 Testing with 6 servers. 
+2024-11-12 12:59:14 NUM SERVERS: 6, NUM FAILURES: 2, LATENCY: 0.18616667 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 53715.30886303 oprs/ms 
+2024-11-12 12:59:15 Availability Test Results: 
+2024-11-12 12:59:15 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-12 12:59:15 3, 1, 0.6442, 1.0, 15523.12946289972 
+2024-11-12 12:59:15 4, 2, 0.32580000000000003, 1.0, 30693.67710251688 
+2024-11-12 12:59:15 5, 2, 0.22089999999999999, 1.0, 45269.35264825713 
+2024-11-12 12:59:15 6, 2, 0.18616666666666667, 1.0, 53715.30886302596 
+2024-11-12 12:59:15 Starting Consistency Test 
+2024-11-12 12:59:15 Testing with 3 SERVERS 
+2024-11-12 12:59:20 Simulated failure of 1 master nodes. 
+2024-11-12 12:59:20 Consistency Test Results: 
+2024-11-12 12:59:20 A : Expected 0, Retrieved 0 
+2024-11-12 12:59:20 B : Expected 1, Retrieved 1 
+2024-11-12 12:59:20 C : Expected 2, Retrieved 2 
+2024-11-12 12:59:20 D : Expected 3, Retrieved 3 
+2024-11-12 12:59:20 E : Expected 4, Retrieved 4 
+2024-11-12 12:59:20 F : Expected 5, Retrieved 5 
+2024-11-12 12:59:20 G : Expected 6, Retrieved 6 
+2024-11-12 12:59:20 H : Expected 7, Retrieved 7 
+2024-11-12 12:59:20 I : Expected 8, Retrieved 8 
+2024-11-12 12:59:20 J : Expected 9, Retrieved 9 
+2024-11-12 12:59:20 K : Expected 10, Retrieved 10 
+2024-11-12 12:59:20 L : Expected 11, Retrieved 11 
+2024-11-12 12:59:20 M : Expected 12, Retrieved 12 
+2024-11-12 12:59:20 N : Expected 13, Retrieved 13 
+2024-11-12 12:59:20 O : Expected 14, Retrieved 14 
+2024-11-12 12:59:20 P : Expected 15, Retrieved 15 
+2024-11-12 12:59:20 Q : Expected 16, Retrieved 16 
+2024-11-12 12:59:20 R : Expected 17, Retrieved 17 
+2024-11-12 12:59:20 S : Expected 18, Retrieved 18 
+2024-11-12 12:59:20 T : Expected 19, Retrieved 19 
+2024-11-12 12:59:20 U : Expected 20, Retrieved 20 
+2024-11-12 12:59:20 V : Expected 21, Retrieved 21 
+2024-11-12 12:59:20 W : Expected 22, Retrieved 22 
+2024-11-12 12:59:20 X : Expected 23, Retrieved 23 
+2024-11-12 12:59:20 Y : Expected 24, Retrieved 24 
+2024-11-12 12:59:20 Z : Expected 25, Retrieved 25 
+2024-11-12 12:59:20 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:59:22 Testing with 4 SERVERS 
+2024-11-12 12:59:24 Simulated failure of 1 master nodes. 
+2024-11-12 12:59:24 Consistency Test Results: 
+2024-11-12 12:59:24 A : Expected 0, Retrieved 0 
+2024-11-12 12:59:24 B : Expected 1, Retrieved 1 
+2024-11-12 12:59:24 C : Expected 2, Retrieved 2 
+2024-11-12 12:59:24 D : Expected 3, Retrieved 3 
+2024-11-12 12:59:24 E : Expected 4, Retrieved 4 
+2024-11-12 12:59:24 F : Expected 5, Retrieved 5 
+2024-11-12 12:59:24 G : Expected 6, Retrieved 6 
+2024-11-12 12:59:24 H : Expected 7, Retrieved 7 
+2024-11-12 12:59:24 I : Expected 8, Retrieved 8 
+2024-11-12 12:59:24 J : Expected 9, Retrieved 9 
+2024-11-12 12:59:24 K : Expected 10, Retrieved 10 
+2024-11-12 12:59:24 L : Expected 11, Retrieved 11 
+2024-11-12 12:59:24 M : Expected 12, Retrieved 12 
+2024-11-12 12:59:24 N : Expected 13, Retrieved 13 
+2024-11-12 12:59:24 O : Expected 14, Retrieved 14 
+2024-11-12 12:59:24 P : Expected 15, Retrieved 15 
+2024-11-12 12:59:24 Q : Expected 16, Retrieved 16 
+2024-11-12 12:59:24 R : Expected 17, Retrieved 17 
+2024-11-12 12:59:24 S : Expected 18, Retrieved 18 
+2024-11-12 12:59:24 T : Expected 19, Retrieved 19 
+2024-11-12 12:59:24 U : Expected 20, Retrieved 20 
+2024-11-12 12:59:24 V : Expected 21, Retrieved 21 
+2024-11-12 12:59:24 W : Expected 22, Retrieved 22 
+2024-11-12 12:59:24 X : Expected 23, Retrieved 23 
+2024-11-12 12:59:24 Y : Expected 24, Retrieved 24 
+2024-11-12 12:59:24 Z : Expected 25, Retrieved 25 
+2024-11-12 12:59:24 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:59:26 Testing with 5 SERVERS 
+2024-11-12 12:59:31 Simulated failure of 2 master nodes. 
+2024-11-12 12:59:31 Consistency Test Results: 
+2024-11-12 12:59:31 A : Expected 0, Retrieved 0 
+2024-11-12 12:59:31 B : Expected 1, Retrieved 1 
+2024-11-12 12:59:31 C : Expected 2, Retrieved 2 
+2024-11-12 12:59:31 D : Expected 3, Retrieved 3 
+2024-11-12 12:59:31 E : Expected 4, Retrieved 4 
+2024-11-12 12:59:31 F : Expected 5, Retrieved 5 
+2024-11-12 12:59:31 G : Expected 6, Retrieved 6 
+2024-11-12 12:59:31 H : Expected 7, Retrieved 7 
+2024-11-12 12:59:31 I : Expected 8, Retrieved 8 
+2024-11-12 12:59:31 J : Expected 9, Retrieved 9 
+2024-11-12 12:59:31 K : Expected 10, Retrieved 10 
+2024-11-12 12:59:31 L : Expected 11, Retrieved 11 
+2024-11-12 12:59:31 M : Expected 12, Retrieved 12 
+2024-11-12 12:59:31 N : Expected 13, Retrieved 13 
+2024-11-12 12:59:31 O : Expected 14, Retrieved 14 
+2024-11-12 12:59:31 P : Expected 15, Retrieved 15 
+2024-11-12 12:59:31 Q : Expected 16, Retrieved 16 
+2024-11-12 12:59:31 R : Expected 17, Retrieved 17 
+2024-11-12 12:59:31 S : Expected 18, Retrieved 18 
+2024-11-12 12:59:31 T : Expected 19, Retrieved 19 
+2024-11-12 12:59:31 U : Expected 20, Retrieved 20 
+2024-11-12 12:59:31 V : Expected 21, Retrieved 21 
+2024-11-12 12:59:31 W : Expected 22, Retrieved 22 
+2024-11-12 12:59:31 X : Expected 23, Retrieved 23 
+2024-11-12 12:59:31 Y : Expected 24, Retrieved 24 
+2024-11-12 12:59:31 Z : Expected 25, Retrieved 25 
+2024-11-12 12:59:31 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:59:32 Testing with 6 SERVERS 
+2024-11-12 12:59:35 Simulated failure of 2 master nodes. 
+2024-11-12 12:59:35 Consistency Test Results: 
+2024-11-12 12:59:35 A : Expected 0, Retrieved 0 
+2024-11-12 12:59:35 B : Expected 1, Retrieved 1 
+2024-11-12 12:59:35 C : Expected 2, Retrieved 2 
+2024-11-12 12:59:35 D : Expected 3, Retrieved 3 
+2024-11-12 12:59:35 E : Expected 4, Retrieved 4 
+2024-11-12 12:59:35 F : Expected 5, Retrieved 5 
+2024-11-12 12:59:35 G : Expected 6, Retrieved 6 
+2024-11-12 12:59:35 H : Expected 7, Retrieved 7 
+2024-11-12 12:59:35 I : Expected 8, Retrieved 8 
+2024-11-12 12:59:35 J : Expected 9, Retrieved 9 
+2024-11-12 12:59:35 K : Expected 10, Retrieved 10 
+2024-11-12 12:59:35 L : Expected 11, Retrieved 11 
+2024-11-12 12:59:35 M : Expected 12, Retrieved 12 
+2024-11-12 12:59:35 N : Expected 13, Retrieved 13 
+2024-11-12 12:59:35 O : Expected 14, Retrieved 14 
+2024-11-12 12:59:35 P : Expected 15, Retrieved 15 
+2024-11-12 12:59:35 Q : Expected 16, Retrieved 16 
+2024-11-12 12:59:35 R : Expected 17, Retrieved 17 
+2024-11-12 12:59:35 S : Expected 18, Retrieved 18 
+2024-11-12 12:59:35 T : Expected 19, Retrieved 19 
+2024-11-12 12:59:35 U : Expected 20, Retrieved 20 
+2024-11-12 12:59:35 V : Expected 21, Retrieved 21 
+2024-11-12 12:59:35 W : Expected 22, Retrieved 22 
+2024-11-12 12:59:35 X : Expected 23, Retrieved 23 
+2024-11-12 12:59:35 Y : Expected 24, Retrieved 24 
+2024-11-12 12:59:35 Z : Expected 25, Retrieved 25 
+2024-11-12 12:59:35 Consistency Accuracy: 100.00%
+ 
+2024-11-12 12:59:36 Consistency Test Completed 
+2024-11-12 14:22:53 Starting Availability Test 
+2024-11-12 14:22:53 Testing with 3 servers. 
+2024-11-12 14:23:08 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 1.49350000 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 6695.68128557 oprs/ms 
+2024-11-12 14:23:09 Testing with 6 servers. 
+2024-11-12 14:23:19 NUM SERVERS: 6, NUM FAILURES: 2, LATENCY: 0.85537500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 11690.77889814 oprs/ms 
+2024-11-12 14:23:20 Testing with 9 servers. 
+2024-11-12 14:23:41 NUM SERVERS: 9, NUM FAILURES: 4, LATENCY: 0.66062500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 15137.18070009 oprs/ms 
+2024-11-12 14:23:42 Availability Test Results: 
+2024-11-12 14:23:42 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-12 14:23:42 3, 2, 1.4935, 2.0, 6695.681285570807 
+2024-11-12 14:23:42 6, 2, 0.855375, 1.0, 11690.778898144088 
+2024-11-12 14:23:42 9, 4, 0.660625, 1.0, 15137.180700094606 
+2024-11-12 14:23:42 Starting Consistency Test 
+2024-11-12 14:23:42 Testing with 3 SERVERS 
+2024-11-12 14:23:45 Simulated failure of 1 master nodes. 
+2024-11-12 14:23:45 Consistency Test Results: 
+2024-11-12 14:23:45 A : Expected 0, Retrieved 0 
+2024-11-12 14:23:45 B : Expected 1, Retrieved 1 
+2024-11-12 14:23:45 C : Expected 2, Retrieved 2 
+2024-11-12 14:23:45 D : Expected 3, Retrieved 3 
+2024-11-12 14:23:45 E : Expected 4, Retrieved 4 
+2024-11-12 14:23:45 F : Expected 5, Retrieved 5 
+2024-11-12 14:23:45 G : Expected 6, Retrieved 6 
+2024-11-12 14:23:45 H : Expected 7, Retrieved 7 
+2024-11-12 14:23:45 I : Expected 8, Retrieved 8 
+2024-11-12 14:23:45 J : Expected 9, Retrieved 9 
+2024-11-12 14:23:45 K : Expected 10, Retrieved 10 
+2024-11-12 14:23:45 L : Expected 11, Retrieved 11 
+2024-11-12 14:23:45 M : Expected 12, Retrieved 12 
+2024-11-12 14:23:45 N : Expected 13, Retrieved 13 
+2024-11-12 14:23:45 O : Expected 14, Retrieved 14 
+2024-11-12 14:23:45 P : Expected 15, Retrieved 15 
+2024-11-12 14:23:45 Q : Expected 16, Retrieved 16 
+2024-11-12 14:23:45 R : Expected 17, Retrieved 17 
+2024-11-12 14:23:45 S : Expected 18, Retrieved 18 
+2024-11-12 14:23:45 T : Expected 19, Retrieved 19 
+2024-11-12 14:23:45 U : Expected 20, Retrieved 20 
+2024-11-12 14:23:45 V : Expected 21, Retrieved 21 
+2024-11-12 14:23:45 W : Expected 22, Retrieved 22 
+2024-11-12 14:23:45 X : Expected 23, Retrieved 23 
+2024-11-12 14:23:45 Y : Expected 24, Retrieved 24 
+2024-11-12 14:23:45 Z : Expected 25, Retrieved 25 
+2024-11-12 14:23:45 Consistency Accuracy: 100.00%
+ 
+2024-11-12 14:23:46 Testing with 6 SERVERS 
+2024-11-12 14:23:50 Simulated failure of 2 master nodes. 
+2024-11-12 14:23:50 Consistency Test Results: 
+2024-11-12 14:23:50 A : Expected 0, Retrieved 0 
+2024-11-12 14:23:50 B : Expected 1, Retrieved 1 
+2024-11-12 14:23:50 C : Expected 2, Retrieved 2 
+2024-11-12 14:23:50 D : Expected 3, Retrieved 3 
+2024-11-12 14:23:50 E : Expected 4, Retrieved 4 
+2024-11-12 14:23:50 F : Expected 5, Retrieved 5 
+2024-11-12 14:23:50 G : Expected 6, Retrieved 6 
+2024-11-12 14:23:50 H : Expected 7, Retrieved 7 
+2024-11-12 14:23:50 I : Expected 8, Retrieved 8 
+2024-11-12 14:23:50 J : Expected 9, Retrieved 9 
+2024-11-12 14:23:50 K : Expected 10, Retrieved 10 
+2024-11-12 14:23:50 L : Expected 11, Retrieved 11 
+2024-11-12 14:23:50 M : Expected 12, Retrieved 12 
+2024-11-12 14:23:50 N : Expected 13, Retrieved 13 
+2024-11-12 14:23:50 O : Expected 14, Retrieved 14 
+2024-11-12 14:23:50 P : Expected 15, Retrieved 15 
+2024-11-12 14:23:50 Q : Expected 16, Retrieved 16 
+2024-11-12 14:23:50 R : Expected 17, Retrieved 17 
+2024-11-12 14:23:50 S : Expected 18, Retrieved 18 
+2024-11-12 14:23:50 T : Expected 19, Retrieved 19 
+2024-11-12 14:23:50 U : Expected 20, Retrieved 20 
+2024-11-12 14:23:50 V : Expected 21, Retrieved 21 
+2024-11-12 14:23:50 W : Expected 22, Retrieved 22 
+2024-11-12 14:23:50 X : Expected 23, Retrieved 23 
+2024-11-12 14:23:50 Y : Expected 24, Retrieved 24 
+2024-11-12 14:23:50 Z : Expected 25, Retrieved 25 
+2024-11-12 14:23:50 Consistency Accuracy: 100.00%
+ 
+2024-11-12 14:23:51 Testing with 9 SERVERS 
+2024-11-12 14:23:56 Simulated failure of 4 master nodes. 
+2024-11-12 14:23:56 Consistency Test Results: 
+2024-11-12 14:23:56 A : Expected 0, Retrieved 0 
+2024-11-12 14:23:56 B : Expected 1, Retrieved 1 
+2024-11-12 14:23:56 C : Expected 2, Retrieved 2 
+2024-11-12 14:23:56 D : Expected 3, Retrieved 3 
+2024-11-12 14:23:56 E : Expected 4, Retrieved 4 
+2024-11-12 14:23:56 F : Expected 5, Retrieved 5 
+2024-11-12 14:23:56 G : Expected 6, Retrieved 6 
+2024-11-12 14:23:56 H : Expected 7, Retrieved 7 
+2024-11-12 14:23:56 I : Expected 8, Retrieved 8 
+2024-11-12 14:23:56 J : Expected 9, Retrieved 9 
+2024-11-12 14:23:56 K : Expected 10, Retrieved 10 
+2024-11-12 14:23:56 L : Expected 11, Retrieved 11 
+2024-11-12 14:23:56 M : Expected 12, Retrieved 12 
+2024-11-12 14:23:56 N : Expected 13, Retrieved 13 
+2024-11-12 14:23:56 O : Expected 14, Retrieved 14 
+2024-11-12 14:23:56 P : Expected 15, Retrieved 15 
+2024-11-12 14:23:56 Q : Expected 16, Retrieved 16 
+2024-11-12 14:23:56 R : Expected 17, Retrieved 17 
+2024-11-12 14:23:56 S : Expected 18, Retrieved 18 
+2024-11-12 14:23:56 T : Expected 19, Retrieved 19 
+2024-11-12 14:23:56 U : Expected 20, Retrieved 20 
+2024-11-12 14:23:56 V : Expected 21, Retrieved 21 
+2024-11-12 14:23:56 W : Expected 22, Retrieved 22 
+2024-11-12 14:23:56 X : Expected 23, Retrieved 23 
+2024-11-12 14:23:56 Y : Expected 24, Retrieved 24 
+2024-11-12 14:23:56 Z : Expected 25, Retrieved 25 
+2024-11-12 14:23:56 Consistency Accuracy: 100.00%
+ 
+2024-11-12 14:23:57 Consistency Test Completed 
+2024-11-16 08:28:18 Starting Availability Test 
+2024-11-16 08:28:18 Testing with 3 servers. 
+2024-11-16 08:28:30 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 1.94537500 ms, TAIL LATENCY: 3.00000000 ms, THROUGHPUT: 5140.39709568 oprs/ms 
+2024-11-16 08:28:32 Testing with 6 servers. 
+2024-11-16 08:28:54 NUM SERVERS: 6, NUM FAILURES: 5, LATENCY: 0.95475000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 10473.94605918 oprs/ms 
+2024-11-16 08:28:56 Testing with 9 servers. 
+2024-11-16 08:29:26 NUM SERVERS: 9, NUM FAILURES: 7, LATENCY: 0.56875000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 17582.41758242 oprs/ms 
+2024-11-16 08:29:28 Availability Test Results: 
+2024-11-16 08:29:28 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 08:29:28 3, 2, 1.945375, 3.0, 5140.397095675641 
+2024-11-16 08:29:28 6, 5, 0.95475, 1.0, 10473.946059177795 
+2024-11-16 08:29:28 9, 7, 0.56875, 1.0, 17582.417582417584 
+2024-11-16 08:29:28 Starting Consistency Test 
+2024-11-16 08:29:28 Testing with 3 SERVERS 
+2024-11-16 08:29:30 Simulated failure of 1 master nodes. 
+2024-11-16 08:29:30 Consistency Test Results: 
+2024-11-16 08:29:30 A : Expected 0, Retrieved 0 
+2024-11-16 08:29:30 B : Expected 1, Retrieved 1 
+2024-11-16 08:29:30 C : Expected 2, Retrieved 2 
+2024-11-16 08:29:30 D : Expected 3, Retrieved 3 
+2024-11-16 08:29:30 E : Expected 4, Retrieved 4 
+2024-11-16 08:29:30 F : Expected 5, Retrieved 5 
+2024-11-16 08:29:30 G : Expected 6, Retrieved 6 
+2024-11-16 08:29:30 H : Expected 7, Retrieved 7 
+2024-11-16 08:29:30 I : Expected 8, Retrieved 8 
+2024-11-16 08:29:30 J : Expected 9, Retrieved 9 
+2024-11-16 08:29:30 K : Expected 10, Retrieved 10 
+2024-11-16 08:29:30 L : Expected 11, Retrieved 11 
+2024-11-16 08:29:30 M : Expected 12, Retrieved 12 
+2024-11-16 08:29:30 N : Expected 13, Retrieved 13 
+2024-11-16 08:29:30 O : Expected 14, Retrieved 14 
+2024-11-16 08:29:30 P : Expected 15, Retrieved 15 
+2024-11-16 08:29:30 Q : Expected 16, Retrieved 16 
+2024-11-16 08:29:30 R : Expected 17, Retrieved 17 
+2024-11-16 08:29:30 S : Expected 18, Retrieved 18 
+2024-11-16 08:29:30 T : Expected 19, Retrieved 19 
+2024-11-16 08:29:30 U : Expected 20, Retrieved 20 
+2024-11-16 08:29:30 V : Expected 21, Retrieved 21 
+2024-11-16 08:29:30 W : Expected 22, Retrieved 22 
+2024-11-16 08:29:30 X : Expected 23, Retrieved 23 
+2024-11-16 08:29:30 Y : Expected 24, Retrieved 24 
+2024-11-16 08:29:30 Z : Expected 25, Retrieved 25 
+2024-11-16 08:29:30 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:29:32 Testing with 6 SERVERS 
+2024-11-16 08:29:35 Simulated failure of 2 master nodes. 
+2024-11-16 08:29:35 Consistency Test Results: 
+2024-11-16 08:29:35 A : Expected 0, Retrieved 0 
+2024-11-16 08:29:35 B : Expected 1, Retrieved 1 
+2024-11-16 08:29:35 C : Expected 2, Retrieved 2 
+2024-11-16 08:29:35 D : Expected 3, Retrieved 3 
+2024-11-16 08:29:35 E : Expected 4, Retrieved 4 
+2024-11-16 08:29:35 F : Expected 5, Retrieved 5 
+2024-11-16 08:29:35 G : Expected 6, Retrieved 6 
+2024-11-16 08:29:35 H : Expected 7, Retrieved 7 
+2024-11-16 08:29:35 I : Expected 8, Retrieved 8 
+2024-11-16 08:29:35 J : Expected 9, Retrieved 9 
+2024-11-16 08:29:35 K : Expected 10, Retrieved 10 
+2024-11-16 08:29:35 L : Expected 11, Retrieved 11 
+2024-11-16 08:29:35 M : Expected 12, Retrieved 12 
+2024-11-16 08:29:35 N : Expected 13, Retrieved 13 
+2024-11-16 08:29:35 O : Expected 14, Retrieved 14 
+2024-11-16 08:29:35 P : Expected 15, Retrieved 15 
+2024-11-16 08:29:35 Q : Expected 16, Retrieved 16 
+2024-11-16 08:29:35 R : Expected 17, Retrieved 17 
+2024-11-16 08:29:35 S : Expected 18, Retrieved 18 
+2024-11-16 08:29:35 T : Expected 19, Retrieved 19 
+2024-11-16 08:29:35 U : Expected 20, Retrieved 20 
+2024-11-16 08:29:35 V : Expected 21, Retrieved 21 
+2024-11-16 08:29:35 W : Expected 22, Retrieved 22 
+2024-11-16 08:29:35 X : Expected 23, Retrieved 23 
+2024-11-16 08:29:35 Y : Expected 24, Retrieved 24 
+2024-11-16 08:29:35 Z : Expected 25, Retrieved 25 
+2024-11-16 08:29:35 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:29:36 Testing with 9 SERVERS 
+2024-11-16 08:29:39 Simulated failure of 4 master nodes. 
+2024-11-16 08:29:39 Consistency Test Results: 
+2024-11-16 08:29:39 A : Expected 0, Retrieved 0 
+2024-11-16 08:29:39 B : Expected 1, Retrieved 1 
+2024-11-16 08:29:39 C : Expected 2, Retrieved 2 
+2024-11-16 08:29:39 D : Expected 3, Retrieved 3 
+2024-11-16 08:29:39 E : Expected 4, Retrieved 4 
+2024-11-16 08:29:39 F : Expected 5, Retrieved 5 
+2024-11-16 08:29:39 G : Expected 6, Retrieved 6 
+2024-11-16 08:29:39 H : Expected 7, Retrieved 7 
+2024-11-16 08:29:39 I : Expected 8, Retrieved 8 
+2024-11-16 08:29:39 J : Expected 9, Retrieved 9 
+2024-11-16 08:29:39 K : Expected 10, Retrieved 10 
+2024-11-16 08:29:39 L : Expected 11, Retrieved 11 
+2024-11-16 08:29:39 M : Expected 12, Retrieved 12 
+2024-11-16 08:29:39 N : Expected 13, Retrieved 13 
+2024-11-16 08:29:39 O : Expected 14, Retrieved 14 
+2024-11-16 08:29:39 P : Expected 15, Retrieved 15 
+2024-11-16 08:29:39 Q : Expected 16, Retrieved 16 
+2024-11-16 08:29:39 R : Expected 17, Retrieved 17 
+2024-11-16 08:29:39 S : Expected 18, Retrieved 18 
+2024-11-16 08:29:39 T : Expected 19, Retrieved 19 
+2024-11-16 08:29:39 U : Expected 20, Retrieved 20 
+2024-11-16 08:29:39 V : Expected 21, Retrieved 21 
+2024-11-16 08:29:39 W : Expected 22, Retrieved 22 
+2024-11-16 08:29:39 X : Expected 23, Retrieved 23 
+2024-11-16 08:29:39 Y : Expected 24, Retrieved 24 
+2024-11-16 08:29:39 Z : Expected 25, Retrieved 25 
+2024-11-16 08:29:39 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:29:40 Consistency Test Completed 
+2024-11-16 08:43:52 Starting Availability Test 
+2024-11-16 08:43:52 Testing with 3 servers. 
+2024-11-16 08:44:07 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 1.95837500 ms, TAIL LATENCY: 2.50000000 ms, THROUGHPUT: 5106.27433459 oprs/ms 
+2024-11-16 08:44:08 Testing with 6 servers. 
+2024-11-16 08:44:19 NUM SERVERS: 6, NUM FAILURES: 2, LATENCY: 0.75587500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 13229.70067802 oprs/ms 
+2024-11-16 08:44:20 Testing with 9 servers. 
+2024-11-16 08:44:45 NUM SERVERS: 9, NUM FAILURES: 7, LATENCY: 0.79675000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 12550.98839034 oprs/ms 
+2024-11-16 08:44:46 Availability Test Results: 
+NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+3, 2, 1.958375, 2.5, 5106.274334588626 
+6, 2, 0.755875, 1.0, 13229.70067802216 
+9, 7, 0.7967500000000001, 1.0, 12550.988390335739 
+2024-11-16 08:44:46 Starting Consistency Test 
+2024-11-16 08:44:46 Testing with 3 SERVERS 
+2024-11-16 08:44:50 Simulated failure of 1 master nodes. 
+2024-11-16 08:44:50 Consistency Test Results: 
+2024-11-16 08:44:50 A : Expected 0, Retrieved 0 
+2024-11-16 08:44:50 B : Expected 1, Retrieved 1 
+2024-11-16 08:44:50 C : Expected 2, Retrieved 2 
+2024-11-16 08:44:50 D : Expected 3, Retrieved 3 
+2024-11-16 08:44:50 E : Expected 4, Retrieved 4 
+2024-11-16 08:44:50 F : Expected 5, Retrieved 5 
+2024-11-16 08:44:50 G : Expected 6, Retrieved 6 
+2024-11-16 08:44:50 H : Expected 7, Retrieved 7 
+2024-11-16 08:44:50 I : Expected 8, Retrieved 8 
+2024-11-16 08:44:50 J : Expected 9, Retrieved 9 
+2024-11-16 08:44:50 K : Expected 10, Retrieved 10 
+2024-11-16 08:44:50 L : Expected 11, Retrieved 11 
+2024-11-16 08:44:50 M : Expected 12, Retrieved 12 
+2024-11-16 08:44:50 N : Expected 13, Retrieved 13 
+2024-11-16 08:44:50 O : Expected 14, Retrieved 14 
+2024-11-16 08:44:50 P : Expected 15, Retrieved 15 
+2024-11-16 08:44:50 Q : Expected 16, Retrieved 16 
+2024-11-16 08:44:50 R : Expected 17, Retrieved 17 
+2024-11-16 08:44:50 S : Expected 18, Retrieved 18 
+2024-11-16 08:44:50 T : Expected 19, Retrieved 19 
+2024-11-16 08:44:50 U : Expected 20, Retrieved 20 
+2024-11-16 08:44:50 V : Expected 21, Retrieved 21 
+2024-11-16 08:44:50 W : Expected 22, Retrieved 22 
+2024-11-16 08:44:50 X : Expected 23, Retrieved 23 
+2024-11-16 08:44:50 Y : Expected 24, Retrieved 24 
+2024-11-16 08:44:50 Z : Expected 25, Retrieved 25 
+2024-11-16 08:44:50 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:44:52 Testing with 6 SERVERS 
+2024-11-16 08:44:55 Simulated failure of 2 master nodes. 
+2024-11-16 08:44:55 Consistency Test Results: 
+2024-11-16 08:44:55 A : Expected 0, Retrieved 0 
+2024-11-16 08:44:55 B : Expected 1, Retrieved 1 
+2024-11-16 08:44:55 C : Expected 2, Retrieved 2 
+2024-11-16 08:44:55 D : Expected 3, Retrieved 3 
+2024-11-16 08:44:55 E : Expected 4, Retrieved 4 
+2024-11-16 08:44:55 F : Expected 5, Retrieved 5 
+2024-11-16 08:44:55 G : Expected 6, Retrieved 6 
+2024-11-16 08:44:55 H : Expected 7, Retrieved 7 
+2024-11-16 08:44:55 I : Expected 8, Retrieved 8 
+2024-11-16 08:44:55 J : Expected 9, Retrieved 9 
+2024-11-16 08:44:55 K : Expected 10, Retrieved 10 
+2024-11-16 08:44:55 L : Expected 11, Retrieved 11 
+2024-11-16 08:44:55 M : Expected 12, Retrieved 12 
+2024-11-16 08:44:55 N : Expected 13, Retrieved 13 
+2024-11-16 08:44:55 O : Expected 14, Retrieved 14 
+2024-11-16 08:44:55 P : Expected 15, Retrieved 15 
+2024-11-16 08:44:55 Q : Expected 16, Retrieved 16 
+2024-11-16 08:44:55 R : Expected 17, Retrieved 17 
+2024-11-16 08:44:55 S : Expected 18, Retrieved 18 
+2024-11-16 08:44:55 T : Expected 19, Retrieved 19 
+2024-11-16 08:44:55 U : Expected 20, Retrieved 20 
+2024-11-16 08:44:55 V : Expected 21, Retrieved 21 
+2024-11-16 08:44:55 W : Expected 22, Retrieved 22 
+2024-11-16 08:44:55 X : Expected 23, Retrieved 23 
+2024-11-16 08:44:55 Y : Expected 24, Retrieved 24 
+2024-11-16 08:44:55 Z : Expected 25, Retrieved 25 
+2024-11-16 08:44:55 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:44:57 Testing with 9 SERVERS 
+2024-11-16 08:45:01 Simulated failure of 4 master nodes. 
+2024-11-16 08:45:01 Consistency Test Results: 
+2024-11-16 08:45:01 A : Expected 0, Retrieved 0 
+2024-11-16 08:45:01 B : Expected 1, Retrieved 1 
+2024-11-16 08:45:01 C : Expected 2, Retrieved 2 
+2024-11-16 08:45:01 D : Expected 3, Retrieved 3 
+2024-11-16 08:45:01 E : Expected 4, Retrieved 4 
+2024-11-16 08:45:01 F : Expected 5, Retrieved 5 
+2024-11-16 08:45:01 G : Expected 6, Retrieved 6 
+2024-11-16 08:45:01 H : Expected 7, Retrieved 7 
+2024-11-16 08:45:01 I : Expected 8, Retrieved 8 
+2024-11-16 08:45:01 J : Expected 9, Retrieved 9 
+2024-11-16 08:45:01 K : Expected 10, Retrieved 10 
+2024-11-16 08:45:01 L : Expected 11, Retrieved 11 
+2024-11-16 08:45:01 M : Expected 12, Retrieved 12 
+2024-11-16 08:45:01 N : Expected 13, Retrieved 13 
+2024-11-16 08:45:01 O : Expected 14, Retrieved 14 
+2024-11-16 08:45:01 P : Expected 15, Retrieved 15 
+2024-11-16 08:45:01 Q : Expected 16, Retrieved 16 
+2024-11-16 08:45:01 R : Expected 17, Retrieved 17 
+2024-11-16 08:45:01 S : Expected 18, Retrieved 18 
+2024-11-16 08:45:01 T : Expected 19, Retrieved 19 
+2024-11-16 08:45:01 U : Expected 20, Retrieved 20 
+2024-11-16 08:45:01 V : Expected 21, Retrieved 21 
+2024-11-16 08:45:01 W : Expected 22, Retrieved 22 
+2024-11-16 08:45:01 X : Expected 23, Retrieved 23 
+2024-11-16 08:45:01 Y : Expected 24, Retrieved 24 
+2024-11-16 08:45:01 Z : Expected 25, Retrieved 25 
+2024-11-16 08:45:01 Consistency Accuracy: 100.00%
+ 
+2024-11-16 08:45:03 Consistency Test Completed 
+2024-11-16 11:20:20 Starting Availability Test 
+2024-11-16 11:20:20 Testing with 3 servers. 
+2024-11-16 11:20:31 NUM SERVERS: 3, NUM FAILURES: 1, LATENCY: 1.62100000 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.61696637 oprs/ms 
+2024-11-16 11:20:32 Testing with 6 servers. 
+2024-11-16 11:20:46 NUM SERVERS: 6, NUM FAILURES: 4, LATENCY: 0.89362500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.11914102 oprs/ms 
+2024-11-16 11:20:47 Testing with 9 servers. 
+2024-11-16 11:21:09 NUM SERVERS: 9, NUM FAILURES: 5, LATENCY: 0.68475000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.46049021 oprs/ms 
+2024-11-16 11:21:10 Availability Test Results: 
+2024-11-16 11:21:10 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 11:21:10 3, 1, 1.621, 2.0, 0.6169663728087167 
+2024-11-16 11:21:10 6, 4, 0.893625, 1.0, 1.1191410183443526 
+2024-11-16 11:21:10 9, 5, 0.68475, 1.0, 1.4604902077364863 
+2024-11-16 11:21:10 Starting Consistency Test 
+2024-11-16 11:21:10 Testing with 3 SERVERS 
+2024-11-16 11:21:14 Simulated failure of 1 master nodes. 
+2024-11-16 11:21:14 Consistency Test Results: 
+2024-11-16 11:21:14 A : Expected 0, Retrieved 0 
+2024-11-16 11:21:14 B : Expected 1, Retrieved 1 
+2024-11-16 11:21:14 C : Expected 2, Retrieved 2 
+2024-11-16 11:21:14 D : Expected 3, Retrieved 3 
+2024-11-16 11:21:14 E : Expected 4, Retrieved 4 
+2024-11-16 11:21:14 F : Expected 5, Retrieved 5 
+2024-11-16 11:21:14 G : Expected 6, Retrieved 6 
+2024-11-16 11:21:14 H : Expected 7, Retrieved 7 
+2024-11-16 11:21:14 I : Expected 8, Retrieved 8 
+2024-11-16 11:21:14 J : Expected 9, Retrieved 9 
+2024-11-16 11:21:14 K : Expected 10, Retrieved 10 
+2024-11-16 11:21:14 L : Expected 11, Retrieved 11 
+2024-11-16 11:21:14 M : Expected 12, Retrieved 12 
+2024-11-16 11:21:14 N : Expected 13, Retrieved 13 
+2024-11-16 11:21:14 O : Expected 14, Retrieved 14 
+2024-11-16 11:21:14 P : Expected 15, Retrieved 15 
+2024-11-16 11:21:14 Q : Expected 16, Retrieved 16 
+2024-11-16 11:21:14 R : Expected 17, Retrieved 17 
+2024-11-16 11:21:14 S : Expected 18, Retrieved 18 
+2024-11-16 11:21:14 T : Expected 19, Retrieved 19 
+2024-11-16 11:21:14 U : Expected 20, Retrieved 20 
+2024-11-16 11:21:14 V : Expected 21, Retrieved 21 
+2024-11-16 11:21:14 W : Expected 22, Retrieved 22 
+2024-11-16 11:21:14 X : Expected 23, Retrieved 23 
+2024-11-16 11:21:14 Y : Expected 24, Retrieved 24 
+2024-11-16 11:21:14 Z : Expected 25, Retrieved 25 
+2024-11-16 11:21:14 Consistency Accuracy: 100.00%
+ 
+2024-11-16 11:21:15 Testing with 6 SERVERS 
+2024-11-16 11:21:19 Simulated failure of 2 master nodes. 
+2024-11-16 11:21:19 Consistency Test Results: 
+2024-11-16 11:21:19 A : Expected 0, Retrieved 0 
+2024-11-16 11:21:19 B : Expected 1, Retrieved 1 
+2024-11-16 11:21:19 C : Expected 2, Retrieved 2 
+2024-11-16 11:21:19 D : Expected 3, Retrieved 3 
+2024-11-16 11:21:19 E : Expected 4, Retrieved 4 
+2024-11-16 11:21:19 F : Expected 5, Retrieved 5 
+2024-11-16 11:21:19 G : Expected 6, Retrieved 6 
+2024-11-16 11:21:19 H : Expected 7, Retrieved 7 
+2024-11-16 11:21:19 I : Expected 8, Retrieved 8 
+2024-11-16 11:21:19 J : Expected 9, Retrieved 9 
+2024-11-16 11:21:19 K : Expected 10, Retrieved 10 
+2024-11-16 11:21:19 L : Expected 11, Retrieved 11 
+2024-11-16 11:21:19 M : Expected 12, Retrieved 12 
+2024-11-16 11:21:19 N : Expected 13, Retrieved 13 
+2024-11-16 11:21:19 O : Expected 14, Retrieved 14 
+2024-11-16 11:21:19 P : Expected 15, Retrieved 15 
+2024-11-16 11:21:19 Q : Expected 16, Retrieved 16 
+2024-11-16 11:21:19 R : Expected 17, Retrieved 17 
+2024-11-16 11:21:19 S : Expected 18, Retrieved 18 
+2024-11-16 11:21:19 T : Expected 19, Retrieved 19 
+2024-11-16 11:21:19 U : Expected 20, Retrieved 20 
+2024-11-16 11:21:19 V : Expected 21, Retrieved 21 
+2024-11-16 11:21:19 W : Expected 22, Retrieved 22 
+2024-11-16 11:21:19 X : Expected 23, Retrieved 23 
+2024-11-16 11:21:19 Y : Expected 24, Retrieved 24 
+2024-11-16 11:21:19 Z : Expected 25, Retrieved 25 
+2024-11-16 11:21:19 Consistency Accuracy: 100.00%
+ 
+2024-11-16 11:21:20 Testing with 9 SERVERS 
+2024-11-16 11:21:24 Simulated failure of 4 master nodes. 
+2024-11-16 11:21:24 Consistency Test Results: 
+2024-11-16 11:21:24 A : Expected 0, Retrieved 0 
+2024-11-16 11:21:24 B : Expected 1, Retrieved 1 
+2024-11-16 11:21:24 C : Expected 2, Retrieved 2 
+2024-11-16 11:21:24 D : Expected 3, Retrieved 3 
+2024-11-16 11:21:24 E : Expected 4, Retrieved 4 
+2024-11-16 11:21:24 F : Expected 5, Retrieved 5 
+2024-11-16 11:21:24 G : Expected 6, Retrieved 6 
+2024-11-16 11:21:24 H : Expected 7, Retrieved 7 
+2024-11-16 11:21:24 I : Expected 8, Retrieved 8 
+2024-11-16 11:21:24 J : Expected 9, Retrieved 9 
+2024-11-16 11:21:24 K : Expected 10, Retrieved 10 
+2024-11-16 11:21:24 L : Expected 11, Retrieved 11 
+2024-11-16 11:21:24 M : Expected 12, Retrieved 12 
+2024-11-16 11:21:24 N : Expected 13, Retrieved 13 
+2024-11-16 11:21:24 O : Expected 14, Retrieved 14 
+2024-11-16 11:21:24 P : Expected 15, Retrieved 15 
+2024-11-16 11:21:24 Q : Expected 16, Retrieved 16 
+2024-11-16 11:21:24 R : Expected 17, Retrieved 17 
+2024-11-16 11:21:24 S : Expected 18, Retrieved 18 
+2024-11-16 11:21:24 T : Expected 19, Retrieved 19 
+2024-11-16 11:21:24 U : Expected 20, Retrieved 20 
+2024-11-16 11:21:24 V : Expected 21, Retrieved 21 
+2024-11-16 11:21:24 W : Expected 22, Retrieved 22 
+2024-11-16 11:21:24 X : Expected 23, Retrieved 23 
+2024-11-16 11:21:24 Y : Expected 24, Retrieved 24 
+2024-11-16 11:21:24 Z : Expected 25, Retrieved 25 
+2024-11-16 11:21:24 Consistency Accuracy: 100.00%
+ 
+2024-11-16 11:21:26 Consistency Test Completed 
+2024-11-16 12:14:29 Starting Availability Test 
+2024-11-16 12:14:29 Testing with 6 servers. 
+2024-11-16 12:14:52 NUM SERVERS: 6, NUM FAILURES: 3, LATENCY: 1.59150000 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.62835208 oprs/ms 
+2024-11-16 12:14:53 Testing with 6 servers. 
+2024-11-16 12:15:10 NUM SERVERS: 6, NUM FAILURES: 4, LATENCY: 0.76650000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.30473555 oprs/ms 
+2024-11-16 12:15:11 Testing with 9 servers. 
+2024-11-16 12:15:26 NUM SERVERS: 9, NUM FAILURES: 4, LATENCY: 0.54762500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.82673650 oprs/ms 
+2024-11-16 12:15:28 Testing with 9 servers. 
+2024-11-16 12:15:39 NUM SERVERS: 9, NUM FAILURES: 3, LATENCY: 0.56175000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.78028637 oprs/ms 
+2024-11-16 12:15:40 Availability Test Results: 
+2024-11-16 12:15:40 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 12:15:40 6, 3, 1.5915, 2.0, 0.6283520788663355 
+2024-11-16 12:15:40 6, 4, 0.7665, 1.0, 1.304735553103895 
+2024-11-16 12:15:40 9, 4, 0.547625, 1.0, 1.8267364990766621 
+2024-11-16 12:15:40 9, 3, 0.56175, 1.0, 1.7802863714493566 
+2024-11-16 12:15:40 Starting Consistency Test 
+2024-11-16 12:15:40 Testing with 3 SERVERS 
+2024-11-16 12:15:43 Simulated failure of 1 master nodes. 
+2024-11-16 12:15:43 Consistency Test Results: 
+2024-11-16 12:15:43 A : Expected 0, Retrieved 0 
+2024-11-16 12:15:43 B : Expected 1, Retrieved 1 
+2024-11-16 12:15:43 C : Expected 2, Retrieved 2 
+2024-11-16 12:15:43 D : Expected 3, Retrieved 3 
+2024-11-16 12:15:43 E : Expected 4, Retrieved 4 
+2024-11-16 12:15:43 F : Expected 5, Retrieved 5 
+2024-11-16 12:15:43 G : Expected 6, Retrieved 6 
+2024-11-16 12:15:43 H : Expected 7, Retrieved 7 
+2024-11-16 12:15:43 I : Expected 8, Retrieved 8 
+2024-11-16 12:15:43 J : Expected 9, Retrieved 9 
+2024-11-16 12:15:43 K : Expected 10, Retrieved 10 
+2024-11-16 12:15:43 L : Expected 11, Retrieved 11 
+2024-11-16 12:15:43 M : Expected 12, Retrieved 12 
+2024-11-16 12:15:43 N : Expected 13, Retrieved 13 
+2024-11-16 12:15:43 O : Expected 14, Retrieved 14 
+2024-11-16 12:15:43 P : Expected 15, Retrieved 15 
+2024-11-16 12:15:43 Q : Expected 16, Retrieved 16 
+2024-11-16 12:15:43 R : Expected 17, Retrieved 17 
+2024-11-16 12:15:43 S : Expected 18, Retrieved 18 
+2024-11-16 12:15:43 T : Expected 19, Retrieved 19 
+2024-11-16 12:15:43 U : Expected 20, Retrieved 20 
+2024-11-16 12:15:43 V : Expected 21, Retrieved 21 
+2024-11-16 12:15:43 W : Expected 22, Retrieved 22 
+2024-11-16 12:15:43 X : Expected 23, Retrieved 23 
+2024-11-16 12:15:43 Y : Expected 24, Retrieved 24 
+2024-11-16 12:15:43 Z : Expected 25, Retrieved 25 
+2024-11-16 12:15:43 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:15:44 Testing with 6 SERVERS 
+2024-11-16 12:15:48 Simulated failure of 2 master nodes. 
+2024-11-16 12:15:48 Consistency Test Results: 
+2024-11-16 12:15:48 A : Expected 0, Retrieved 0 
+2024-11-16 12:15:48 B : Expected 1, Retrieved 1 
+2024-11-16 12:15:48 C : Expected 2, Retrieved 2 
+2024-11-16 12:15:48 D : Expected 3, Retrieved 3 
+2024-11-16 12:15:48 E : Expected 4, Retrieved 4 
+2024-11-16 12:15:48 F : Expected 5, Retrieved 5 
+2024-11-16 12:15:48 G : Expected 6, Retrieved 6 
+2024-11-16 12:15:48 H : Expected 7, Retrieved 7 
+2024-11-16 12:15:48 I : Expected 8, Retrieved 8 
+2024-11-16 12:15:48 J : Expected 9, Retrieved 9 
+2024-11-16 12:15:48 K : Expected 10, Retrieved 10 
+2024-11-16 12:15:48 L : Expected 11, Retrieved 11 
+2024-11-16 12:15:48 M : Expected 12, Retrieved 12 
+2024-11-16 12:15:48 N : Expected 13, Retrieved 13 
+2024-11-16 12:15:48 O : Expected 14, Retrieved 14 
+2024-11-16 12:15:48 P : Expected 15, Retrieved 15 
+2024-11-16 12:15:48 Q : Expected 16, Retrieved 16 
+2024-11-16 12:15:48 R : Expected 17, Retrieved 17 
+2024-11-16 12:15:48 S : Expected 18, Retrieved 18 
+2024-11-16 12:15:48 T : Expected 19, Retrieved 19 
+2024-11-16 12:15:48 U : Expected 20, Retrieved 20 
+2024-11-16 12:15:48 V : Expected 21, Retrieved 21 
+2024-11-16 12:15:48 W : Expected 22, Retrieved 22 
+2024-11-16 12:15:48 X : Expected 23, Retrieved 23 
+2024-11-16 12:15:48 Y : Expected 24, Retrieved 24 
+2024-11-16 12:15:48 Z : Expected 25, Retrieved 25 
+2024-11-16 12:15:48 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:15:49 Testing with 9 SERVERS 
+2024-11-16 12:15:52 Simulated failure of 4 master nodes. 
+2024-11-16 12:15:52 Consistency Test Results: 
+2024-11-16 12:15:52 A : Expected 0, Retrieved 0 
+2024-11-16 12:15:52 B : Expected 1, Retrieved 1 
+2024-11-16 12:15:52 C : Expected 2, Retrieved 2 
+2024-11-16 12:15:52 D : Expected 3, Retrieved 3 
+2024-11-16 12:15:52 E : Expected 4, Retrieved 4 
+2024-11-16 12:15:52 F : Expected 5, Retrieved 5 
+2024-11-16 12:15:52 G : Expected 6, Retrieved 6 
+2024-11-16 12:15:52 H : Expected 7, Retrieved 7 
+2024-11-16 12:15:52 I : Expected 8, Retrieved 8 
+2024-11-16 12:15:52 J : Expected 9, Retrieved 9 
+2024-11-16 12:15:52 K : Expected 10, Retrieved 10 
+2024-11-16 12:15:52 L : Expected 11, Retrieved 11 
+2024-11-16 12:15:52 M : Expected 12, Retrieved 12 
+2024-11-16 12:15:52 N : Expected 13, Retrieved 13 
+2024-11-16 12:15:52 O : Expected 14, Retrieved 14 
+2024-11-16 12:15:52 P : Expected 15, Retrieved 15 
+2024-11-16 12:15:52 Q : Expected 16, Retrieved 16 
+2024-11-16 12:15:52 R : Expected 17, Retrieved 17 
+2024-11-16 12:15:52 S : Expected 18, Retrieved 18 
+2024-11-16 12:15:52 T : Expected 19, Retrieved 19 
+2024-11-16 12:15:52 U : Expected 20, Retrieved 20 
+2024-11-16 12:15:52 V : Expected 21, Retrieved 21 
+2024-11-16 12:15:52 W : Expected 22, Retrieved 22 
+2024-11-16 12:15:52 X : Expected 23, Retrieved 23 
+2024-11-16 12:15:52 Y : Expected 24, Retrieved 24 
+2024-11-16 12:15:52 Z : Expected 25, Retrieved 25 
+2024-11-16 12:15:52 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:15:53 Consistency Test Completed 
+2024-11-16 12:16:56 Starting Availability Test 
+2024-11-16 12:16:56 Testing with 3 servers. 
+2024-11-16 12:17:07 NUM SERVERS: 3, NUM FAILURES: 1, LATENCY: 1.48362500 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.67409065 oprs/ms 
+2024-11-16 12:17:09 Testing with 3 servers. 
+2024-11-16 12:17:17 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 0.76737500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.30342399 oprs/ms 
+2024-11-16 12:17:18 Testing with 6 servers. 
+2024-11-16 12:17:31 NUM SERVERS: 6, NUM FAILURES: 3, LATENCY: 0.69312500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.44285443 oprs/ms 
+2024-11-16 12:17:33 Testing with 6 servers. 
+2024-11-16 12:17:53 NUM SERVERS: 6, NUM FAILURES: 5, LATENCY: 0.56062500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.78400353 oprs/ms 
+2024-11-16 12:17:55 Testing with 9 servers. 
+2024-11-16 12:18:09 NUM SERVERS: 9, NUM FAILURES: 3, LATENCY: 0.55975000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.78682581 oprs/ms 
+2024-11-16 12:18:11 Testing with 9 servers. 
+2024-11-16 12:18:27 NUM SERVERS: 9, NUM FAILURES: 4, LATENCY: 0.58037500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.72328292 oprs/ms 
+2024-11-16 12:18:28 Availability Test Results: 
+2024-11-16 12:18:28 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 12:18:28 3, 1, 1.483625, 2.0, 0.674090648530631 
+2024-11-16 12:18:28 3, 2, 0.767375, 1.0, 1.3034239938762802 
+2024-11-16 12:18:28 6, 3, 0.693125, 1.0, 1.4428544262135146 
+2024-11-16 12:18:28 6, 5, 0.560625, 1.0, 1.7840035264168108 
+2024-11-16 12:18:28 9, 3, 0.55975, 1.0, 1.7868258109461834 
+2024-11-16 12:18:28 9, 4, 0.580375, 1.0, 1.7232829199257125 
+2024-11-16 12:18:28 Starting Consistency Test 
+2024-11-16 12:18:28 Testing with 3 SERVERS 
+2024-11-16 12:18:31 Simulated failure of 1 master nodes. 
+2024-11-16 12:18:31 Consistency Test Results: 
+2024-11-16 12:18:31 A : Expected 0, Retrieved 0 
+2024-11-16 12:18:31 B : Expected 1, Retrieved 1 
+2024-11-16 12:18:31 C : Expected 2, Retrieved 2 
+2024-11-16 12:18:31 D : Expected 3, Retrieved 3 
+2024-11-16 12:18:31 E : Expected 4, Retrieved 4 
+2024-11-16 12:18:31 F : Expected 5, Retrieved 5 
+2024-11-16 12:18:31 G : Expected 6, Retrieved 6 
+2024-11-16 12:18:31 H : Expected 7, Retrieved 7 
+2024-11-16 12:18:31 I : Expected 8, Retrieved 8 
+2024-11-16 12:18:31 J : Expected 9, Retrieved 9 
+2024-11-16 12:18:31 K : Expected 10, Retrieved 10 
+2024-11-16 12:18:31 L : Expected 11, Retrieved 11 
+2024-11-16 12:18:31 M : Expected 12, Retrieved 12 
+2024-11-16 12:18:31 N : Expected 13, Retrieved 13 
+2024-11-16 12:18:31 O : Expected 14, Retrieved 14 
+2024-11-16 12:18:31 P : Expected 15, Retrieved 15 
+2024-11-16 12:18:31 Q : Expected 16, Retrieved 16 
+2024-11-16 12:18:31 R : Expected 17, Retrieved 17 
+2024-11-16 12:18:31 S : Expected 18, Retrieved 18 
+2024-11-16 12:18:31 T : Expected 19, Retrieved 19 
+2024-11-16 12:18:31 U : Expected 20, Retrieved 20 
+2024-11-16 12:18:31 V : Expected 21, Retrieved 21 
+2024-11-16 12:18:31 W : Expected 22, Retrieved 22 
+2024-11-16 12:18:31 X : Expected 23, Retrieved 23 
+2024-11-16 12:18:31 Y : Expected 24, Retrieved 24 
+2024-11-16 12:18:31 Z : Expected 25, Retrieved 25 
+2024-11-16 12:18:31 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:18:32 Testing with 6 SERVERS 
+2024-11-16 12:18:36 Simulated failure of 2 master nodes. 
+2024-11-16 12:18:36 Consistency Test Results: 
+2024-11-16 12:18:36 A : Expected 0, Retrieved 0 
+2024-11-16 12:18:36 B : Expected 1, Retrieved 1 
+2024-11-16 12:18:36 C : Expected 2, Retrieved 2 
+2024-11-16 12:18:36 D : Expected 3, Retrieved 3 
+2024-11-16 12:18:36 E : Expected 4, Retrieved 4 
+2024-11-16 12:18:36 F : Expected 5, Retrieved 5 
+2024-11-16 12:18:36 G : Expected 6, Retrieved 6 
+2024-11-16 12:18:36 H : Expected 7, Retrieved 7 
+2024-11-16 12:18:36 I : Expected 8, Retrieved 8 
+2024-11-16 12:18:36 J : Expected 9, Retrieved 9 
+2024-11-16 12:18:36 K : Expected 10, Retrieved 10 
+2024-11-16 12:18:36 L : Expected 11, Retrieved 11 
+2024-11-16 12:18:36 M : Expected 12, Retrieved 12 
+2024-11-16 12:18:36 N : Expected 13, Retrieved 13 
+2024-11-16 12:18:36 O : Expected 14, Retrieved 14 
+2024-11-16 12:18:36 P : Expected 15, Retrieved 15 
+2024-11-16 12:18:36 Q : Expected 16, Retrieved 16 
+2024-11-16 12:18:36 R : Expected 17, Retrieved 17 
+2024-11-16 12:18:36 S : Expected 18, Retrieved 18 
+2024-11-16 12:18:36 T : Expected 19, Retrieved 19 
+2024-11-16 12:18:36 U : Expected 20, Retrieved 20 
+2024-11-16 12:18:36 V : Expected 21, Retrieved 21 
+2024-11-16 12:18:36 W : Expected 22, Retrieved 22 
+2024-11-16 12:18:36 X : Expected 23, Retrieved 23 
+2024-11-16 12:18:36 Y : Expected 24, Retrieved 24 
+2024-11-16 12:18:36 Z : Expected 25, Retrieved 25 
+2024-11-16 12:18:36 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:18:37 Testing with 9 SERVERS 
+2024-11-16 12:18:40 Simulated failure of 4 master nodes. 
+2024-11-16 12:18:40 Consistency Test Results: 
+2024-11-16 12:18:40 A : Expected 0, Retrieved 0 
+2024-11-16 12:18:40 B : Expected 1, Retrieved 1 
+2024-11-16 12:18:40 C : Expected 2, Retrieved 2 
+2024-11-16 12:18:40 D : Expected 3, Retrieved 3 
+2024-11-16 12:18:40 E : Expected 4, Retrieved 4 
+2024-11-16 12:18:40 F : Expected 5, Retrieved 5 
+2024-11-16 12:18:40 G : Expected 6, Retrieved 6 
+2024-11-16 12:18:40 H : Expected 7, Retrieved 7 
+2024-11-16 12:18:40 I : Expected 8, Retrieved 8 
+2024-11-16 12:18:40 J : Expected 9, Retrieved 9 
+2024-11-16 12:18:40 K : Expected 10, Retrieved 10 
+2024-11-16 12:18:40 L : Expected 11, Retrieved 11 
+2024-11-16 12:18:40 M : Expected 12, Retrieved 12 
+2024-11-16 12:18:40 N : Expected 13, Retrieved 13 
+2024-11-16 12:18:40 O : Expected 14, Retrieved 14 
+2024-11-16 12:18:40 P : Expected 15, Retrieved 15 
+2024-11-16 12:18:40 Q : Expected 16, Retrieved 16 
+2024-11-16 12:18:40 R : Expected 17, Retrieved 17 
+2024-11-16 12:18:40 S : Expected 18, Retrieved 18 
+2024-11-16 12:18:40 T : Expected 19, Retrieved 19 
+2024-11-16 12:18:40 U : Expected 20, Retrieved 20 
+2024-11-16 12:18:40 V : Expected 21, Retrieved 21 
+2024-11-16 12:18:40 W : Expected 22, Retrieved 22 
+2024-11-16 12:18:40 X : Expected 23, Retrieved 23 
+2024-11-16 12:18:40 Y : Expected 24, Retrieved 24 
+2024-11-16 12:18:40 Z : Expected 25, Retrieved 25 
+2024-11-16 12:18:40 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:18:41 Consistency Test Completed 
+2024-11-16 12:23:47 Starting Availability Test 
+2024-11-16 12:23:47 Testing with 3 servers. 
+2024-11-16 12:23:59 NUM SERVERS: 3, NUM FAILURES: 1, LATENCY: 1.39087500 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.71907049 oprs/ms 
+2024-11-16 12:24:00 Testing with 3 servers. 
+2024-11-16 12:24:10 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 0.61612500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.62357521 oprs/ms 
+2024-11-16 12:24:11 Testing with 6 servers. 
+2024-11-16 12:24:17 NUM SERVERS: 6, NUM FAILURES: 1, LATENCY: 0.63350000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.57865212 oprs/ms 
+2024-11-16 12:24:18 Testing with 6 servers. 
+2024-11-16 12:24:23 NUM SERVERS: 6, NUM FAILURES: 1, LATENCY: 0.61000000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.63962339 oprs/ms 
+2024-11-16 12:24:24 Testing with 9 servers. 
+2024-11-16 12:24:44 NUM SERVERS: 9, NUM FAILURES: 5, LATENCY: 0.66712500 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.49967305 oprs/ms 
+2024-11-16 12:24:45 Testing with 9 servers. 
+2024-11-16 12:25:11 NUM SERVERS: 9, NUM FAILURES: 6, LATENCY: 0.63025000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.58754137 oprs/ms 
+2024-11-16 12:25:13 Availability Test Results: 
+2024-11-16 12:25:13 NUM SERVERS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 12:25:13 3, 1, 1.390875, 2.0, 0.7190704868024311 
+2024-11-16 12:25:13 3, 2, 0.616125, 1.0, 1.6235752057037511 
+2024-11-16 12:25:13 6, 1, 0.6335, 1.0, 1.578652115091834 
+2024-11-16 12:25:13 6, 1, 0.61, 1.0, 1.639623389600065 
+2024-11-16 12:25:13 9, 5, 0.6671250000000001, 1.0, 1.4996730460691194 
+2024-11-16 12:25:13 9, 6, 0.63025, 1.0, 1.5875413714334634 
+2024-11-16 12:25:13 Starting Consistency Test 
+2024-11-16 12:25:13 Testing with 3 SERVERS 
+2024-11-16 12:25:17 Simulated failure of 1 master nodes. 
+2024-11-16 12:25:17 Consistency Test Results: 
+2024-11-16 12:25:17 A : Expected 0, Retrieved 0 
+2024-11-16 12:25:17 B : Expected 1, Retrieved 1 
+2024-11-16 12:25:17 C : Expected 2, Retrieved 2 
+2024-11-16 12:25:17 D : Expected 3, Retrieved 3 
+2024-11-16 12:25:17 E : Expected 4, Retrieved 4 
+2024-11-16 12:25:17 F : Expected 5, Retrieved 5 
+2024-11-16 12:25:17 G : Expected 6, Retrieved 6 
+2024-11-16 12:25:17 H : Expected 7, Retrieved 7 
+2024-11-16 12:25:17 I : Expected 8, Retrieved 8 
+2024-11-16 12:25:17 J : Expected 9, Retrieved 9 
+2024-11-16 12:25:17 K : Expected 10, Retrieved 10 
+2024-11-16 12:25:17 L : Expected 11, Retrieved 11 
+2024-11-16 12:25:17 M : Expected 12, Retrieved 12 
+2024-11-16 12:25:17 N : Expected 13, Retrieved 13 
+2024-11-16 12:25:17 O : Expected 14, Retrieved 14 
+2024-11-16 12:25:17 P : Expected 15, Retrieved 15 
+2024-11-16 12:25:17 Q : Expected 16, Retrieved 16 
+2024-11-16 12:25:17 R : Expected 17, Retrieved 17 
+2024-11-16 12:25:17 S : Expected 18, Retrieved 18 
+2024-11-16 12:25:17 T : Expected 19, Retrieved 19 
+2024-11-16 12:25:17 U : Expected 20, Retrieved 20 
+2024-11-16 12:25:17 V : Expected 21, Retrieved 21 
+2024-11-16 12:25:17 W : Expected 22, Retrieved 22 
+2024-11-16 12:25:17 X : Expected 23, Retrieved 23 
+2024-11-16 12:25:17 Y : Expected 24, Retrieved 24 
+2024-11-16 12:25:17 Z : Expected 25, Retrieved 25 
+2024-11-16 12:25:17 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:25:18 Testing with 6 SERVERS 
+2024-11-16 12:25:21 Simulated failure of 2 master nodes. 
+2024-11-16 12:25:21 Consistency Test Results: 
+2024-11-16 12:25:21 A : Expected 0, Retrieved 0 
+2024-11-16 12:25:21 B : Expected 1, Retrieved 1 
+2024-11-16 12:25:21 C : Expected 2, Retrieved 2 
+2024-11-16 12:25:21 D : Expected 3, Retrieved 3 
+2024-11-16 12:25:21 E : Expected 4, Retrieved 4 
+2024-11-16 12:25:21 F : Expected 5, Retrieved 5 
+2024-11-16 12:25:21 G : Expected 6, Retrieved 6 
+2024-11-16 12:25:21 H : Expected 7, Retrieved 7 
+2024-11-16 12:25:21 I : Expected 8, Retrieved 8 
+2024-11-16 12:25:21 J : Expected 9, Retrieved 9 
+2024-11-16 12:25:21 K : Expected 10, Retrieved 10 
+2024-11-16 12:25:21 L : Expected 11, Retrieved 11 
+2024-11-16 12:25:21 M : Expected 12, Retrieved 12 
+2024-11-16 12:25:21 N : Expected 13, Retrieved 13 
+2024-11-16 12:25:21 O : Expected 14, Retrieved 14 
+2024-11-16 12:25:21 P : Expected 15, Retrieved 15 
+2024-11-16 12:25:21 Q : Expected 16, Retrieved 16 
+2024-11-16 12:25:21 R : Expected 17, Retrieved 17 
+2024-11-16 12:25:21 S : Expected 18, Retrieved 18 
+2024-11-16 12:25:21 T : Expected 19, Retrieved 19 
+2024-11-16 12:25:21 U : Expected 20, Retrieved 20 
+2024-11-16 12:25:21 V : Expected 21, Retrieved 21 
+2024-11-16 12:25:21 W : Expected 22, Retrieved 22 
+2024-11-16 12:25:21 X : Expected 23, Retrieved 23 
+2024-11-16 12:25:21 Y : Expected 24, Retrieved 24 
+2024-11-16 12:25:21 Z : Expected 25, Retrieved 25 
+2024-11-16 12:25:21 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:25:22 Testing with 9 SERVERS 
+2024-11-16 12:25:26 Simulated failure of 4 master nodes. 
+2024-11-16 12:25:26 Consistency Test Results: 
+2024-11-16 12:25:26 A : Expected 0, Retrieved 0 
+2024-11-16 12:25:26 B : Expected 1, Retrieved 1 
+2024-11-16 12:25:26 C : Expected 2, Retrieved 2 
+2024-11-16 12:25:26 D : Expected 3, Retrieved 3 
+2024-11-16 12:25:26 E : Expected 4, Retrieved 4 
+2024-11-16 12:25:26 F : Expected 5, Retrieved 5 
+2024-11-16 12:25:26 G : Expected 6, Retrieved 6 
+2024-11-16 12:25:26 H : Expected 7, Retrieved 7 
+2024-11-16 12:25:26 I : Expected 8, Retrieved 8 
+2024-11-16 12:25:26 J : Expected 9, Retrieved 9 
+2024-11-16 12:25:26 K : Expected 10, Retrieved 10 
+2024-11-16 12:25:26 L : Expected 11, Retrieved 11 
+2024-11-16 12:25:26 M : Expected 12, Retrieved 12 
+2024-11-16 12:25:26 N : Expected 13, Retrieved 13 
+2024-11-16 12:25:26 O : Expected 14, Retrieved 14 
+2024-11-16 12:25:26 P : Expected 15, Retrieved 15 
+2024-11-16 12:25:26 Q : Expected 16, Retrieved 16 
+2024-11-16 12:25:26 R : Expected 17, Retrieved 17 
+2024-11-16 12:25:26 S : Expected 18, Retrieved 18 
+2024-11-16 12:25:26 T : Expected 19, Retrieved 19 
+2024-11-16 12:25:26 U : Expected 20, Retrieved 20 
+2024-11-16 12:25:26 V : Expected 21, Retrieved 21 
+2024-11-16 12:25:26 W : Expected 22, Retrieved 22 
+2024-11-16 12:25:26 X : Expected 23, Retrieved 23 
+2024-11-16 12:25:26 Y : Expected 24, Retrieved 24 
+2024-11-16 12:25:26 Z : Expected 25, Retrieved 25 
+2024-11-16 12:25:26 Consistency Accuracy: 100.00%
+ 
+2024-11-16 12:25:27 Consistency Test Completed 
+2024-11-16 14:21:01 Starting Availability Test 
+2024-11-16 14:21:01 Testing with 3 servers. 
+2024-11-16 14:21:17 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 1.71175000 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.58419859 oprs/ms 
+2024-11-16 14:21:18 Testing with 3 servers. 
+2024-11-16 14:21:28 NUM SERVERS: 3, NUM FAILURES: 2, LATENCY: 0.69175000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.44572806 oprs/ms 
+2024-11-16 14:21:29 Testing with 6 servers. 
+2024-11-16 14:22:21 Starting Availability Test 
+2024-11-16 14:22:21 Testing with 3 servers. 
+2024-11-16 14:22:36 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 2, LATENCY: 1.54450000 ms, TAIL LATENCY: 2.00000000 ms, THROUGHPUT: 0.64745947 oprs/ms 
+2024-11-16 14:22:37 Testing with 3 servers. 
+2024-11-16 14:22:46 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 2, LATENCY: 0.67250000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.48718858 oprs/ms 
+2024-11-16 14:22:47 Testing with 6 servers. 
+2024-11-16 14:23:06 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 5, LATENCY: 0.61950000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.61452606 oprs/ms 
+2024-11-16 14:23:08 Testing with 6 servers. 
+2024-11-16 14:23:17 NUM SERVERS: 6, NUM BACKUPS: 2, NUM FAILURES: 3, LATENCY: 0.72250000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.38415260 oprs/ms 
+2024-11-16 14:23:19 Testing with 6 servers. 
+2024-11-16 14:23:27 NUM SERVERS: 6, NUM BACKUPS: 4, NUM FAILURES: 2, LATENCY: 0.80850000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.23691393 oprs/ms 
+2024-11-16 14:23:29 Testing with 9 servers. 
+2024-11-16 14:23:38 NUM SERVERS: 9, NUM BACKUPS: 1, NUM FAILURES: 2, LATENCY: 0.55150000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.81340915 oprs/ms 
+2024-11-16 14:23:39 Testing with 9 servers. 
+2024-11-16 14:24:06 NUM SERVERS: 9, NUM BACKUPS: 2, NUM FAILURES: 7, LATENCY: 0.38300000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2.61212356 oprs/ms 
+2024-11-16 14:24:07 Availability Test Results: 
+2024-11-16 14:24:07 NUM SERVERS, NUM BACKUPS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 14:24:07 3, 1, 2, 1.5445, 2.0, 0.6474594712985128 
+2024-11-16 14:24:07 3, 2,  2, 0.6725000000000001, 1.0, 1.487188584556037 
+2024-11-16 14:24:07 6, 1, 5, 0.6194999999999999, 1.0, 1.614526062489863 
+2024-11-16 14:24:07 6, 2, 3, 0.7224999999999999, 1.0, 1.3841525951098894 
+2024-11-16 14:24:07 6, 4, 2, 0.8085, 1.0, 1.2369139273512304 
+2024-11-16 14:24:07 9, 1, 2, 0.5515000000000001, 1.0, 1.8134091492664834 
+2024-11-16 14:24:07 9, 2, 7, 0.383, 1.0, 2.6121235579486966 
+2024-11-16 14:30:18 Starting Availability Test 
+2024-11-16 14:30:18 Testing with 3 servers. 
+2024-11-16 14:30:28 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 1, LATENCY: 0.96875000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.03226322 oprs/ms 
+2024-11-16 14:30:29 Testing with 3 servers. 
+2024-11-16 14:30:34 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 1, LATENCY: 0.49800000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2.00818164 oprs/ms 
+2024-11-16 14:30:35 Testing with 6 servers. 
+2024-11-16 14:30:47 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 3, LATENCY: 0.53675000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.86343119 oprs/ms 
+2024-11-16 14:30:48 Testing with 6 servers. 
+2024-11-16 14:31:06 NUM SERVERS: 6, NUM BACKUPS: 2, NUM FAILURES: 5, LATENCY: 0.54075000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.84947458 oprs/ms 
+2024-11-16 14:31:07 Testing with 6 servers. 
+2024-11-16 14:31:16 NUM SERVERS: 6, NUM BACKUPS: 4, NUM FAILURES: 2, LATENCY: 0.50000000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2.00038811 oprs/ms 
+2024-11-16 14:31:17 Testing with 9 servers. 
+2024-11-16 14:31:43 NUM SERVERS: 9, NUM BACKUPS: 1, NUM FAILURES: 7, LATENCY: 0.52250000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1.91405096 oprs/ms 
+2024-11-16 14:31:45 Testing with 9 servers. 
+2024-11-16 14:32:16 NUM SERVERS: 9, NUM BACKUPS: 2, NUM FAILURES: 8, LATENCY: 0.38450000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2.60167184 oprs/ms 
+2024-11-16 14:32:17 Availability Test Results: 
+2024-11-16 14:32:17 NUM SERVERS, NUM BACKUPS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-16 14:32:17 3, 1, 1, 0.96875, 1.0, 1.0322632167596142 
+2024-11-16 14:32:17 3, 2, 1, 0.498, 1.0, 2.0081816425629815 
+2024-11-16 14:32:17 6, 1, 3, 0.5367500000000001, 1.0, 1.863431191840971 
+2024-11-16 14:32:17 6, 2, 5, 0.5407500000000001, 1.0, 1.8494745804630992 
+2024-11-16 14:32:17 6, 4, 2, 0.5, 1.0, 2.0003881091062854 
+2024-11-16 14:32:17 9, 1, 7, 0.5225, 1.0, 1.914050955374681 
+2024-11-16 14:32:17 9, 2, 8, 0.3845, 1.0, 2.6016718381576913 
+2024-11-17 09:16:51 Starting Consistency Test 
+2024-11-17 09:16:56 Testing with 3 SERVERS 
+2024-11-17 09:17:01 Simulated failure of 2 master nodes. 
+2024-11-17 09:17:01 Consistency Test Results: 
+2024-11-17 09:17:01 A : Expected 0, Retrieved 0 
+2024-11-17 09:17:01 B : Expected 1, Retrieved 1 
+2024-11-17 09:17:01 C : Expected 2, Retrieved 2 
+2024-11-17 09:17:01 D : Expected 3, Retrieved 3 
+2024-11-17 09:17:01 E : Expected 4, Retrieved 4 
+2024-11-17 09:17:01 F : Expected 5, Retrieved 5 
+2024-11-17 09:17:01 G : Expected 6, Retrieved 6 
+2024-11-17 09:17:01 H : Expected 7, Retrieved 7 
+2024-11-17 09:17:01 I : Expected 8, Retrieved 8 
+2024-11-17 09:17:01 J : Expected 9, Retrieved 9 
+2024-11-17 09:17:01 K : Expected 10, Retrieved 10 
+2024-11-17 09:17:01 L : Expected 11, Retrieved 11 
+2024-11-17 09:17:01 M : Expected 12, Retrieved 12 
+2024-11-17 09:17:01 N : Expected 13, Retrieved 13 
+2024-11-17 09:17:01 O : Expected 14, Retrieved 14 
+2024-11-17 09:17:01 P : Expected 15, Retrieved 15 
+2024-11-17 09:17:01 Q : Expected 16, Retrieved 16 
+2024-11-17 09:17:01 R : Expected 17, Retrieved 17 
+2024-11-17 09:17:01 S : Expected 18, Retrieved 18 
+2024-11-17 09:17:01 T : Expected 19, Retrieved 19 
+2024-11-17 09:17:01 U : Expected 20, Retrieved 20 
+2024-11-17 09:17:01 V : Expected 21, Retrieved 21 
+2024-11-17 09:17:01 W : Expected 22, Retrieved 22 
+2024-11-17 09:17:01 X : Expected 23, Retrieved 23 
+2024-11-17 09:17:01 Y : Expected 24, Retrieved 24 
+2024-11-17 09:17:01 Z : Expected 25, Retrieved 25 
+2024-11-17 09:17:01 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:17:02 Consistency Test Completed 
+2024-11-17 09:17:26 Starting Consistency Test 
+2024-11-17 09:17:30 Testing with 3 SERVERS 
+2024-11-17 09:17:32 Simulated failure of 2 master nodes. 
+2024-11-17 09:17:32 Consistency Test Results: 
+2024-11-17 09:17:32 A : Expected 0, Retrieved 0 
+2024-11-17 09:17:32 B : Expected 1, Retrieved 1 
+2024-11-17 09:17:32 C : Expected 2, Retrieved 2 
+2024-11-17 09:17:32 D : Expected 3, Retrieved 3 
+2024-11-17 09:17:32 E : Expected 4, Retrieved 4 
+2024-11-17 09:17:32 F : Expected 5, Retrieved 5 
+2024-11-17 09:17:32 G : Expected 6, Retrieved 6 
+2024-11-17 09:17:32 H : Expected 7, Retrieved 7 
+2024-11-17 09:17:32 I : Expected 8, Retrieved 8 
+2024-11-17 09:17:32 J : Expected 9, Retrieved 9 
+2024-11-17 09:17:32 K : Expected 10, Retrieved 10 
+2024-11-17 09:17:32 L : Expected 11, Retrieved 11 
+2024-11-17 09:17:32 M : Expected 12, Retrieved 12 
+2024-11-17 09:17:32 N : Expected 13, Retrieved 13 
+2024-11-17 09:17:32 O : Expected 14, Retrieved 14 
+2024-11-17 09:17:32 P : Expected 15, Retrieved 15 
+2024-11-17 09:17:32 Q : Expected 16, Retrieved 16 
+2024-11-17 09:17:32 R : Expected 17, Retrieved 17 
+2024-11-17 09:17:32 S : Expected 18, Retrieved 18 
+2024-11-17 09:17:32 T : Expected 19, Retrieved 19 
+2024-11-17 09:17:32 U : Expected 20, Retrieved 20 
+2024-11-17 09:17:32 V : Expected 21, Retrieved 21 
+2024-11-17 09:17:32 W : Expected 22, Retrieved 22 
+2024-11-17 09:17:32 X : Expected 23, Retrieved 23 
+2024-11-17 09:17:32 Y : Expected 24, Retrieved 24 
+2024-11-17 09:17:32 Z : Expected 25, Retrieved 25 
+2024-11-17 09:17:32 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:17:33 Consistency Test Completed 
+2024-11-17 09:19:20 Starting Consistency Test 
+2024-11-17 09:19:25 Testing with 3 SERVERS 
+2024-11-17 09:19:27 Simulated failure of 2 server nodes. 
+2024-11-17 09:19:27 Consistency Test Results: 
+2024-11-17 09:19:27 A : Expected 0, Retrieved 0 
+2024-11-17 09:19:27 B : Expected 1, Retrieved 1 
+2024-11-17 09:19:27 C : Expected 2, Retrieved 2 
+2024-11-17 09:19:27 D : Expected 3, Retrieved 3 
+2024-11-17 09:19:27 E : Expected 4, Retrieved 4 
+2024-11-17 09:19:27 F : Expected 5, Retrieved 5 
+2024-11-17 09:19:27 G : Expected 6, Retrieved 6 
+2024-11-17 09:19:27 H : Expected 7, Retrieved 7 
+2024-11-17 09:19:27 I : Expected 8, Retrieved 8 
+2024-11-17 09:19:27 J : Expected 9, Retrieved 9 
+2024-11-17 09:19:27 K : Expected 10, Retrieved 10 
+2024-11-17 09:19:27 L : Expected 11, Retrieved 11 
+2024-11-17 09:19:27 M : Expected 12, Retrieved 12 
+2024-11-17 09:19:27 N : Expected 13, Retrieved 13 
+2024-11-17 09:19:27 O : Expected 14, Retrieved 14 
+2024-11-17 09:19:27 P : Expected 15, Retrieved 15 
+2024-11-17 09:19:27 Q : Expected 16, Retrieved 16 
+2024-11-17 09:19:27 R : Expected 17, Retrieved 17 
+2024-11-17 09:19:27 S : Expected 18, Retrieved 18 
+2024-11-17 09:19:27 T : Expected 19, Retrieved 19 
+2024-11-17 09:19:27 U : Expected 20, Retrieved 20 
+2024-11-17 09:19:27 V : Expected 21, Retrieved 21 
+2024-11-17 09:19:27 W : Expected 22, Retrieved 22 
+2024-11-17 09:19:27 X : Expected 23, Retrieved 23 
+2024-11-17 09:19:27 Y : Expected 24, Retrieved 24 
+2024-11-17 09:19:27 Z : Expected 25, Retrieved 25 
+2024-11-17 09:19:27 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:19:28 Consistency Test Completed 
+2024-11-17 09:19:50 Starting Consistency Test 
+2024-11-17 09:19:55 Testing with 6 SERVERS 
+2024-11-17 09:19:59 Simulated failure of 5 server nodes. 
+2024-11-17 09:19:59 Consistency Test Results: 
+2024-11-17 09:19:59 A : Expected 0, Retrieved 0 
+2024-11-17 09:19:59 B : Expected 1, Retrieved 1 
+2024-11-17 09:19:59 C : Expected 2, Retrieved 2 
+2024-11-17 09:19:59 D : Expected 3, Retrieved 3 
+2024-11-17 09:19:59 E : Expected 4, Retrieved 4 
+2024-11-17 09:19:59 F : Expected 5, Retrieved 5 
+2024-11-17 09:19:59 G : Expected 6, Retrieved 6 
+2024-11-17 09:19:59 H : Expected 7, Retrieved 7 
+2024-11-17 09:19:59 I : Expected 8, Retrieved 8 
+2024-11-17 09:19:59 J : Expected 9, Retrieved 9 
+2024-11-17 09:19:59 K : Expected 10, Retrieved 10 
+2024-11-17 09:19:59 L : Expected 11, Retrieved 11 
+2024-11-17 09:19:59 M : Expected 12, Retrieved 12 
+2024-11-17 09:19:59 N : Expected 13, Retrieved 13 
+2024-11-17 09:19:59 O : Expected 14, Retrieved 14 
+2024-11-17 09:19:59 P : Expected 15, Retrieved 15 
+2024-11-17 09:19:59 Q : Expected 16, Retrieved 16 
+2024-11-17 09:19:59 R : Expected 17, Retrieved 17 
+2024-11-17 09:19:59 S : Expected 18, Retrieved 18 
+2024-11-17 09:19:59 T : Expected 19, Retrieved 19 
+2024-11-17 09:19:59 U : Expected 20, Retrieved 20 
+2024-11-17 09:19:59 V : Expected 21, Retrieved 21 
+2024-11-17 09:19:59 W : Expected 22, Retrieved 22 
+2024-11-17 09:19:59 X : Expected 23, Retrieved 23 
+2024-11-17 09:19:59 Y : Expected 24, Retrieved 24 
+2024-11-17 09:19:59 Z : Expected 25, Retrieved 25 
+2024-11-17 09:19:59 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:20:01 Consistency Test Completed 
+2024-11-17 09:20:14 Starting Consistency Test 
+2024-11-17 09:20:19 Testing with 6 SERVERS 
+2024-11-17 09:20:22 Simulated failure of 6 server nodes. 
+2024-11-17 09:20:22 Consistency Test Results: 
+2024-11-17 09:20:22 A : Expected 0, Retrieved 0 
+2024-11-17 09:20:22 B : Expected 1, Retrieved 1 
+2024-11-17 09:20:22 C : Expected 2, Retrieved 2 
+2024-11-17 09:20:22 D : Expected 3, Retrieved 3 
+2024-11-17 09:20:22 E : Expected 4, Retrieved 4 
+2024-11-17 09:20:22 F : Expected 5, Retrieved 5 
+2024-11-17 09:20:22 G : Expected 6, Retrieved 6 
+2024-11-17 09:20:22 H : Expected 7, Retrieved 7 
+2024-11-17 09:20:22 I : Expected 8, Retrieved 8 
+2024-11-17 09:20:22 J : Expected 9, Retrieved 9 
+2024-11-17 09:20:22 K : Expected 10, Retrieved 10 
+2024-11-17 09:20:22 L : Expected 11, Retrieved 11 
+2024-11-17 09:20:22 M : Expected 12, Retrieved 12 
+2024-11-17 09:20:22 N : Expected 13, Retrieved 13 
+2024-11-17 09:20:22 O : Expected 14, Retrieved 14 
+2024-11-17 09:20:22 P : Expected 15, Retrieved 15 
+2024-11-17 09:20:22 Q : Expected 16, Retrieved 16 
+2024-11-17 09:20:22 R : Expected 17, Retrieved 17 
+2024-11-17 09:20:22 S : Expected 18, Retrieved 18 
+2024-11-17 09:20:22 T : Expected 19, Retrieved 19 
+2024-11-17 09:20:22 U : Expected 20, Retrieved 20 
+2024-11-17 09:20:22 V : Expected 21, Retrieved 21 
+2024-11-17 09:20:22 W : Expected 22, Retrieved 22 
+2024-11-17 09:20:22 X : Expected 23, Retrieved 23 
+2024-11-17 09:20:22 Y : Expected 24, Retrieved 24 
+2024-11-17 09:20:22 Z : Expected 25, Retrieved 25 
+2024-11-17 09:20:22 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:20:23 Consistency Test Completed 
+2024-11-17 09:24:10 Starting Consistency Test 
+2024-11-17 09:24:15 Testing with 6 SERVERS 
+2024-11-17 09:24:17 Simulated failure of 6 server nodes. 
+2024-11-17 09:26:33 Starting Consistency Test 
+2024-11-17 09:26:38 Testing with 6 SERVERS 
+2024-11-17 09:26:42 Simulated failure of 6 server nodes. 
+2024-11-17 09:26:42 Consistency Test Results: 
+2024-11-17 09:26:42 A : Expected 0, Retrieved 0 
+2024-11-17 09:26:42 B : Expected 1, Retrieved 1 
+2024-11-17 09:26:42 C : Expected 2, Retrieved 2 
+2024-11-17 09:26:42 D : Expected 3, Retrieved 3 
+2024-11-17 09:26:42 E : Expected 4, Retrieved 4 
+2024-11-17 09:26:42 F : Expected 5, Retrieved 5 
+2024-11-17 09:26:42 G : Expected 6, Retrieved 6 
+2024-11-17 09:26:42 H : Expected 7, Retrieved 7 
+2024-11-17 09:26:42 I : Expected 8, Retrieved 8 
+2024-11-17 09:26:42 J : Expected 9, Retrieved 9 
+2024-11-17 09:26:42 K : Expected 10, Retrieved 10 
+2024-11-17 09:26:42 L : Expected 11, Retrieved 11 
+2024-11-17 09:26:42 M : Expected 12, Retrieved 12 
+2024-11-17 09:26:42 N : Expected 13, Retrieved 13 
+2024-11-17 09:26:42 O : Expected 14, Retrieved 14 
+2024-11-17 09:26:42 P : Expected 15, Retrieved 15 
+2024-11-17 09:26:42 Q : Expected 16, Retrieved 16 
+2024-11-17 09:26:42 R : Expected 17, Retrieved 17 
+2024-11-17 09:26:42 S : Expected 18, Retrieved 18 
+2024-11-17 09:26:42 T : Expected 19, Retrieved 19 
+2024-11-17 09:26:42 U : Expected 20, Retrieved 20 
+2024-11-17 09:26:42 V : Expected 21, Retrieved 21 
+2024-11-17 09:26:42 W : Expected 22, Retrieved 22 
+2024-11-17 09:26:42 X : Expected 23, Retrieved 23 
+2024-11-17 09:26:42 Y : Expected 24, Retrieved 24 
+2024-11-17 09:26:42 Z : Expected 25, Retrieved 25 
+2024-11-17 09:26:42 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:27:19 Starting Consistency Test 
+2024-11-17 09:27:23 Testing with 6 SERVERS 
+2024-11-17 09:27:28 Simulated failure of 6 server nodes. 
+2024-11-17 09:27:28 Consistency Test Results: 
+2024-11-17 09:27:28 A : Expected 0, Retrieved 0 
+2024-11-17 09:27:28 B : Expected 1, Retrieved 1 
+2024-11-17 09:27:28 C : Expected 2, Retrieved 2 
+2024-11-17 09:27:28 D : Expected 3, Retrieved 3 
+2024-11-17 09:27:28 E : Expected 4, Retrieved 4 
+2024-11-17 09:27:28 F : Expected 5, Retrieved 5 
+2024-11-17 09:27:28 G : Expected 6, Retrieved 6 
+2024-11-17 09:27:28 H : Expected 7, Retrieved 7 
+2024-11-17 09:27:28 I : Expected 8, Retrieved 8 
+2024-11-17 09:27:28 J : Expected 9, Retrieved 9 
+2024-11-17 09:27:28 K : Expected 10, Retrieved 10 
+2024-11-17 09:27:28 L : Expected 11, Retrieved 11 
+2024-11-17 09:27:28 M : Expected 12, Retrieved 12 
+2024-11-17 09:27:28 N : Expected 13, Retrieved 13 
+2024-11-17 09:27:28 O : Expected 14, Retrieved 14 
+2024-11-17 09:27:28 P : Expected 15, Retrieved 15 
+2024-11-17 09:27:28 Q : Expected 16, Retrieved 16 
+2024-11-17 09:27:28 R : Expected 17, Retrieved 17 
+2024-11-17 09:27:28 S : Expected 18, Retrieved 18 
+2024-11-17 09:27:28 T : Expected 19, Retrieved 19 
+2024-11-17 09:27:28 U : Expected 20, Retrieved 20 
+2024-11-17 09:27:28 V : Expected 21, Retrieved 21 
+2024-11-17 09:27:28 W : Expected 22, Retrieved 22 
+2024-11-17 09:27:28 X : Expected 23, Retrieved 23 
+2024-11-17 09:27:28 Y : Expected 24, Retrieved 24 
+2024-11-17 09:27:28 Z : Expected 25, Retrieved 25 
+2024-11-17 09:27:28 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:31:16 Starting Consistency Test 
+2024-11-17 09:31:20 Testing with 3 SERVERS 
+2024-11-17 09:31:24 Simulated failure of 1 server nodes. 
+2024-11-17 09:34:22 Starting Consistency Test 
+2024-11-17 09:34:26 Testing with 3 SERVERS 
+2024-11-17 09:34:29 Simulated failure of 1 server nodes. 
+2024-11-17 09:34:29 Consistency Test Results: 
+2024-11-17 09:34:29 A : Expected 0, Retrieved 0 
+2024-11-17 09:34:29 B : Expected 1, Retrieved 1 
+2024-11-17 09:34:29 C : Expected 2, Retrieved 2 
+2024-11-17 09:34:29 D : Expected 3, Retrieved 3 
+2024-11-17 09:34:29 E : Expected 4, Retrieved 4 
+2024-11-17 09:34:29 F : Expected 5, Retrieved 5 
+2024-11-17 09:34:29 G : Expected 6, Retrieved 6 
+2024-11-17 09:34:29 H : Expected 7, Retrieved 7 
+2024-11-17 09:34:29 I : Expected 8, Retrieved 8 
+2024-11-17 09:34:29 J : Expected 9, Retrieved 9 
+2024-11-17 09:34:29 K : Expected 10, Retrieved 10 
+2024-11-17 09:34:29 L : Expected 11, Retrieved 11 
+2024-11-17 09:34:29 M : Expected 12, Retrieved 12 
+2024-11-17 09:34:29 N : Expected 13, Retrieved 13 
+2024-11-17 09:34:29 O : Expected 14, Retrieved 14 
+2024-11-17 09:34:29 P : Expected 15, Retrieved 15 
+2024-11-17 09:34:29 Q : Expected 16, Retrieved 16 
+2024-11-17 09:34:29 R : Expected 17, Retrieved 17 
+2024-11-17 09:34:29 S : Expected 18, Retrieved 18 
+2024-11-17 09:34:29 T : Expected 19, Retrieved 19 
+2024-11-17 09:34:29 U : Expected 20, Retrieved 20 
+2024-11-17 09:34:29 V : Expected 21, Retrieved 21 
+2024-11-17 09:34:29 W : Expected 22, Retrieved 22 
+2024-11-17 09:34:29 X : Expected 23, Retrieved 23 
+2024-11-17 09:34:29 Y : Expected 24, Retrieved 24 
+2024-11-17 09:34:29 Z : Expected 25, Retrieved 25 
+2024-11-17 09:34:29 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:36:06 Starting Consistency Test 
+2024-11-17 09:36:10 Testing with 3 SERVERS 
+2024-11-17 09:36:14 Simulated failure of 1 server nodes. 
+2024-11-17 09:36:14 Consistency Test Results: 
+2024-11-17 09:36:14 A : Expected 0, Retrieved 0 
+2024-11-17 09:36:14 B : Expected 1, Retrieved 1 
+2024-11-17 09:36:14 C : Expected 2, Retrieved 2 
+2024-11-17 09:36:14 D : Expected 3, Retrieved 3 
+2024-11-17 09:36:14 E : Expected 4, Retrieved 4 
+2024-11-17 09:36:14 F : Expected 5, Retrieved 5 
+2024-11-17 09:36:14 G : Expected 6, Retrieved 6 
+2024-11-17 09:36:14 H : Expected 7, Retrieved 7 
+2024-11-17 09:36:14 I : Expected 8, Retrieved 8 
+2024-11-17 09:36:14 J : Expected 9, Retrieved 9 
+2024-11-17 09:36:14 K : Expected 10, Retrieved 10 
+2024-11-17 09:36:14 L : Expected 11, Retrieved 11 
+2024-11-17 09:36:14 M : Expected 12, Retrieved 12 
+2024-11-17 09:36:14 N : Expected 13, Retrieved 13 
+2024-11-17 09:36:14 O : Expected 14, Retrieved 14 
+2024-11-17 09:36:14 P : Expected 15, Retrieved 15 
+2024-11-17 09:36:14 Q : Expected 16, Retrieved 16 
+2024-11-17 09:36:14 R : Expected 17, Retrieved 17 
+2024-11-17 09:36:14 S : Expected 18, Retrieved 18 
+2024-11-17 09:36:14 T : Expected 19, Retrieved 19 
+2024-11-17 09:36:14 U : Expected 20, Retrieved 20 
+2024-11-17 09:36:14 V : Expected 21, Retrieved 21 
+2024-11-17 09:36:14 W : Expected 22, Retrieved 22 
+2024-11-17 09:36:14 X : Expected 23, Retrieved 23 
+2024-11-17 09:36:14 Y : Expected 24, Retrieved 24 
+2024-11-17 09:36:14 Z : Expected 25, Retrieved 25 
+2024-11-17 09:36:14 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:36:15 Consistency Test Completed 
+2024-11-17 09:36:30 Starting Consistency Test 
+2024-11-17 09:36:39 Testing with 3 SERVERS 
+2024-11-17 09:36:42 Simulated failure of 1 server nodes. 
+2024-11-17 09:36:56 Starting Consistency Test 
+2024-11-17 09:37:00 Testing with 3 SERVERS 
+2024-11-17 09:37:02 Simulated failure of 2 server nodes. 
+2024-11-17 09:37:03 Consistency Test Results: 
+2024-11-17 09:37:03 A : Expected 0, Retrieved 0 
+2024-11-17 09:37:03 B : Expected 1, Retrieved 1 
+2024-11-17 09:37:03 C : Expected 2, Retrieved 2 
+2024-11-17 09:37:03 D : Expected 3, Retrieved 3 
+2024-11-17 09:37:03 E : Expected 4, Retrieved 4 
+2024-11-17 09:37:03 F : Expected 5, Retrieved 5 
+2024-11-17 09:37:03 G : Expected 6, Retrieved 6 
+2024-11-17 09:37:03 H : Expected 7, Retrieved 7 
+2024-11-17 09:37:03 I : Expected 8, Retrieved 8 
+2024-11-17 09:37:03 J : Expected 9, Retrieved 9 
+2024-11-17 09:37:03 K : Expected 10, Retrieved 10 
+2024-11-17 09:37:03 L : Expected 11, Retrieved 11 
+2024-11-17 09:37:03 M : Expected 12, Retrieved 12 
+2024-11-17 09:37:03 N : Expected 13, Retrieved 13 
+2024-11-17 09:37:03 O : Expected 14, Retrieved 14 
+2024-11-17 09:37:03 P : Expected 15, Retrieved 15 
+2024-11-17 09:37:03 Q : Expected 16, Retrieved 16 
+2024-11-17 09:37:03 R : Expected 17, Retrieved 17 
+2024-11-17 09:37:03 S : Expected 18, Retrieved 18 
+2024-11-17 09:37:03 T : Expected 19, Retrieved 19 
+2024-11-17 09:37:03 U : Expected 20, Retrieved 20 
+2024-11-17 09:37:03 V : Expected 21, Retrieved 21 
+2024-11-17 09:37:03 W : Expected 22, Retrieved 22 
+2024-11-17 09:37:03 X : Expected 23, Retrieved 23 
+2024-11-17 09:37:03 Y : Expected 24, Retrieved 24 
+2024-11-17 09:37:03 Z : Expected 25, Retrieved 25 
+2024-11-17 09:37:03 Consistency Accuracy: 100.00%
+ 
+2024-11-17 09:37:04 Consistency Test Completed 
+2024-11-17 10:06:35 Starting Consistency Test 
+2024-11-17 10:06:41 Testing with 3 SERVERS 
+2024-11-17 10:06:45 Simulated failure of 2 server nodes. 
+2024-11-17 10:06:45 Consistency Test Results: 
+2024-11-17 10:06:45 A : Expected 0, Retrieved 0 
+2024-11-17 10:06:45 B : Expected 1, Retrieved 1 
+2024-11-17 10:06:45 C : Expected 2, Retrieved 2 
+2024-11-17 10:06:45 D : Expected 3, Retrieved 3 
+2024-11-17 10:06:45 E : Expected 4, Retrieved 4 
+2024-11-17 10:06:45 F : Expected 5, Retrieved 5 
+2024-11-17 10:06:45 G : Expected 6, Retrieved 6 
+2024-11-17 10:06:45 H : Expected 7, Retrieved 7 
+2024-11-17 10:06:45 I : Expected 8, Retrieved 8 
+2024-11-17 10:06:45 J : Expected 9, Retrieved 9 
+2024-11-17 10:06:45 K : Expected 10, Retrieved 10 
+2024-11-17 10:06:45 L : Expected 11, Retrieved 11 
+2024-11-17 10:06:45 M : Expected 12, Retrieved 12 
+2024-11-17 10:06:45 N : Expected 13, Retrieved 13 
+2024-11-17 10:06:45 O : Expected 14, Retrieved 14 
+2024-11-17 10:06:45 P : Expected 15, Retrieved 15 
+2024-11-17 10:06:45 Q : Expected 16, Retrieved 16 
+2024-11-17 10:06:45 R : Expected 17, Retrieved 17 
+2024-11-17 10:06:45 S : Expected 18, Retrieved 18 
+2024-11-17 10:06:45 T : Expected 19, Retrieved 19 
+2024-11-17 10:06:45 U : Expected 20, Retrieved 20 
+2024-11-17 10:06:45 V : Expected 21, Retrieved 21 
+2024-11-17 10:06:45 W : Expected 22, Retrieved 22 
+2024-11-17 10:06:45 X : Expected 23, Retrieved 23 
+2024-11-17 10:06:45 Y : Expected 24, Retrieved 24 
+2024-11-17 10:06:45 Z : Expected 25, Retrieved 25 
+2024-11-17 10:06:45 Consistency Accuracy: 100.00%
+ 
+2024-11-17 10:06:47 Consistency Test Completed 
+2024-11-17 10:37:57 Starting Consistency Test 
+2024-11-17 10:38:01 Testing with 6 SERVERS 
+2024-11-17 10:38:07 Simulated failure of 5 server nodes. 
+2024-11-17 10:38:07 Consistency Test Results: 
+2024-11-17 10:38:07 A : Expected 0, Retrieved 0 
+2024-11-17 10:38:07 B : Expected 1, Retrieved 1 
+2024-11-17 10:38:07 C : Expected 2, Retrieved 2 
+2024-11-17 10:38:07 D : Expected 3, Retrieved 3 
+2024-11-17 10:38:07 E : Expected 4, Retrieved 4 
+2024-11-17 10:38:07 F : Expected 5, Retrieved 5 
+2024-11-17 10:38:07 G : Expected 6, Retrieved 6 
+2024-11-17 10:38:07 H : Expected 7, Retrieved 7 
+2024-11-17 10:38:07 I : Expected 8, Retrieved 8 
+2024-11-17 10:38:07 J : Expected 9, Retrieved 9 
+2024-11-17 10:38:07 K : Expected 10, Retrieved 10 
+2024-11-17 10:38:07 L : Expected 11, Retrieved 11 
+2024-11-17 10:38:07 M : Expected 12, Retrieved 12 
+2024-11-17 10:38:07 N : Expected 13, Retrieved 13 
+2024-11-17 10:38:07 O : Expected 14, Retrieved 14 
+2024-11-17 10:38:07 P : Expected 15, Retrieved 15 
+2024-11-17 10:38:07 Q : Expected 16, Retrieved 16 
+2024-11-17 10:38:07 R : Expected 17, Retrieved 17 
+2024-11-17 10:38:07 S : Expected 18, Retrieved 18 
+2024-11-17 10:38:07 T : Expected 19, Retrieved 19 
+2024-11-17 10:38:07 U : Expected 20, Retrieved 20 
+2024-11-17 10:38:07 V : Expected 21, Retrieved 21 
+2024-11-17 10:38:07 W : Expected 22, Retrieved 22 
+2024-11-17 10:38:07 X : Expected 23, Retrieved 23 
+2024-11-17 10:38:07 Y : Expected 24, Retrieved 24 
+2024-11-17 10:38:07 Z : Expected 25, Retrieved 25 
+2024-11-17 10:38:07 Consistency Accuracy: 100.00%
+ 
+2024-11-17 10:38:08 Consistency Test Completed 
+2024-11-17 10:39:49 Starting Consistency Test 
+2024-11-17 10:39:54 Testing with 6 SERVERS 
+2024-11-17 10:39:58 Simulated failure of 5 server nodes. 
+2024-11-17 13:12:53 Starting Availability Test 
+2024-11-17 13:12:53 Testing with 3 servers. 
+2024-11-17 13:13:02 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 1, LATENCY: 1.17925000 ms, TAIL LATENCY: 1.75000000 ms, THROUGHPUT: 848.00313706 oprs/ms 
+2024-11-17 13:13:03 Testing with 3 servers. 
+2024-11-17 13:13:11 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 2, LATENCY: 0.50725000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1971.57153151 oprs/ms 
+2024-11-17 13:13:12 Testing with 6 servers. 
+2024-11-17 13:13:32 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 5, LATENCY: 0.55375000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1805.94091852 oprs/ms 
+2024-11-17 13:13:33 Testing with 6 servers. 
+2024-11-17 13:13:39 NUM SERVERS: 6, NUM BACKUPS: 2, NUM FAILURES: 1, LATENCY: 0.45525000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2196.86101891 oprs/ms 
+2024-11-17 13:13:40 Testing with 6 servers. 
+2024-11-17 13:13:46 NUM SERVERS: 6, NUM BACKUPS: 4, NUM FAILURES: 1, LATENCY: 0.54200000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1845.19919025 oprs/ms 
+2024-11-17 13:13:47 Testing with 9 servers. 
+2024-11-17 13:14:16 NUM SERVERS: 9, NUM BACKUPS: 1, NUM FAILURES: 7, LATENCY: 0.37800000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2646.06122114 oprs/ms 
+2024-11-17 13:14:17 Testing with 9 servers. 
+2024-11-17 13:14:27 NUM SERVERS: 9, NUM BACKUPS: 2, NUM FAILURES: 2, LATENCY: 0.43200000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2314.89518558 oprs/ms 
+2024-11-17 13:14:28 Availability Test Results: 
+2024-11-17 13:14:28 NUM SERVERS, NUM BACKUPS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-17 13:14:28 3, 1, 1, 1.17925, 1.75, 848.0031370604835 
+2024-11-17 13:14:28 3, 2, 2, 0.50725, 1.0, 1971.5715315124348 
+2024-11-17 13:14:28 6, 1, 5, 0.5537500000000001, 1.0, 1805.9409185226257 
+2024-11-17 13:14:28 6, 2, 1, 0.45525000000000004, 1.0, 2196.86101890904 
+2024-11-17 13:14:28 6, 4, 1, 0.542, 1.0, 1845.1991902536674 
+2024-11-17 13:14:28 9, 1, 7, 0.378, 1.0, 2646.0612211437233 
+2024-11-17 13:14:28 9, 2, 2, 0.432, 1.0, 2314.895185579427 
+2024-11-17 13:14:28 Starting Consistency Test 
+2024-11-17 13:14:28 Testing with 3 SERVERS 
+2024-11-17 13:14:33 Simulated failure of 1 server nodes. 
+2024-11-17 13:18:33 Starting Availability Test 
+2024-11-17 13:18:33 Testing with 3 servers. 
+2024-11-17 13:18:47 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 2, LATENCY: 1.03675000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 964.56992002 oprs/ms 
+2024-11-17 13:18:49 Testing with 3 servers. 
+2024-11-17 13:18:57 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 2, LATENCY: 0.51325000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1948.50589972 oprs/ms 
+2024-11-17 13:18:58 Testing with 6 servers. 
+2024-11-17 13:19:04 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 1, LATENCY: 0.64600000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1548.03763473 oprs/ms 
+2024-11-17 13:19:05 Testing with 6 servers. 
+2024-11-17 13:19:24 NUM SERVERS: 6, NUM BACKUPS: 2, NUM FAILURES: 5, LATENCY: 0.45400000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2202.95945956 oprs/ms 
+2024-11-17 13:19:26 Testing with 6 servers. 
+2024-11-17 13:19:41 NUM SERVERS: 6, NUM BACKUPS: 4, NUM FAILURES: 4, LATENCY: 0.58500000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1710.12393407 oprs/ms 
+2024-11-17 13:19:42 Testing with 9 servers. 
+2024-11-17 13:20:12 NUM SERVERS: 9, NUM BACKUPS: 1, NUM FAILURES: 7, LATENCY: 0.81425000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1368.52223209 oprs/ms 
+2024-11-17 13:20:13 Testing with 9 servers. 
+2024-11-17 13:20:19 NUM SERVERS: 9, NUM BACKUPS: 2, NUM FAILURES: 1, LATENCY: 0.40750000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2454.29731211 oprs/ms 
+2024-11-17 13:20:20 Availability Test Results: 
+2024-11-17 13:20:20 NUM SERVERS, NUM BACKUPS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-17 13:20:20 3, 1, 2, 1.03675, 1.0, 964.5699200207226 
+2024-11-17 13:20:20 3, 2, 2, 0.51325, 1.0, 1948.505899719055 
+2024-11-17 13:20:20 6, 1, 1, 0.646, 1.0, 1548.037634733166 
+2024-11-17 13:20:20 6, 2, 5, 0.454, 1.0, 2202.959459558746 
+2024-11-17 13:20:20 6, 4, 4, 0.585, 1.0, 1710.123934069113 
+2024-11-17 13:20:20 9, 1, 7, 0.81425, 1.0, 1368.5222320899063 
+2024-11-17 13:20:20 9, 2, 1, 0.4075, 1.0, 2454.297312105046 
+2024-11-17 13:20:20 Starting Consistency Test 
+2024-11-17 13:20:20 Testing with 3 SERVERS 
+2024-11-17 13:20:23 Simulated failure of 1 server nodes. 
+2024-11-17 13:20:24 Consistency Test Results: 
+2024-11-17 13:20:24 A : Expected 0, Retrieved 0 
+2024-11-17 13:20:24 B : Expected 1, Retrieved 1 
+2024-11-17 13:20:24 C : Expected 2, Retrieved 2 
+2024-11-17 13:20:24 D : Expected 3, Retrieved 3 
+2024-11-17 13:20:24 E : Expected 4, Retrieved 4 
+2024-11-17 13:20:24 F : Expected 5, Retrieved 5 
+2024-11-17 13:20:24 G : Expected 6, Retrieved 6 
+2024-11-17 13:20:24 H : Expected 7, Retrieved 7 
+2024-11-17 13:20:24 I : Expected 8, Retrieved 8 
+2024-11-17 13:20:24 J : Expected 9, Retrieved 9 
+2024-11-17 13:20:24 K : Expected 10, Retrieved 10 
+2024-11-17 13:20:24 L : Expected 11, Retrieved 11 
+2024-11-17 13:20:24 M : Expected 12, Retrieved 12 
+2024-11-17 13:20:24 N : Expected 13, Retrieved 13 
+2024-11-17 13:20:24 O : Expected 14, Retrieved 14 
+2024-11-17 13:20:24 P : Expected 15, Retrieved 15 
+2024-11-17 13:20:24 Q : Expected 16, Retrieved 16 
+2024-11-17 13:20:24 R : Expected 17, Retrieved 17 
+2024-11-17 13:20:24 S : Expected 18, Retrieved 18 
+2024-11-17 13:20:24 T : Expected 19, Retrieved 19 
+2024-11-17 13:20:24 U : Expected 20, Retrieved 20 
+2024-11-17 13:20:24 V : Expected 21, Retrieved 21 
+2024-11-17 13:20:24 W : Expected 22, Retrieved 22 
+2024-11-17 13:20:24 X : Expected 23, Retrieved 23 
+2024-11-17 13:20:24 Y : Expected 24, Retrieved 24 
+2024-11-17 13:20:24 Z : Expected 25, Retrieved 25 
+2024-11-17 13:20:24 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:20:25 Testing with 6 SERVERS 
+2024-11-17 13:20:28 Simulated failure of 2 server nodes. 
+2024-11-17 13:20:28 Consistency Test Results: 
+2024-11-17 13:20:28 A : Expected 0, Retrieved 0 
+2024-11-17 13:20:28 B : Expected 1, Retrieved 1 
+2024-11-17 13:20:28 C : Expected 2, Retrieved 2 
+2024-11-17 13:20:28 D : Expected 3, Retrieved 3 
+2024-11-17 13:20:28 E : Expected 4, Retrieved 4 
+2024-11-17 13:20:28 F : Expected 5, Retrieved 5 
+2024-11-17 13:20:28 G : Expected 6, Retrieved 6 
+2024-11-17 13:20:28 H : Expected 7, Retrieved 7 
+2024-11-17 13:20:28 I : Expected 8, Retrieved 8 
+2024-11-17 13:20:28 J : Expected 9, Retrieved 9 
+2024-11-17 13:20:28 K : Expected 10, Retrieved 10 
+2024-11-17 13:20:28 L : Expected 11, Retrieved 11 
+2024-11-17 13:20:28 M : Expected 12, Retrieved 12 
+2024-11-17 13:20:28 N : Expected 13, Retrieved 13 
+2024-11-17 13:20:28 O : Expected 14, Retrieved 14 
+2024-11-17 13:20:28 P : Expected 15, Retrieved 15 
+2024-11-17 13:20:28 Q : Expected 16, Retrieved 16 
+2024-11-17 13:20:28 R : Expected 17, Retrieved 17 
+2024-11-17 13:20:28 S : Expected 18, Retrieved 18 
+2024-11-17 13:20:28 T : Expected 19, Retrieved 19 
+2024-11-17 13:20:28 U : Expected 20, Retrieved 20 
+2024-11-17 13:20:28 V : Expected 21, Retrieved 21 
+2024-11-17 13:20:28 W : Expected 22, Retrieved 22 
+2024-11-17 13:20:28 X : Expected 23, Retrieved 23 
+2024-11-17 13:20:28 Y : Expected 24, Retrieved 24 
+2024-11-17 13:20:28 Z : Expected 25, Retrieved 25 
+2024-11-17 13:20:28 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:20:30 Testing with 9 SERVERS 
+2024-11-17 13:20:32 Simulated failure of 4 server nodes. 
+2024-11-17 13:20:32 Consistency Test Results: 
+2024-11-17 13:20:32 A : Expected 0, Retrieved 0 
+2024-11-17 13:20:32 B : Expected 1, Retrieved 1 
+2024-11-17 13:20:32 C : Expected 2, Retrieved 2 
+2024-11-17 13:20:32 D : Expected 3, Retrieved 3 
+2024-11-17 13:20:32 E : Expected 4, Retrieved 4 
+2024-11-17 13:20:32 F : Expected 5, Retrieved 5 
+2024-11-17 13:20:32 G : Expected 6, Retrieved 6 
+2024-11-17 13:20:32 H : Expected 7, Retrieved 7 
+2024-11-17 13:20:32 I : Expected 8, Retrieved 8 
+2024-11-17 13:20:32 J : Expected 9, Retrieved 9 
+2024-11-17 13:20:32 K : Expected 10, Retrieved 10 
+2024-11-17 13:20:32 L : Expected 11, Retrieved 11 
+2024-11-17 13:20:32 M : Expected 12, Retrieved 12 
+2024-11-17 13:20:32 N : Expected 13, Retrieved 13 
+2024-11-17 13:20:32 O : Expected 14, Retrieved 14 
+2024-11-17 13:20:32 P : Expected 15, Retrieved 15 
+2024-11-17 13:20:32 Q : Expected 16, Retrieved 16 
+2024-11-17 13:20:32 R : Expected 17, Retrieved 17 
+2024-11-17 13:20:32 S : Expected 18, Retrieved 18 
+2024-11-17 13:20:32 T : Expected 19, Retrieved 19 
+2024-11-17 13:20:32 U : Expected 20, Retrieved 20 
+2024-11-17 13:20:32 V : Expected 21, Retrieved 21 
+2024-11-17 13:20:32 W : Expected 22, Retrieved 22 
+2024-11-17 13:20:32 X : Expected 23, Retrieved 23 
+2024-11-17 13:20:32 Y : Expected 24, Retrieved 24 
+2024-11-17 13:20:32 Z : Expected 25, Retrieved 25 
+2024-11-17 13:20:32 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:20:33 Consistency Test Completed 
+2024-11-17 13:54:39 Starting Availability Test 
+2024-11-17 13:54:39 Testing with 3 servers. 
+2024-11-17 13:54:47 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 1, LATENCY: 0.94650000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1056.53140688 oprs/ms 
+2024-11-17 13:54:48 Testing with 3 servers. 
+2024-11-17 13:54:54 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 1, LATENCY: 0.49775000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2009.34897591 oprs/ms 
+2024-11-17 13:54:55 Testing with 6 servers. 
+2024-11-17 13:55:10 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 4, LATENCY: 0.53650000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1864.08275861 oprs/ms 
+2024-11-17 13:55:11 Testing with 6 servers. 
+2024-11-17 13:55:28 NUM SERVERS: 6, NUM BACKUPS: 2, NUM FAILURES: 5, LATENCY: 0.43400000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2304.31773708 oprs/ms 
+2024-11-17 13:55:29 Testing with 6 servers. 
+2024-11-17 13:55:32 NUM SERVERS: 6, NUM BACKUPS: 4, NUM FAILURES: 1, LATENCY: 0.35875000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2787.61136730 oprs/ms 
+2024-11-17 13:55:34 Testing with 9 servers. 
+2024-11-17 13:55:45 NUM SERVERS: 9, NUM BACKUPS: 1, NUM FAILURES: 3, LATENCY: 0.45850000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2181.24023048 oprs/ms 
+2024-11-17 13:55:47 Testing with 9 servers. 
+2024-11-17 13:56:17 NUM SERVERS: 9, NUM BACKUPS: 2, NUM FAILURES: 7, LATENCY: 0.41175000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2428.71074828 oprs/ms 
+2024-11-17 13:56:18 Availability Test Results: 
+2024-11-17 13:56:18 NUM SERVERS, NUM BACKUPS, NUM FAILURES, LATENCY (ms), TAIL LATENCY (ms), THROUGHPUT (oprs/ms) 
+2024-11-17 13:56:18 3, 1, 1, 0.9464999999999999, 1.0, 1056.5314068806333 
+2024-11-17 13:56:18 3, 2, 1, 0.49775, 1.0, 2009.348975907395 
+2024-11-17 13:56:18 6, 1, 4, 0.5365, 1.0, 1864.0827586115058 
+2024-11-17 13:56:18 6, 2, 5, 0.434, 1.0, 2304.317737082178 
+2024-11-17 13:56:18 6, 4, 1, 0.35875, 1.0, 2787.611367299399 
+2024-11-17 13:56:18 9, 1, 3, 0.4585, 1.0, 2181.2402304769007 
+2024-11-17 13:56:18 9, 2, 7, 0.41174999999999995, 1.0, 2428.7107482806423 
+2024-11-17 13:56:18 Starting Consistency Test 
+2024-11-17 13:56:18 Testing with 3 SERVERS 
+2024-11-17 13:56:22 Simulated failure of 1 server nodes. 
+2024-11-17 13:56:22 Consistency Test Results: 
+2024-11-17 13:56:22 A : Expected 0, Retrieved 0 
+2024-11-17 13:56:22 B : Expected 1, Retrieved 1 
+2024-11-17 13:56:22 C : Expected 2, Retrieved 2 
+2024-11-17 13:56:22 D : Expected 3, Retrieved 3 
+2024-11-17 13:56:22 E : Expected 4, Retrieved 4 
+2024-11-17 13:56:22 F : Expected 5, Retrieved 5 
+2024-11-17 13:56:22 G : Expected 6, Retrieved 6 
+2024-11-17 13:56:22 H : Expected 7, Retrieved 7 
+2024-11-17 13:56:22 I : Expected 8, Retrieved 8 
+2024-11-17 13:56:22 J : Expected 9, Retrieved 9 
+2024-11-17 13:56:22 K : Expected 10, Retrieved 10 
+2024-11-17 13:56:22 L : Expected 11, Retrieved 11 
+2024-11-17 13:56:22 M : Expected 12, Retrieved 12 
+2024-11-17 13:56:22 N : Expected 13, Retrieved 13 
+2024-11-17 13:56:22 O : Expected 14, Retrieved 14 
+2024-11-17 13:56:22 P : Expected 15, Retrieved 15 
+2024-11-17 13:56:22 Q : Expected 16, Retrieved 16 
+2024-11-17 13:56:22 R : Expected 17, Retrieved 17 
+2024-11-17 13:56:22 S : Expected 18, Retrieved 18 
+2024-11-17 13:56:22 T : Expected 19, Retrieved 19 
+2024-11-17 13:56:22 U : Expected 20, Retrieved 20 
+2024-11-17 13:56:22 V : Expected 21, Retrieved 21 
+2024-11-17 13:56:22 W : Expected 22, Retrieved 22 
+2024-11-17 13:56:22 X : Expected 23, Retrieved 23 
+2024-11-17 13:56:22 Y : Expected 24, Retrieved 24 
+2024-11-17 13:56:22 Z : Expected 25, Retrieved 25 
+2024-11-17 13:56:22 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:56:24 Testing with 6 SERVERS 
+2024-11-17 13:56:27 Simulated failure of 2 server nodes. 
+2024-11-17 13:56:27 Consistency Test Results: 
+2024-11-17 13:56:27 A : Expected 0, Retrieved 0 
+2024-11-17 13:56:27 B : Expected 1, Retrieved 1 
+2024-11-17 13:56:27 C : Expected 2, Retrieved 2 
+2024-11-17 13:56:27 D : Expected 3, Retrieved 3 
+2024-11-17 13:56:27 E : Expected 4, Retrieved 4 
+2024-11-17 13:56:27 F : Expected 5, Retrieved 5 
+2024-11-17 13:56:27 G : Expected 6, Retrieved 6 
+2024-11-17 13:56:27 H : Expected 7, Retrieved 7 
+2024-11-17 13:56:27 I : Expected 8, Retrieved 8 
+2024-11-17 13:56:27 J : Expected 9, Retrieved 9 
+2024-11-17 13:56:27 K : Expected 10, Retrieved 10 
+2024-11-17 13:56:27 L : Expected 11, Retrieved 11 
+2024-11-17 13:56:27 M : Expected 12, Retrieved 12 
+2024-11-17 13:56:27 N : Expected 13, Retrieved 13 
+2024-11-17 13:56:27 O : Expected 14, Retrieved 14 
+2024-11-17 13:56:27 P : Expected 15, Retrieved 15 
+2024-11-17 13:56:27 Q : Expected 16, Retrieved 16 
+2024-11-17 13:56:27 R : Expected 17, Retrieved 17 
+2024-11-17 13:56:27 S : Expected 18, Retrieved 18 
+2024-11-17 13:56:27 T : Expected 19, Retrieved 19 
+2024-11-17 13:56:27 U : Expected 20, Retrieved 20 
+2024-11-17 13:56:27 V : Expected 21, Retrieved 21 
+2024-11-17 13:56:27 W : Expected 22, Retrieved 22 
+2024-11-17 13:56:27 X : Expected 23, Retrieved 23 
+2024-11-17 13:56:27 Y : Expected 24, Retrieved 24 
+2024-11-17 13:56:27 Z : Expected 25, Retrieved 25 
+2024-11-17 13:56:27 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:56:28 Testing with 9 SERVERS 
+2024-11-17 13:56:31 Simulated failure of 4 server nodes. 
+2024-11-17 13:56:31 Consistency Test Results: 
+2024-11-17 13:56:31 A : Expected 0, Retrieved 0 
+2024-11-17 13:56:31 B : Expected 1, Retrieved 1 
+2024-11-17 13:56:31 C : Expected 2, Retrieved 2 
+2024-11-17 13:56:31 D : Expected 3, Retrieved 3 
+2024-11-17 13:56:31 E : Expected 4, Retrieved 4 
+2024-11-17 13:56:31 F : Expected 5, Retrieved 5 
+2024-11-17 13:56:31 G : Expected 6, Retrieved 6 
+2024-11-17 13:56:31 H : Expected 7, Retrieved 7 
+2024-11-17 13:56:31 I : Expected 8, Retrieved 8 
+2024-11-17 13:56:31 J : Expected 9, Retrieved 9 
+2024-11-17 13:56:31 K : Expected 10, Retrieved 10 
+2024-11-17 13:56:31 L : Expected 11, Retrieved 11 
+2024-11-17 13:56:31 M : Expected 12, Retrieved 12 
+2024-11-17 13:56:31 N : Expected 13, Retrieved 13 
+2024-11-17 13:56:31 O : Expected 14, Retrieved 14 
+2024-11-17 13:56:31 P : Expected 15, Retrieved 15 
+2024-11-17 13:56:31 Q : Expected 16, Retrieved 16 
+2024-11-17 13:56:31 R : Expected 17, Retrieved 17 
+2024-11-17 13:56:31 S : Expected 18, Retrieved 18 
+2024-11-17 13:56:31 T : Expected 19, Retrieved 19 
+2024-11-17 13:56:31 U : Expected 20, Retrieved 20 
+2024-11-17 13:56:31 V : Expected 21, Retrieved 21 
+2024-11-17 13:56:31 W : Expected 22, Retrieved 22 
+2024-11-17 13:56:31 X : Expected 23, Retrieved 23 
+2024-11-17 13:56:31 Y : Expected 24, Retrieved 24 
+2024-11-17 13:56:31 Z : Expected 25, Retrieved 25 
+2024-11-17 13:56:31 Consistency Accuracy: 100.00%
+ 
+2024-11-17 13:56:32 Consistency Test Completed 
+2024-11-17 14:26:13 Starting Availability Test 
+2024-11-17 14:26:13 Testing with 3 servers. 
+2024-11-17 14:30:19 Starting Availability Test 
+2024-11-17 14:30:19 Testing with 3 servers. 
+2024-11-17 14:30:26 NUM SERVERS: 3, NUM BACKUPS: 1, NUM FAILURES: 1, LATENCY: 0.88575000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1128.99565079 oprs/ms 
+2024-11-17 14:30:28 Testing with 3 servers. 
+2024-11-17 14:30:33 NUM SERVERS: 3, NUM BACKUPS: 2, NUM FAILURES: 1, LATENCY: 0.51850000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 1928.67079813 oprs/ms 
+2024-11-17 14:30:34 Testing with 6 servers. 
+2024-11-17 14:30:49 NUM SERVERS: 6, NUM BACKUPS: 1, NUM FAILURES: 4, LATENCY: 0.47300000 ms, TAIL LATENCY: 1.00000000 ms, THROUGHPUT: 2114.44237760 oprs/ms 
+2024-11-17 14:30:50 Testing with 6 servers. 
