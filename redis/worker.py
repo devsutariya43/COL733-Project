@@ -20,6 +20,12 @@ class Worker:
     def write(self):
         raise NotImplementedError("Subclass must implement write operation.")
     
+    def perform_read(self):
+        raise NotImplementedError("Subclass must implement read operation.")
+
+    def perform_write(self):
+        raise NotImplementedError("Subclass must implement write operation.")
+        
     def run(self, operation_type="mixed"):
         operations = []
         if operation_type == "read":
