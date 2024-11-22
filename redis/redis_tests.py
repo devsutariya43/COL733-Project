@@ -5,7 +5,7 @@ import random
 import subprocess
 import multiprocessing
 import numpy as np
-from rds import RedisWorker
+from rds import RedisWorker, RedisClusterWorker
 from constant import *
 
 class LatencyThroughputTester:
@@ -200,5 +200,147 @@ class LatencyThroughputTester:
         self.run_concurrency_tests(redis=True)
         print('-'*100)
         self.run_concurrency_tests(redis=False)
+        print('-'*100)
+        print("\n\n")
+
+
+class ScalabilityTester:
+    def __init__(self, config_path):
+        with open(config_path, 'r') as file:
+            self.config = json.load(file)
+        self.redis_hosts = None
+    
+    def create_cluster(self, num_masters, num_replicas):
+        subprocess.run(['chmod', '777', CREATE_CLUSTER], check=True)
+        subprocess.run([CREATE_CLUSTER, str(num_masters), str(num_replicas)], check=True, text=True)
+        
+        with open(REDIS_HOSTS, 'r') as file:
+            self.redis_hosts = json.load(file)
+    
+    def del_cluster(self, num_master, num_replicas):
+        subprocess.run(['chmod', '777', DEL_CLUSTER], check=True)
+        subprocess.run([DEL_CLUSTER, str(num_master), str(num_replicas)], check=True, text=True)
+        
+        self.redis_hosts = None
+        
+    def setup_workers(self, num_workers):
+        startup_nodes = []
+        for host in self.redis_hosts['hosts']:
+            split = host.split(":")
+            ip, port = str(split[0]), int(split[1])
+            startup_nodes.append({"host":ip, "port":port})
+        
+        workers = []
+        for _ in range(num_workers):
+            workers.append(
+                RedisClusterWorker(
+                    startup_nodes,
+                    self.config["num_read_oprs"],
+                    self.config["num_write_oprs"],
+                    self.config["data_size"]
+                )
+            )
+        
+        return workers
+    
+    def run_worker_process(self, worker, latencies, tail_latencies, operation_type="mixed"):
+        latency, tail_latency = worker.run(operation_type)
+        latencies.append(latency)
+        tail_latencies.append(tail_latency)
+        
+    def run_replica_scalabity_test(self):
+        print('Running Variable REPLICAS Cluster Test')
+        results = [["NUM REPLICAS", "OPR TYPE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_replicas in self.config["num_replicas"]:
+            self.create_cluster(3, num_replicas)
+            
+            workers = self.setup_workers(self.config["num_workers"])
+            for test_type in ["write", "read", "mixed"]:
+                # print(f"Running {test_type.upper()} operations test for REDIS workers:")
+
+                with multiprocessing.Manager() as manager:
+                    latencies = manager.list()  # Shared list for latencies
+                    tail_latencies = manager.list()  # Shared list for latencies
+                    processes = []
+
+                    for worker in workers:
+                        p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies,tail_latencies, test_type))
+                        processes.append(p)
+                        p.start()
+
+                    for p in processes:
+                        p.join()
+
+                    # Calculate the average latency across all workers
+                    if latencies:
+                        avg_latency = sum(latencies) / len(latencies)
+                        avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                        print(f"Average latency for {test_type} operations with cluster size {num_replicas}: {avg_latency*1000:.4f} ms")
+                        print(f"Average tail latency for {test_type} operations with cluster size {num_replicas}: {avg_tail_latency*1000:.4f} ms")
+                        print(f"Average throughput for {test_type} operations with cluster size {num_replicas}: {1/(avg_latency):.4f} operations/sec")
+                        results.append([num_replicas, test_type, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                    else:
+                        print("No latencies recorded.")
+            
+            self.del_cluster(3, num_replicas)
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print('Variable Node Cluster Test Completed')
+    
+    def run_master_scalabity_test(self):
+        print('Running Variable MASTERS Cluster Test')
+        results = [["NUM MASTERS", "OPR TYPE", "LATENCY (ms)", "TAIL LATENCY (ms)", "THROUGHPUT (oprs/sec)"]]
+        for num_masters in self.config["num_masters"]:
+            self.create_cluster(num_masters, 0)
+            
+            workers = self.setup_workers(self.config["num_workers"])
+            for test_type in ["write", "read", "mixed"]:
+                # print(f"Running {test_type.upper()} operations test for REDIS workers:")
+
+                with multiprocessing.Manager() as manager:
+                    latencies = manager.list()  # Shared list for latencies
+                    tail_latencies = manager.list()  # Shared list for latencies
+                    processes = []
+
+                    for worker in workers:
+                        p = multiprocessing.Process(target=self.run_worker_process, args=(worker, latencies,tail_latencies, test_type))
+                        processes.append(p)
+                        p.start()
+
+                    for p in processes:
+                        p.join()
+
+                    # Calculate the average latency across all workers
+                    if latencies:
+                        avg_latency = sum(latencies) / len(latencies)
+                        avg_tail_latency = np.mean(np.array(tail_latencies), axis=0)[-4]
+                        print(f"Average latency for {test_type} operations with cluster size {num_masters}: {avg_latency*1000:.4f} ms")
+                        print(f"Average tail latency for {test_type} operations with cluster size {num_masters}: {avg_tail_latency*1000:.4f} ms")
+                        print(f"Average throughput for {test_type} operations with cluster size {num_masters}: {1/(avg_latency):.4f} operations/sec")
+                        results.append([num_masters, test_type, avg_latency*1000, avg_tail_latency*1000, 1/(avg_latency)])
+                    else:
+                        print("No latencies recorded.")
+            
+            self.del_cluster(num_masters, 0)
+        
+        # Results
+        print("SUMMARY")
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*results)]
+        for row in results:
+            print(" | ".join(f"{str(item):<{col_widths[i]}}" for i, item in enumerate(row)))
+        
+        print('Variable Node Cluster Test Completed')
+        
+    def run(self):
+        print("Running Scalability Tests ...")
+        print('-'*100)
+        self.run_master_scalabity_test()
+        print('-'*100)
+        self.run_replica_scalabity_test()
         print('-'*100)
         print("\n\n")
