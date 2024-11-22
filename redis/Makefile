@@ -29,4 +29,5 @@ clean:
 	@if [ -f redis_hosts.json ]; then rm redis_hosts.json; fi
 	./del_cluster.sh
 	./del_sentinel.sh
+	@if docker ps -a --format '{{.Names}}' | grep -q '^redis$$'; then docker stop redis && docker rm redis; fi
 	conda remove -n $(CONDA_ENV) --all -y
