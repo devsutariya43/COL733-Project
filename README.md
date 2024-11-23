@@ -25,5 +25,5 @@ For Ignite Tests, we have used Java-17 and maven to run the tests.
 ### Method
 1. Download `ignite` folder.
 2. Download the `Dockerfile`. Keep the Dockerfile outside the ignite folder.
-3. Run `docker build -t ignite-tests .`
-4. Run `docker run --rm ignite-tests`
+3. Run `docker build -t ignite-tests`.
+4. Run `docker run --rm ignite-tests`.
