@@ -17,3 +17,13 @@ If the above method doesn't work or throws any error use the following method. E
 1. Run `pip3.12 install -r requirements.txt` to install requirements. (use appropriate pip)
 2. Run `python3.12 redis_tests.py` to run Redis tests
 3. Run `python3.12 redis_sentinel_tests.py` to run Redis Sentinel tests
+
+## Ignite Tests
+
+For Ignite Tests, we have used Java-17 and maven to run the tests.
+
+### Method
+1. Download `ignite` folder.
+2. Download the `Dockerfile`. Keep the Dockerfile outside the ignite folder.
+3. Run `docker build -t ignite-tests .`
+4. Run `docker run --rm ignite-tests`
